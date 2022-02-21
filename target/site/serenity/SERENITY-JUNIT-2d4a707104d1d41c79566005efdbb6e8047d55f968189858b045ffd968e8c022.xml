@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="1" failures="0" name="Search the product in Amazon Website" skipped="0" tests="1" time="17.51" timestamp="2022-02-21 04:05:03"><testcase name="User want to log in to Amazon"><error message="Timed out after 6 seconds. Element not available&#10;Build info: version: '4.1.1', revision: 'e8fcc2cecf'&#10;System info: host: 'QAOFF-KTV-2021-', ip: '192.168.1.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'&#10;Driver info: driver.version: unknown&#10;Build info: version: '4.1.1', revision: 'e8fcc2cecf'&#10;System info: host: 'QAOFF-KTV-2021-', ip: '192.168.1.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'&#10;Driver info: driver.version: unknown" type="org.openqa.selenium.ElementNotVisibleException">Timed out after 6 seconds. Element not available
+Build info: version: '4.1.1', revision: 'e8fcc2cecf'
+System info: host: 'QAOFF-KTV-2021-', ip: '192.168.1.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: driver.version: unknown
+Build info: version: '4.1.1', revision: 'e8fcc2cecf'
+System info: host: 'QAOFF-KTV-2021-', ip: '192.168.1.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: driver.version: unknown</error><system-err>Timed out after 6 seconds. Element not available
+Build info: version: '4.1.1', revision: 'e8fcc2cecf'
+System info: host: 'QAOFF-KTV-2021-', ip: '192.168.1.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: driver.version: unknown
+Build info: version: '4.1.1', revision: 'e8fcc2cecf'
+System info: host: 'QAOFF-KTV-2021-', ip: '192.168.1.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: driver.version: unknown&#13;
+pages.searchPage.chooseCategory(searchPage.java:22)&#13;
+steps.searchSteps.category(searchSteps.java:14)&#13;
+tests.search.user_choose_product_category(search.java:20)&#13;
+✽.User choose product category(file:///D:/automesyen/SearchProduct/src/test/resources/Features/searchProduct.feature:7)&#13;
+</system-err></testcase></testsuite>
