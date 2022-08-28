@@ -30,7 +30,6 @@ public void assertion(){
     WebDriver driver = Serenity.getDriver();
     ArrayList<String> newTab = new ArrayList<String>(driver.getWindowHandles());
     driver.switchTo().window(newTab.get(1));
-    System.out.println(careerText.getText());
     careerText.isDisplayed();
 
     assertEquals(careerText.getText(), "CURRENT JOB OPPORTUNITIES");
