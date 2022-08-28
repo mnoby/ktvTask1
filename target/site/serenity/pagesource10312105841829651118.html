@@ -1,0 +1,3119 @@
+<html lang='en'><head><link href='prism/prism.css' rel='stylesheet' /></head><body><script src='prism/prism.js'></script><body><div><pre><code class='language-html'>&lt;html lang="en" style="height: auto;"&gt;<br/>
+ &lt;head&gt; <br/>
+  &lt;title&gt;<br/>
+            Koltiva | Career Portal<br/>
+        &lt;/title&gt; &lt;!-- metadata for seo --&gt; <br/>
+  &lt;meta charset="utf-8"&gt; <br/>
+  &lt;meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"&gt; <br/>
+  &lt;meta http-equiv="cache-control" content="no-cache"&gt; <br/>
+  &lt;meta http-equiv="pragma" content="no-cache"&gt; <br/>
+  &lt;meta name="title" content="Koltiva | Career Portal"&gt; <br/>
+  &lt;meta name="keywords" content="koltiva, career, karir, jakarta, indonesia"&gt; <br/>
+  &lt;meta name="description" content="Koltiva | Never Ending Innovation"&gt; <br/>
+  &lt;meta name="geography" content="Jakarta, Indonesia"&gt; <br/>
+  &lt;meta name="language" content="Indonesia"&gt; <br/>
+  &lt;meta name="owner" content="Koltiva, info@koltiva.com"&gt; <br/>
+  &lt;meta name="author" content="Koltiva, info@koltiva.com"&gt; <br/>
+  &lt;meta name="designer" content="Koltiva, info@koltiva.com"&gt; <br/>
+  &lt;meta name="copyright" content="PT. Koltiva"&gt; <br/>
+  &lt;meta name="robots" content="INDEX,FOLLOW"&gt; <br/>
+  &lt;meta name="city" content="Jakarta"&gt; &lt;!-- end metadata for seo --&gt; &lt;!-- Web Fonts  --&gt; <br/>
+  &lt;link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800|Shadows+Into+Light" rel="stylesheet" type="text/css"&gt; &lt;!-- favicon --&gt; <br/>
+  &lt;link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.png"&gt; &lt;!-- end favicon --&gt; &lt;!-- CSS<br/>
+        ================================================== --&gt; <br/>
+  &lt;link href="assets/css/loader-login.css" rel="stylesheet"&gt; &lt;!-- Le HTML5 shim, for IE6-8 support of HTML5 elements --&gt; &lt;!--[if lt IE 9]&gt;<br/>
+        &lt;script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"&gt;&lt;/script&gt;<br/>
+        &lt;script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"&gt;&lt;/script&gt;<br/>
+        &lt;![endif]--&gt; <br/>
+  &lt;script async src="https://www.google-analytics.com/analytics.js"&gt;&lt;/script&gt;<br/>
+  &lt;script src="assets/lib/jquery/jquery.min.js" type="text/javascript"&gt;&lt;/script&gt; <br/>
+  &lt;script type="text/javascript"&gt;<br/>
+        (function (i, s, o, g, r, a, m) {<br/>
+            i['GoogleAnalyticsObject'] = r;<br/>
+            i[r] = i[r] || function () {<br/>
+                (i[r].q = i[r].q || []).push(arguments)<br/>
+            }, i[r].l = 1 * new Date();<br/>
+            a = s.createElement(o),<br/>
+                    m = s.getElementsByTagName(o)[0];<br/>
+            a.async = 1;<br/>
+            a.src = g;<br/>
+            m.parentNode.insertBefore(a, m)<br/>
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');<br/>
+<br/>
+        ga('create', 'UA-46635047-3', 'auto');<br/>
+        ga('send', 'pageview');<br/>
+    &lt;/script&gt; <br/>
+  &lt;script type="text/javascript"&gt;<br/>
+        var lang = {<br/>
+            "cancel": 'Cancel',<br/>
+            "ok": 'OK',<br/>
+            "confirmDelete": 'Confirm Delete',<br/>
+            "messageDelete": 'Are you sure want to delete',<br/>
+            "alert": 'Alert',<br/>
+            "confirm": 'Confirm',<br/>
+            "prompt": 'Prompt',<br/>
+            "wrongUrl": 'Wrong URL',<br/>
+            "maximumFileSize": 'Maximum file size',<br/>
+            "forbiddenFileType": 'Forbidden filetype',<br/>
+            "progress": 'Progress',<br/>
+            "remove": 'Remove',<br/>
+            "uploadCanceled": 'Upload canceled',<br/>
+            "aborting": 'Aborting',<br/>
+            "imagePreview": 'Image Preview',<br/>
+            "selectFile": 'Select File',<br/>
+            "unableToCompute": 'Unable to compute',<br/>
+        };<br/>
+    &lt;/script&gt; <br/>
+ &lt;/head&gt; <br/>
+ &lt;body id="gtfw_3_5_body" data-spy="scroll" data-target=".one-page-header" class="demo-lightbox-gallery  pace-done" style=""&gt;<br/>
+  &lt;div class="pace  pace-inactive"&gt;<br/>
+   &lt;div class="pace-progress" data-progress-text="100%" data-progress="99" style="width: 100%;"&gt; <br/>
+    &lt;div class="pace-progress-inner"&gt;&lt;/div&gt; <br/>
+   &lt;/div&gt; <br/>
+   &lt;div class="pace-activity"&gt;&lt;/div&gt;<br/>
+  &lt;/div&gt; &lt;!--=== Header ===--&gt; <br/>
+  &lt;nav class="one-page-header navbar navbar-default navbar-fixed-top" role="navigation"&gt; <br/>
+   &lt;div class="container"&gt; <br/>
+    &lt;div class="menu-container page-scroll"&gt; &lt;button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse"&gt; &lt;span class="sr-only"&gt; Toggle navigation &lt;/span&gt; &lt;span class="icon-bar"&gt; &lt;/span&gt; &lt;span class="icon-bar"&gt; &lt;/span&gt; &lt;span class="icon-bar"&gt; &lt;/span&gt; &lt;/button&gt; &lt;a style="margin-top:-25px; margin-bottom:-20px; height: 100px!important;" class="navbar-brand" href="http://koltiva.com/"&gt; &lt;!--?xml version="1.0" encoding="UTF-8" standalone="no"?--&gt;<br/>
+      &lt;svg width="100%" height="100%" viewbox="0 0 898 379" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;"&gt;<br/>
+       &lt;rect id="Artboard1" x="0" y="0" width="897.696" height="378.108" style="fill:none;"&gt;&lt;/rect&gt;&lt;g&gt;<br/>
+        &lt;path d="M806.401,280.379c0.5,1.628 0.25,3.13 -0.752,4.512c-1.004,1.376 -2.386,2.068 -4.138,2.068l-15.61,0c-2.508,0 -4.14,-1.128 -4.892,-3.382l-34.04,-102.314l-28.774,85.948c-0.752,2.26 -2.32,3.386 -4.702,3.386l-15.796,0c-1.756,0 -3.138,-0.688 -4.138,-2.068c-1.006,-1.378 -1.256,-2.882 -0.752,-4.516l39.87,-118.67c0.752,-2.256 2.318,-3.384 4.7,-3.384l19.184,0c2.382,0 4.012,1.128 4.89,3.384l44.95,135.036Zm-568.906,-1.507c1.128,1.63 1.222,3.356 0.284,5.172c-0.942,1.816 -2.416,2.73 -4.42,2.73l-18.054,0c-1.758,0 -3.138,-0.756 -4.14,-2.26l-45.888,-66.574l-0,47.58c-0,0.752 -0.126,1.442 -0.376,2.07c-0.252,0.628 -0.596,1.16 -1.036,1.598c-0.44,0.44 -0.97,0.784 -1.598,1.034c-0.63,0.252 -1.314,0.376 -2.066,0.376l-14.858,0c-0.88,0 -1.726,-0.218 -2.54,-0.658c-0.816,-0.438 -1.444,-1.064 -1.88,-1.882c-0.442,-0.812 -0.66,-1.658 -0.66,-2.538l-0,-86.32c-0,-1.38 0.502,-2.54 1.506,-3.482c1.002,-0.938 2.192,-1.408 3.574,-1.408l14.858,0c1.376,0 2.568,0.47 3.572,1.408c1.002,0.942 1.504,2.102 1.504,3.482l-0,15.23l34.418,-50.592c1,-1.378 2.378,-2.068 4.134,-2.068l18.056,0c2.006,0 3.482,0.878 4.42,2.634c0.942,1.756 0.846,3.51 -0.282,5.266l-38.366,56.608l49.838,72.594Zm312.193,-131.833c-0,-1.38 0.502,-2.568 1.508,-3.574c1,-1.004 2.192,-1.506 3.572,-1.506l14.858,-0c1.378,-0 2.568,0.502 3.574,1.506c1,1.006 1.504,2.194 1.504,3.574l-0,118.482c-0,0.878 -0.222,1.726 -0.658,2.538c-0.442,0.818 -1.036,1.442 -1.788,1.882c-0.752,0.44 -1.63,0.658 -2.632,0.658l-14.858,-0c-1.38,-0 -2.572,-0.5 -3.572,-1.504c-1.006,-1.002 -1.508,-2.194 -1.508,-3.574l-0,-118.482Zm-23.884,-5.08c0.878,-0 1.694,0.222 2.446,0.658c0.752,0.442 1.376,1.036 1.882,1.788c0.5,0.752 0.752,1.63 0.752,2.63l-0,14.86c-0,1.38 -0.502,2.57 -1.506,3.572c-1.006,1.004 -2.194,1.504 -3.574,1.504l-30.844,-0l-0,98.548c-0,1.376 -0.468,2.568 -1.408,3.572c-0.942,1.002 -2.166,1.508 -3.668,1.508l-14.858,-0c-1.382,-0 -2.572,-0.506 -3.574,-1.508c-1.004,-1.004 -1.504,-2.196 -1.504,-3.572l-0,-98.548l-30.654,-0c-1.38,-0 -2.572,-0.5 -3.574,-1.504c-1.004,-1.002 -1.506,-2.192 -1.506,-3.572l-0,-14.86c-0,-1.502 0.502,-2.726 1.506,-3.666c1.002,-0.94 2.194,-1.41 3.574,-1.41l86.51,-0Zm-77.671,103.627c1.378,0 2.54,0.502 3.478,1.504c0.942,1.004 1.412,2.196 1.412,3.572l0,14.858c0,0.88 -0.22,1.726 -0.656,2.538c-0.442,0.818 -1.036,1.444 -1.788,1.882c-0.752,0.44 -1.57,0.658 -2.446,0.658l-72.218,0c-1.38,0 -2.572,-0.5 -3.572,-1.504c-1.006,-1.002 -1.508,-2.192 -1.508,-3.574l0,-118.482c0,-1.38 0.502,-2.568 1.508,-3.572c1,-1.006 2.192,-1.508 3.572,-1.508l14.858,0c1.378,0 2.568,0.502 3.574,1.508c1,1.004 1.504,2.192 1.504,3.572l0,98.548l52.282,0Zm254.454,-120.179c1.754,0 3.13,0.692 4.136,2.07c1,1.38 1.25,2.884 0.752,4.514l-45.324,135.22c-0.878,2.258 -2.512,3.386 -4.89,3.386l-19.184,0c-2.382,0 -3.948,-1.128 -4.7,-3.386l-39.684,-118.858c-0.502,-1.628 -0.252,-3.134 0.752,-4.514c1.002,-1.378 2.382,-2.07 4.138,-2.07l15.61,0c2.506,0 4.136,1.128 4.888,3.386l28.588,85.948l34.418,-102.31c0.752,-2.258 2.318,-3.386 4.7,-3.386l15.8,0Zm-414.876,145.001c-8.78,0 -17.116,-1.69 -25.016,-5.076c-7.898,-3.384 -14.734,-7.928 -20.5,-13.636c-5.766,-5.702 -10.344,-12.536 -13.726,-20.498c-3.388,-7.962 -5.08,-16.27 -5.08,-24.92c0,-11.66 2.852,-22.444 8.558,-32.348c5.702,-9.904 13.508,-17.708 23.414,-23.416c9.904,-5.702 20.69,-8.556 32.35,-8.556c11.658,0 22.408,2.854 32.254,8.556c9.84,5.708 17.644,13.512 23.412,23.416c5.766,9.904 8.654,20.658 8.654,32.254c0,11.596 -2.888,22.35 -8.654,32.252c-5.768,9.908 -13.572,17.712 -23.412,23.416c-9.846,5.706 -20.596,8.556 -32.254,8.556Zm0,-25.012c7.02,0 13.57,-1.754 19.65,-5.266c6.082,-3.508 10.846,-8.274 14.296,-14.294c3.448,-6.018 5.232,-12.536 5.358,-19.558c0,-5.266 -1.004,-10.312 -3.008,-15.14c-2.008,-4.826 -4.862,-9.058 -8.558,-12.694c-3.7,-3.636 -7.93,-6.456 -12.694,-8.464c-7.398,-3.01 -14.984,-3.762 -22.756,-2.258c-7.774,1.508 -14.482,5.08 -20.124,10.722c-5.642,5.64 -9.216,12.35 -10.72,20.122c-1.504,7.776 -0.752,15.328 2.256,22.664c3.01,7.334 7.834,13.198 14.482,17.586c6.644,4.388 13.916,6.58 21.818,6.58Z" style="fill:#814c36;fill-rule:nonzero;"&gt;&lt;/path&gt;<br/>
+        &lt;path d="M152.73,154.55c-6.868,-0.184 -13.732,-0.43 -20.49,-1.834c-12.728,-2.648 -21.738,-10.208 -27.984,-21.386c-6.044,-10.82 -9.338,-22.588 -11.716,-34.652c-0.554,-2.802 0.958,-5.076 3.724,-4.968c15.714,0.62 31.27,2.17 45.302,10.256c8.208,4.728 13.684,11.826 16.926,20.648c3.152,8.582 4.806,17.516 5.616,26.602c0.326,3.652 -0.876,4.834 -4.524,5.044c-1.14,0.066 -2.276,0.23 -3.418,0.28c-1.142,0.048 -2.29,0.01 -3.436,0.01" style="fill:#2d9d65;fill-rule:nonzero;"&gt;&lt;/path&gt;<br/>
+       &lt;/g&gt;<br/>
+      &lt;/svg&gt; &lt;/a&gt; <br/>
+    &lt;/div&gt; &lt;!-- Collect the nav links, forms, and other content for toggling --&gt; <br/>
+    &lt;div class="collapse navbar-collapse navbar-ex1-collapse"&gt; <br/>
+     &lt;div class="menu-container"&gt; <br/>
+      &lt;ul class="nav navbar-nav"&gt; <br/>
+       &lt;li class="page-scroll home"&gt; &lt;a href="/index.php?mod=core.login&amp;sub=login&amp;act=view&amp;typ=html"&gt; Home &lt;/a&gt; &lt;/li&gt; <br/>
+       &lt;li class="page-scroll"&gt; &lt;a href="/index.php?mod=core.login&amp;sub=inputRegistration&amp;act=view&amp;typ=html"&gt; Sign Up &lt;/a&gt; &lt;/li&gt; <br/>
+       &lt;li class="page-scroll"&gt; &lt;a href="/index.php?mod=core.login&amp;sub=input&amp;act=view&amp;typ=html"&gt; Log In &lt;/a&gt; &lt;/li&gt; <br/>
+       &lt;li class="page-scroll" style="display:none;"&gt; &lt;a href="/index.php?mod=core.login&amp;sub=support&amp;act=view&amp;typ=html"&gt; Support &lt;/a&gt; &lt;/li&gt; <br/>
+      &lt;/ul&gt; <br/>
+     &lt;/div&gt; <br/>
+    &lt;/div&gt; &lt;!-- /.navbar-collapse --&gt; <br/>
+   &lt;/div&gt; &lt;!-- /.container --&gt; <br/>
+  &lt;/nav&gt; &lt;!--=== End Header ===--&gt; &lt;!-- Intro Section --&gt; &lt;!-- start: page --&gt; <br/>
+  &lt;section id="" class="relative flex items-end min-h-screen md:items-center overflow-hidden text-white"&gt; <br/>
+   &lt;img class="absolute min-h-screen w-full object-cover object-right" src="assets/landing/assets/img/sliders/revolution/bg9.jpg" title="Koltiva Integrated Agri-Tech and Business Solutions"&gt; <br/>
+   &lt;div class="overlay"&gt;&lt;/div&gt; <br/>
+   &lt;div class="w-full p-7 pb-12 absolute text-center lg:p-12 lg:ml-12" style="margin-top:200px !important;"&gt; <br/>
+    &lt;p class="text-lg sm:text-xl" style="opacity:1; color:#eee !important;"&gt;CAREERS AT KOLTIVA&lt;/p&gt; <br/>
+    &lt;h1 class="mb-4 text-2xl sm:text-5xl xl:text-5xl" style="opacity:1; color:#eee !important;"&gt;JOIN THE AGRITECH REVOLUTION&lt;/h1&gt; <br/>
+    &lt;p class="text-lg sm:text-xl" style="opacity:1; color:#eee !important;"&gt;We are the first company with boots on the ground to make supply chains traceable, inclusive, and sustainable.&lt;/p&gt; <br/>
+    &lt;div class="mt-10"&gt; &lt;a href="#jobs" class="inline-block outline-none bg-ktv-green px-5 py-2 border border-ktv-green rounded-full text-gray-50 text-sm font-poppins uppercase tracking-wider transition-all truncate hover:bg-ktv-green-accent hover:text-white focus:outline-none focus:bg-ktv-green-accent focus:ring focus:ring-ktv-green-accent focus:ring-opacity-40"&gt;Current Job Opportunities&lt;/a&gt; <br/>
+    &lt;/div&gt; <br/>
+   &lt;/div&gt; <br/>
+  &lt;/section&gt; &lt;!-- End Intro Section --&gt; &lt;!--  About Section --&gt; <br/>
+  &lt;section id="jobs"&gt; <br/>
+   &lt;div class="block-v1"&gt; <br/>
+    &lt;div class="container"&gt; <br/>
+     &lt;div class="title-v1"&gt; <br/>
+      &lt;h1&gt;Current Job Opportunities&lt;/h1&gt; <br/>
+      &lt;p style="display: none;"&gt; Description &lt;/p&gt; <br/>
+     &lt;/div&gt; <br/>
+     &lt;hr&gt; <br/>
+     &lt;div class="row"&gt; <br/>
+      &lt;div class="col-lg-12"&gt; <br/>
+       &lt;div id="opening"&gt; <br/>
+        &lt;div class="row g-mb-30"&gt; <br/>
+         &lt;div class="col-lg-6 g-mb-30 g-mb-0--lg"&gt; <br/>
+          &lt;br&gt; &lt;!-- Recent Jobs --&gt; <br/>
+          &lt;article class="u-shadow-v11 rounded g-pa-25"&gt; <br/>
+           &lt;h2 class="h4 g-mb-15"&gt; &lt;a class="xhr dest_opening u-link-v5 g-color-gray-dark-v1 g-color-primary--hover" href="/index.php?mod=core.login&amp;sub=detailJobs&amp;act=view&amp;typ=html&amp;id=290&amp;div_id=opening"&gt;Product and Customer Support Officer (ADV.241)&lt;/a&gt; &lt;/h2&gt; <br/>
+           &lt;div style="height:150px;"&gt; <br/>
+            &lt;p class="g-mb-15"&gt;Koltiva is currently accepting applications for positions:&lt;/p&gt; <br/>
+            &lt;ul class="list-unstyled" style="margin-bottom:0px;"&gt; <br/>
+             &lt;li class="media g-mb-10" style="margin-bottom:-10px !important;"&gt; &lt;span class="d-block g-color-gray-dark-v5 g-width-110"&gt; &lt;i class="icon-pointer g-pos-rel g-top-1 g-mr-5"&gt;&lt;/i&gt; Location: &lt;/span&gt; &lt;span class="media-body"&gt;Jakarta, DKI Jakarta&lt;/span&gt; &lt;/li&gt; <br/>
+             &lt;li class="media g-mb-10" style="margin-bottom:-10px !important;"&gt; &lt;span class="d-block g-color-gray-dark-v5 g-width-110"&gt; &lt;i class="icon-calendar g-pos-rel g-top-1 g-mr-5"&gt;&lt;/i&gt; Posted: &lt;/span&gt; &lt;span class="media-body"&gt;26 August 2022&lt;/span&gt; &lt;/li&gt; <br/>
+             &lt;li class="media g-mb-10"&gt; &lt;span class="d-block g-color-gray-dark-v5 g-width-110"&gt; &lt;i class="icon-briefcase g-pos-rel g-top-1 g-mr-5"&gt;&lt;/i&gt; Type: &lt;/span&gt; &lt;span class="media-body"&gt;Fixed Term Employment Contract&lt;/span&gt; &lt;/li&gt; <br/>
+            &lt;/ul&gt; <br/>
+           &lt;/div&gt; <br/>
+           &lt;div style="width:100%; margin-bottom: 0 !important;"&gt; <br/>
+            &lt;hr class="g-brd-gray-light-v4"&gt; <br/>
+            &lt;table style="width:100%;"&gt; <br/>
+             &lt;tbody&gt;<br/>
+              &lt;tr&gt; <br/>
+               &lt;td style="width:80%;"&gt; &lt;span style="margin-top: -10px; color: #777;"&gt;Apply before 26 September 2022&lt;/span&gt; &lt;/td&gt; <br/>
+               &lt;td style="width:20%;"&gt; &lt;a style="margin-right: 0px !important; " href="/index.php?mod=core.login&amp;sub=detailJobs&amp;act=view&amp;typ=html&amp;id=290&amp;div_id=opening" class="xhr dest_opening col-md-12 btn btn-primary"&gt;Read More →&lt;/a&gt; &lt;/td&gt; <br/>
+              &lt;/tr&gt; <br/>
+             &lt;/tbody&gt;<br/>
+            &lt;/table&gt; <br/>
+           &lt;/div&gt; <br/>
+          &lt;/article&gt; &lt;!-- End Recent Jobs --&gt; <br/>
+         &lt;/div&gt; <br/>
+         &lt;div class="col-lg-6 g-mb-30 g-mb-0--lg"&gt; <br/>
+          &lt;br&gt; &lt;!-- Recent Jobs --&gt; <br/>
+          &lt;article class="u-shadow-v11 rounded g-pa-25"&gt; <br/>
+           &lt;h2 class="h4 g-mb-15"&gt; &lt;a class="xhr dest_opening u-link-v5 g-color-gray-dark-v1 g-color-primary--hover" href="/index.php?mod=core.login&amp;sub=detailJobs&amp;act=view&amp;typ=html&amp;id=296&amp;div_id=opening"&gt;Senior Backend Developer (ADV.242)&lt;/a&gt; &lt;/h2&gt; <br/>
+           &lt;div style="height:150px;"&gt; <br/>
+            &lt;p class="g-mb-15"&gt;Koltiva is currently accepting applications for positions:&lt;/p&gt; <br/>
+            &lt;ul class="list-unstyled" style="margin-bottom:0px;"&gt; <br/>
+             &lt;li class="media g-mb-10" style="margin-bottom:-10px !important;"&gt; &lt;span class="d-block g-color-gray-dark-v5 g-width-110"&gt; &lt;i class="icon-pointer g-pos-rel g-top-1 g-mr-5"&gt;&lt;/i&gt; Location: &lt;/span&gt; &lt;span class="media-body"&gt;Jakarta, DKI Jakarta&lt;/span&gt; &lt;/li&gt; <br/>
+             &lt;li class="media g-mb-10" style="margin-bottom:-10px !important;"&gt; &lt;span class="d-block g-color-gray-dark-v5 g-width-110"&gt; &lt;i class="icon-calendar g-pos-rel g-top-1 g-mr-5"&gt;&lt;/i&gt; Posted: &lt;/span&gt; &lt;span class="media-body"&gt;26 August 2022&lt;/span&gt; &lt;/li&gt; <br/>
+             &lt;li class="media g-mb-10"&gt; &lt;span class="d-block g-color-gray-dark-v5 g-width-110"&gt; &lt;i class="icon-briefcase g-pos-rel g-top-1 g-mr-5"&gt;&lt;/i&gt; Type: &lt;/span&gt; &lt;span class="media-body"&gt;Fixed Term Employment Contract&lt;/span&gt; &lt;/li&gt; <br/>
+            &lt;/ul&gt; <br/>
+           &lt;/div&gt; <br/>
+           &lt;div style="width:100%; margin-bottom: 0 !important;"&gt; <br/>
+            &lt;hr class="g-brd-gray-light-v4"&gt; <br/>
+            &lt;table style="width:100%;"&gt; <br/>
+             &lt;tbody&gt;<br/>
+              &lt;tr&gt; <br/>
+               &lt;td style="width:80%;"&gt; &lt;span style="margin-top: -10px; color: #777;"&gt;Apply before 26 September 2022&lt;/span&gt; &lt;/td&gt; <br/>
+               &lt;td style="width:20%;"&gt; &lt;a style="margin-right: 0px !important; " href="/index.php?mod=core.login&amp;sub=detailJobs&amp;act=view&amp;typ=html&amp;id=296&amp;div_id=opening" class="xhr dest_opening col-md-12 btn btn-primary"&gt;Read More →&lt;/a&gt; &lt;/td&gt; <br/>
+              &lt;/tr&gt; <br/>
+             &lt;/tbody&gt;<br/>
+            &lt;/table&gt; <br/>
+           &lt;/div&gt; <br/>
+          &lt;/article&gt; &lt;!-- End Recent Jobs --&gt; <br/>
+         &lt;/div&gt; <br/>
+         &lt;div class="col-lg-6 g-mb-30 g-mb-0--lg"&gt; <br/>
+          &lt;br&gt; &lt;!-- Recent Jobs --&gt; <br/>
+          &lt;article class="u-shadow-v11 rounded g-pa-25"&gt; <br/>
+           &lt;h2 class="h4 g-mb-15"&gt; &lt;a class="xhr dest_opening u-link-v5 g-color-gray-dark-v1 g-color-primary--hover" href="/index.php?mod=core.login&amp;sub=detailJobs&amp;act=view&amp;typ=html&amp;id=289&amp;div_id=opening"&gt;Product Operation Officer (ADV.240)&lt;/a&gt; &lt;/h2&gt; <br/>
+           &lt;div style="height:150px;"&gt; <br/>
+            &lt;p class="g-mb-15"&gt;Koltiva is currently accepting applications for positions:&lt;/p&gt; <br/>
+            &lt;ul class="list-unstyled" style="margin-bottom:0px;"&gt; <br/>
+             &lt;li class="media g-mb-10" style="margin-bottom:-10px !important;"&gt; &lt;span class="d-block g-color-gray-dark-v5 g-width-110"&gt; &lt;i class="icon-pointer g-pos-rel g-top-1 g-mr-5"&gt;&lt;/i&gt; Location: &lt;/span&gt; &lt;span class="media-body"&gt;Jakarta, DKI Jakarta&lt;/span&gt; &lt;/li&gt; <br/>
+             &lt;li class="media g-mb-10" style="margin-bottom:-10px !important;"&gt; &lt;span class="d-block g-color-gray-dark-v5 g-width-110"&gt; &lt;i class="icon-calendar g-pos-rel g-top-1 g-mr-5"&gt;&lt;/i&gt; Posted: &lt;/span&gt; &lt;span class="media-body"&gt;22 August 2022&lt;/span&gt; &lt;/li&gt; <br/>
+             &lt;li class="media g-mb-10"&gt; &lt;span class="d-block g-color-gray-dark-v5 g-width-110"&gt; &lt;i class="icon-briefcase g-pos-rel g-top-1 g-mr-5"&gt;&lt;/i&gt; Type: &lt;/span&gt; &lt;span class="media-body"&gt;Fixed Term Employment Contract&lt;/span&gt; &lt;/li&gt; <br/>
+            &lt;/ul&gt; <br/>
+           &lt;/div&gt; <br/>
+           &lt;div style="width:100%; margin-bottom: 0 !important;"&gt; <br/>
+            &lt;hr class="g-brd-gray-light-v4"&gt; <br/>
+            &lt;table style="width:100%;"&gt; <br/>
+             &lt;tbody&gt;<br/>
+              &lt;tr&gt; <br/>
+               &lt;td style="width:80%;"&gt; &lt;span style="margin-top: -10px; color: #777;"&gt;Apply before 22 October 2022&lt;/span&gt; &lt;/td&gt; <br/>
+               &lt;td style="width:20%;"&gt; &lt;a style="margin-right: 0px !important; " href="/index.php?mod=core.login&amp;sub=detailJobs&amp;act=view&amp;typ=html&amp;id=289&amp;div_id=opening" class="xhr dest_opening col-md-12 btn btn-primary"&gt;Read More →&lt;/a&gt; &lt;/td&gt; <br/>
+              &lt;/tr&gt; <br/>
+             &lt;/tbody&gt;<br/>
+            &lt;/table&gt; <br/>
+           &lt;/div&gt; <br/>
+          &lt;/article&gt; &lt;!-- End Recent Jobs --&gt; <br/>
+         &lt;/div&gt; <br/>
+         &lt;div class="col-lg-6 g-mb-30 g-mb-0--lg"&gt; <br/>
+          &lt;br&gt; &lt;!-- Recent Jobs --&gt; <br/>
+          &lt;article class="u-shadow-v11 rounded g-pa-25"&gt; <br/>
+           &lt;h2 class="h4 g-mb-15"&gt; &lt;a class="xhr dest_opening u-link-v5 g-color-gray-dark-v1 g-color-primary--hover" href="/index.php?mod=core.login&amp;sub=detailJobs&amp;act=view&amp;typ=html&amp;id=284&amp;div_id=opening"&gt;Monitoring and Capacity Building Officer (ADV.239)&lt;/a&gt; &lt;/h2&gt; <br/>
+           &lt;div style="height:150px;"&gt; <br/>
+            &lt;p class="g-mb-15"&gt;Koltiva is currently accepting applications for positions:&lt;/p&gt; <br/>
+            &lt;ul class="list-unstyled" style="margin-bottom:0px;"&gt; <br/>
+             &lt;li class="media g-mb-10" style="margin-bottom:-10px !important;"&gt; &lt;span class="d-block g-color-gray-dark-v5 g-width-110"&gt; &lt;i class="icon-pointer g-pos-rel g-top-1 g-mr-5"&gt;&lt;/i&gt; Location: &lt;/span&gt; &lt;span class="media-body"&gt;Sulawesi Tengah, Sulawesi Tengah&lt;/span&gt; &lt;/li&gt; <br/>
+             &lt;li class="media g-mb-10" style="margin-bottom:-10px !important;"&gt; &lt;span class="d-block g-color-gray-dark-v5 g-width-110"&gt; &lt;i class="icon-calendar g-pos-rel g-top-1 g-mr-5"&gt;&lt;/i&gt; Posted: &lt;/span&gt; &lt;span class="media-body"&gt;19 August 2022&lt;/span&gt; &lt;/li&gt; <br/>
+             &lt;li class="media g-mb-10"&gt; &lt;span class="d-block g-color-gray-dark-v5 g-width-110"&gt; &lt;i class="icon-briefcase g-pos-rel g-top-1 g-mr-5"&gt;&lt;/i&gt; Type: &lt;/span&gt; &lt;span class="media-body"&gt;Fixed Term Employment Contract&lt;/span&gt; &lt;/li&gt; <br/>
+            &lt;/ul&gt; <br/>
+           &lt;/div&gt; <br/>
+           &lt;div style="width:100%; margin-bottom: 0 !important;"&gt; <br/>
+            &lt;hr class="g-brd-gray-light-v4"&gt; <br/>
+            &lt;table style="width:100%;"&gt; <br/>
+             &lt;tbody&gt;<br/>
+              &lt;tr&gt; <br/>
+               &lt;td style="width:80%;"&gt; &lt;span style="margin-top: -10px; color: #777;"&gt;Apply before 28 October 2022&lt;/span&gt; &lt;/td&gt; <br/>
+               &lt;td style="width:20%;"&gt; &lt;a style="margin-right: 0px !important; " href="/index.php?mod=core.login&amp;sub=detailJobs&amp;act=view&amp;typ=html&amp;id=284&amp;div_id=opening" class="xhr dest_opening col-md-12 btn btn-primary"&gt;Read More →&lt;/a&gt; &lt;/td&gt; <br/>
+              &lt;/tr&gt; <br/>
+             &lt;/tbody&gt;<br/>
+            &lt;/table&gt; <br/>
+           &lt;/div&gt; <br/>
+          &lt;/article&gt; &lt;!-- End Recent Jobs --&gt; <br/>
+         &lt;/div&gt; <br/>
+         &lt;div class="col-lg-6 g-mb-30 g-mb-0--lg"&gt; <br/>
+          &lt;br&gt; &lt;!-- Recent Jobs --&gt; <br/>
+          &lt;article class="u-shadow-v11 rounded g-pa-25"&gt; <br/>
+           &lt;h2 class="h4 g-mb-15"&gt; &lt;a class="xhr dest_opening u-link-v5 g-color-gray-dark-v1 g-color-primary--hover" href="/index.php?mod=core.login&amp;sub=detailJobs&amp;act=view&amp;typ=html&amp;id=286&amp;div_id=opening"&gt;Climate Smart Agriculture Specialist (ADV.236)&lt;/a&gt; &lt;/h2&gt; <br/>
+           &lt;div style="height:150px;"&gt; <br/>
+            &lt;p class="g-mb-15"&gt;Koltiva is currently accepting applications for positions:&lt;/p&gt; <br/>
+            &lt;ul class="list-unstyled" style="margin-bottom:0px;"&gt; <br/>
+             &lt;li class="media g-mb-10" style="margin-bottom:-10px !important;"&gt; &lt;span class="d-block g-color-gray-dark-v5 g-width-110"&gt; &lt;i class="icon-pointer g-pos-rel g-top-1 g-mr-5"&gt;&lt;/i&gt; Location: &lt;/span&gt; &lt;span class="media-body"&gt;Jakarta, DKI Jakarta&lt;/span&gt; &lt;/li&gt; <br/>
+             &lt;li class="media g-mb-10" style="margin-bottom:-10px !important;"&gt; &lt;span class="d-block g-color-gray-dark-v5 g-width-110"&gt; &lt;i class="icon-calendar g-pos-rel g-top-1 g-mr-5"&gt;&lt;/i&gt; Posted: &lt;/span&gt; &lt;span class="media-body"&gt;16 August 2022&lt;/span&gt; &lt;/li&gt; <br/>
+             &lt;li class="media g-mb-10"&gt; &lt;span class="d-block g-color-gray-dark-v5 g-width-110"&gt; &lt;i class="icon-briefcase g-pos-rel g-top-1 g-mr-5"&gt;&lt;/i&gt; Type: &lt;/span&gt; &lt;span class="media-body"&gt;Fixed Term Employment Contract&lt;/span&gt; &lt;/li&gt; <br/>
+            &lt;/ul&gt; <br/>
+           &lt;/div&gt; <br/>
+           &lt;div style="width:100%; margin-bottom: 0 !important;"&gt; <br/>
+            &lt;hr class="g-brd-gray-light-v4"&gt; <br/>
+            &lt;table style="width:100%;"&gt; <br/>
+             &lt;tbody&gt;<br/>
+              &lt;tr&gt; <br/>
+               &lt;td style="width:80%;"&gt; &lt;span style="margin-top: -10px; color: #777;"&gt;Apply before 16 October 2022&lt;/span&gt; &lt;/td&gt; <br/>
+               &lt;td style="width:20%;"&gt; &lt;a style="margin-right: 0px !important; " href="/index.php?mod=core.login&amp;sub=detailJobs&amp;act=view&amp;typ=html&amp;id=286&amp;div_id=opening" class="xhr dest_opening col-md-12 btn btn-primary"&gt;Read More →&lt;/a&gt; &lt;/td&gt; <br/>
+              &lt;/tr&gt; <br/>
+             &lt;/tbody&gt;<br/>
+            &lt;/table&gt; <br/>
+           &lt;/div&gt; <br/>
+          &lt;/article&gt; &lt;!-- End Recent Jobs --&gt; <br/>
+         &lt;/div&gt; <br/>
+         &lt;div class="col-lg-6 g-mb-30 g-mb-0--lg"&gt; <br/>
+          &lt;br&gt; &lt;!-- Recent Jobs --&gt; <br/>
+          &lt;article class="u-shadow-v11 rounded g-pa-25"&gt; <br/>
+           &lt;h2 class="h4 g-mb-15"&gt; &lt;a class="xhr dest_opening u-link-v5 g-color-gray-dark-v1 g-color-primary--hover" href="/index.php?mod=core.login&amp;sub=detailJobs&amp;act=view&amp;typ=html&amp;id=287&amp;div_id=opening"&gt;Business Administration Officer (ADV.237)&lt;/a&gt; &lt;/h2&gt; <br/>
+           &lt;div style="height:150px;"&gt; <br/>
+            &lt;p class="g-mb-15"&gt;Koltiva is currently accepting applications for positions:&lt;/p&gt; <br/>
+            &lt;ul class="list-unstyled" style="margin-bottom:0px;"&gt; <br/>
+             &lt;li class="media g-mb-10" style="margin-bottom:-10px !important;"&gt; &lt;span class="d-block g-color-gray-dark-v5 g-width-110"&gt; &lt;i class="icon-pointer g-pos-rel g-top-1 g-mr-5"&gt;&lt;/i&gt; Location: &lt;/span&gt; &lt;span class="media-body"&gt;Mexico, Baja California&lt;/span&gt; &lt;/li&gt; <br/>
+             &lt;li class="media g-mb-10" style="margin-bottom:-10px !important;"&gt; &lt;span class="d-block g-color-gray-dark-v5 g-width-110"&gt; &lt;i class="icon-calendar g-pos-rel g-top-1 g-mr-5"&gt;&lt;/i&gt; Posted: &lt;/span&gt; &lt;span class="media-body"&gt;12 August 2022&lt;/span&gt; &lt;/li&gt; <br/>
+             &lt;li class="media g-mb-10"&gt; &lt;span class="d-block g-color-gray-dark-v5 g-width-110"&gt; &lt;i class="icon-briefcase g-pos-rel g-top-1 g-mr-5"&gt;&lt;/i&gt; Type: &lt;/span&gt; &lt;span class="media-body"&gt;Consultant Contract&lt;/span&gt; &lt;/li&gt; <br/>
+            &lt;/ul&gt; <br/>
+           &lt;/div&gt; <br/>
+           &lt;div style="width:100%; margin-bottom: 0 !important;"&gt; <br/>
+            &lt;hr class="g-brd-gray-light-v4"&gt; <br/>
+            &lt;table style="width:100%;"&gt; <br/>
+             &lt;tbody&gt;<br/>
+              &lt;tr&gt; <br/>
+               &lt;td style="width:80%;"&gt; &lt;span style="margin-top: -10px; color: #777;"&gt;Apply before 30 September 2022&lt;/span&gt; &lt;/td&gt; <br/>
+               &lt;td style="width:20%;"&gt; &lt;a style="margin-right: 0px !important; " href="/index.php?mod=core.login&amp;sub=detailJobs&amp;act=view&amp;typ=html&amp;id=287&amp;div_id=opening" class="xhr dest_opening col-md-12 btn btn-primary"&gt;Read More →&lt;/a&gt; &lt;/td&gt; <br/>
+              &lt;/tr&gt; <br/>
+             &lt;/tbody&gt;<br/>
+            &lt;/table&gt; <br/>
+           &lt;/div&gt; <br/>
+          &lt;/article&gt; &lt;!-- End Recent Jobs --&gt; <br/>
+         &lt;/div&gt; <br/>
+         &lt;div class="col-lg-6 g-mb-30 g-mb-0--lg"&gt; <br/>
+          &lt;br&gt; &lt;!-- Recent Jobs --&gt; <br/>
+          &lt;article class="u-shadow-v11 rounded g-pa-25"&gt; <br/>
+           &lt;h2 class="h4 g-mb-15"&gt; &lt;a class="xhr dest_opening u-link-v5 g-color-gray-dark-v1 g-color-primary--hover" href="/index.php?mod=core.login&amp;sub=detailJobs&amp;act=view&amp;typ=html&amp;id=288&amp;div_id=opening"&gt;Cluster Leader (ADV.238)&lt;/a&gt; &lt;/h2&gt; <br/>
+           &lt;div style="height:150px;"&gt; <br/>
+            &lt;p class="g-mb-15"&gt;Koltiva is currently accepting applications for positions:&lt;/p&gt; <br/>
+            &lt;ul class="list-unstyled" style="margin-bottom:0px;"&gt; <br/>
+             &lt;li class="media g-mb-10" style="margin-bottom:-10px !important;"&gt; &lt;span class="d-block g-color-gray-dark-v5 g-width-110"&gt; &lt;i class="icon-pointer g-pos-rel g-top-1 g-mr-5"&gt;&lt;/i&gt; Location: &lt;/span&gt; &lt;span class="media-body"&gt;Mexico, Chiapas&lt;/span&gt; &lt;/li&gt; <br/>
+             &lt;li class="media g-mb-10" style="margin-bottom:-10px !important;"&gt; &lt;span class="d-block g-color-gray-dark-v5 g-width-110"&gt; &lt;i class="icon-calendar g-pos-rel g-top-1 g-mr-5"&gt;&lt;/i&gt; Posted: &lt;/span&gt; &lt;span class="media-body"&gt;12 August 2022&lt;/span&gt; &lt;/li&gt; <br/>
+             &lt;li class="media g-mb-10"&gt; &lt;span class="d-block g-color-gray-dark-v5 g-width-110"&gt; &lt;i class="icon-briefcase g-pos-rel g-top-1 g-mr-5"&gt;&lt;/i&gt; Type: &lt;/span&gt; &lt;span class="media-body"&gt;Consultant Contract&lt;/span&gt; &lt;/li&gt; <br/>
+            &lt;/ul&gt; <br/>
+           &lt;/div&gt; <br/>
+           &lt;div style="width:100%; margin-bottom: 0 !important;"&gt; <br/>
+            &lt;hr class="g-brd-gray-light-v4"&gt; <br/>
+            &lt;table style="width:100%;"&gt; <br/>
+             &lt;tbody&gt;<br/>
+              &lt;tr&gt; <br/>
+               &lt;td style="width:80%;"&gt; &lt;span style="margin-top: -10px; color: #777;"&gt;Apply before 30 September 2022&lt;/span&gt; &lt;/td&gt; <br/>
+               &lt;td style="width:20%;"&gt; &lt;a style="margin-right: 0px !important; " href="/index.php?mod=core.login&amp;sub=detailJobs&amp;act=view&amp;typ=html&amp;id=288&amp;div_id=opening" class="xhr dest_opening col-md-12 btn btn-primary"&gt;Read More →&lt;/a&gt; &lt;/td&gt; <br/>
+              &lt;/tr&gt; <br/>
+             &lt;/tbody&gt;<br/>
+            &lt;/table&gt; <br/>
+           &lt;/div&gt; <br/>
+          &lt;/article&gt; &lt;!-- End Recent Jobs --&gt; <br/>
+         &lt;/div&gt; <br/>
+         &lt;div class="col-lg-6 g-mb-30 g-mb-0--lg"&gt; <br/>
+          &lt;br&gt; &lt;!-- Recent Jobs --&gt; <br/>
+          &lt;article class="u-shadow-v11 rounded g-pa-25"&gt; <br/>
+           &lt;h2 class="h4 g-mb-15"&gt; &lt;a class="xhr dest_opening u-link-v5 g-color-gray-dark-v1 g-color-primary--hover" href="/index.php?mod=core.login&amp;sub=detailJobs&amp;act=view&amp;typ=html&amp;id=285&amp;div_id=opening"&gt;IT Support Engineer (ADV.235)&lt;/a&gt; &lt;/h2&gt; <br/>
+           &lt;div style="height:150px;"&gt; <br/>
+            &lt;p class="g-mb-15"&gt;Koltiva is currently accepting applications for positions:&lt;/p&gt; <br/>
+            &lt;ul class="list-unstyled" style="margin-bottom:0px;"&gt; <br/>
+             &lt;li class="media g-mb-10" style="margin-bottom:-10px !important;"&gt; &lt;span class="d-block g-color-gray-dark-v5 g-width-110"&gt; &lt;i class="icon-pointer g-pos-rel g-top-1 g-mr-5"&gt;&lt;/i&gt; Location: &lt;/span&gt; &lt;span class="media-body"&gt;Jakarta, DKI Jakarta&lt;/span&gt; &lt;/li&gt; <br/>
+             &lt;li class="media g-mb-10" style="margin-bottom:-10px !important;"&gt; &lt;span class="d-block g-color-gray-dark-v5 g-width-110"&gt; &lt;i class="icon-calendar g-pos-rel g-top-1 g-mr-5"&gt;&lt;/i&gt; Posted: &lt;/span&gt; &lt;span class="media-body"&gt;11 August 2022&lt;/span&gt; &lt;/li&gt; <br/>
+             &lt;li class="media g-mb-10"&gt; &lt;span class="d-block g-color-gray-dark-v5 g-width-110"&gt; &lt;i class="icon-briefcase g-pos-rel g-top-1 g-mr-5"&gt;&lt;/i&gt; Type: &lt;/span&gt; &lt;span class="media-body"&gt;Fixed Term Employment Contract&lt;/span&gt; &lt;/li&gt; <br/>
+            &lt;/ul&gt; <br/>
+           &lt;/div&gt; <br/>
+           &lt;div style="width:100%; margin-bottom: 0 !important;"&gt; <br/>
+            &lt;hr class="g-brd-gray-light-v4"&gt; <br/>
+            &lt;table style="width:100%;"&gt; <br/>
+             &lt;tbody&gt;<br/>
+              &lt;tr&gt; <br/>
+               &lt;td style="width:80%;"&gt; &lt;span style="margin-top: -10px; color: #777;"&gt;Apply before 11 September 2022&lt;/span&gt; &lt;/td&gt; <br/>
+               &lt;td style="width:20%;"&gt; &lt;a style="margin-right: 0px !important; " href="/index.php?mod=core.login&amp;sub=detailJobs&amp;act=view&amp;typ=html&amp;id=285&amp;div_id=opening" class="xhr dest_opening col-md-12 btn btn-primary"&gt;Read More →&lt;/a&gt; &lt;/td&gt; <br/>
+              &lt;/tr&gt; <br/>
+             &lt;/tbody&gt;<br/>
+            &lt;/table&gt; <br/>
+           &lt;/div&gt; <br/>
+          &lt;/article&gt; &lt;!-- End Recent Jobs --&gt; <br/>
+         &lt;/div&gt; <br/>
+         &lt;div class="col-lg-6 g-mb-30 g-mb-0--lg"&gt; <br/>
+          &lt;br&gt; &lt;!-- Recent Jobs --&gt; <br/>
+          &lt;article class="u-shadow-v11 rounded g-pa-25"&gt; <br/>
+           &lt;h2 class="h4 g-mb-15"&gt; &lt;a class="xhr dest_opening u-link-v5 g-color-gray-dark-v1 g-color-primary--hover" href="/index.php?mod=core.login&amp;sub=detailJobs&amp;act=view&amp;typ=html&amp;id=283&amp;div_id=opening"&gt;Monitoring and Capacity Building Officer (ADV.234)&lt;/a&gt; &lt;/h2&gt; <br/>
+           &lt;div style="height:150px;"&gt; <br/>
+            &lt;p class="g-mb-15"&gt;Koltiva is currently accepting applications for positions:&lt;/p&gt; <br/>
+            &lt;ul class="list-unstyled" style="margin-bottom:0px;"&gt; <br/>
+             &lt;li class="media g-mb-10" style="margin-bottom:-10px !important;"&gt; &lt;span class="d-block g-color-gray-dark-v5 g-width-110"&gt; &lt;i class="icon-pointer g-pos-rel g-top-1 g-mr-5"&gt;&lt;/i&gt; Location: &lt;/span&gt; &lt;span class="media-body"&gt;Mexico, Mexico&lt;/span&gt; &lt;/li&gt; <br/>
+             &lt;li class="media g-mb-10" style="margin-bottom:-10px !important;"&gt; &lt;span class="d-block g-color-gray-dark-v5 g-width-110"&gt; &lt;i class="icon-calendar g-pos-rel g-top-1 g-mr-5"&gt;&lt;/i&gt; Posted: &lt;/span&gt; &lt;span class="media-body"&gt;10 August 2022&lt;/span&gt; &lt;/li&gt; <br/>
+             &lt;li class="media g-mb-10"&gt; &lt;span class="d-block g-color-gray-dark-v5 g-width-110"&gt; &lt;i class="icon-briefcase g-pos-rel g-top-1 g-mr-5"&gt;&lt;/i&gt; Type: &lt;/span&gt; &lt;span class="media-body"&gt;Consultant Contract&lt;/span&gt; &lt;/li&gt; <br/>
+            &lt;/ul&gt; <br/>
+           &lt;/div&gt; <br/>
+           &lt;div style="width:100%; margin-bottom: 0 !important;"&gt; <br/>
+            &lt;hr class="g-brd-gray-light-v4"&gt; <br/>
+            &lt;table style="width:100%;"&gt; <br/>
+             &lt;tbody&gt;<br/>
+              &lt;tr&gt; <br/>
+               &lt;td style="width:80%;"&gt; &lt;span style="margin-top: -10px; color: #777;"&gt;Apply before 10 October 2022&lt;/span&gt; &lt;/td&gt; <br/>
+               &lt;td style="width:20%;"&gt; &lt;a style="margin-right: 0px !important; " href="/index.php?mod=core.login&amp;sub=detailJobs&amp;act=view&amp;typ=html&amp;id=283&amp;div_id=opening" class="xhr dest_opening col-md-12 btn btn-primary"&gt;Read More →&lt;/a&gt; &lt;/td&gt; <br/>
+              &lt;/tr&gt; <br/>
+             &lt;/tbody&gt;<br/>
+            &lt;/table&gt; <br/>
+           &lt;/div&gt; <br/>
+          &lt;/article&gt; &lt;!-- End Recent Jobs --&gt; <br/>
+         &lt;/div&gt; <br/>
+         &lt;div class="col-lg-6 g-mb-30 g-mb-0--lg"&gt; <br/>
+          &lt;br&gt; &lt;!-- Recent Jobs --&gt; <br/>
+          &lt;article class="u-shadow-v11 rounded g-pa-25"&gt; <br/>
+           &lt;h2 class="h4 g-mb-15"&gt; &lt;a class="xhr dest_opening u-link-v5 g-color-gray-dark-v1 g-color-primary--hover" href="/index.php?mod=core.login&amp;sub=detailJobs&amp;act=view&amp;typ=html&amp;id=279&amp;div_id=opening"&gt;Web Developer (ADV.233)&lt;/a&gt; &lt;/h2&gt; <br/>
+           &lt;div style="height:150px;"&gt; <br/>
+            &lt;p class="g-mb-15"&gt;Koltiva is currently accepting applications for positions:&lt;/p&gt; <br/>
+            &lt;ul class="list-unstyled" style="margin-bottom:0px;"&gt; <br/>
+             &lt;li class="media g-mb-10" style="margin-bottom:-10px !important;"&gt; &lt;span class="d-block g-color-gray-dark-v5 g-width-110"&gt; &lt;i class="icon-pointer g-pos-rel g-top-1 g-mr-5"&gt;&lt;/i&gt; Location: &lt;/span&gt; &lt;span class="media-body"&gt;Jakarta, DKI Jakarta&lt;/span&gt; &lt;/li&gt; <br/>
+             &lt;li class="media g-mb-10" style="margin-bottom:-10px !important;"&gt; &lt;span class="d-block g-color-gray-dark-v5 g-width-110"&gt; &lt;i class="icon-calendar g-pos-rel g-top-1 g-mr-5"&gt;&lt;/i&gt; Posted: &lt;/span&gt; &lt;span class="media-body"&gt;05 August 2022&lt;/span&gt; &lt;/li&gt; <br/>
+             &lt;li class="media g-mb-10"&gt; &lt;span class="d-block g-color-gray-dark-v5 g-width-110"&gt; &lt;i class="icon-briefcase g-pos-rel g-top-1 g-mr-5"&gt;&lt;/i&gt; Type: &lt;/span&gt; &lt;span class="media-body"&gt;Fixed Term Employment Contract&lt;/span&gt; &lt;/li&gt; <br/>
+            &lt;/ul&gt; <br/>
+           &lt;/div&gt; <br/>
+           &lt;div style="width:100%; margin-bottom: 0 !important;"&gt; <br/>
+            &lt;hr class="g-brd-gray-light-v4"&gt; <br/>
+            &lt;table style="width:100%;"&gt; <br/>
+             &lt;tbody&gt;<br/>
+              &lt;tr&gt; <br/>
+               &lt;td style="width:80%;"&gt; &lt;span style="margin-top: -10px; color: #777;"&gt;Apply before 09 September 2022&lt;/span&gt; &lt;/td&gt; <br/>
+               &lt;td style="width:20%;"&gt; &lt;a style="margin-right: 0px !important; " href="/index.php?mod=core.login&amp;sub=detailJobs&amp;act=view&amp;typ=html&amp;id=279&amp;div_id=opening" class="xhr dest_opening col-md-12 btn btn-primary"&gt;Read More →&lt;/a&gt; &lt;/td&gt; <br/>
+              &lt;/tr&gt; <br/>
+             &lt;/tbody&gt;<br/>
+            &lt;/table&gt; <br/>
+           &lt;/div&gt; <br/>
+          &lt;/article&gt; &lt;!-- End Recent Jobs --&gt; <br/>
+         &lt;/div&gt; <br/>
+         &lt;div class="col-lg-6 g-mb-30 g-mb-0--lg"&gt; <br/>
+          &lt;br&gt; &lt;!-- Recent Jobs --&gt; <br/>
+          &lt;article class="u-shadow-v11 rounded g-pa-25"&gt; <br/>
+           &lt;h2 class="h4 g-mb-15"&gt; &lt;a class="xhr dest_opening u-link-v5 g-color-gray-dark-v1 g-color-primary--hover" href="/index.php?mod=core.login&amp;sub=detailJobs&amp;act=view&amp;typ=html&amp;id=280&amp;div_id=opening"&gt;Quality Assurance Lead (ADV.232)&lt;/a&gt; &lt;/h2&gt; <br/>
+           &lt;div style="height:150px;"&gt; <br/>
+            &lt;p class="g-mb-15"&gt;Koltiva is currently accepting applications for positions:&lt;/p&gt; <br/>
+            &lt;ul class="list-unstyled" style="margin-bottom:0px;"&gt; <br/>
+             &lt;li class="media g-mb-10" style="margin-bottom:-10px !important;"&gt; &lt;span class="d-block g-color-gray-dark-v5 g-width-110"&gt; &lt;i class="icon-pointer g-pos-rel g-top-1 g-mr-5"&gt;&lt;/i&gt; Location: &lt;/span&gt; &lt;span class="media-body"&gt;Jakarta, DKI Jakarta&lt;/span&gt; &lt;/li&gt; <br/>
+             &lt;li class="media g-mb-10" style="margin-bottom:-10px !important;"&gt; &lt;span class="d-block g-color-gray-dark-v5 g-width-110"&gt; &lt;i class="icon-calendar g-pos-rel g-top-1 g-mr-5"&gt;&lt;/i&gt; Posted: &lt;/span&gt; &lt;span class="media-body"&gt;05 August 2022&lt;/span&gt; &lt;/li&gt; <br/>
+             &lt;li class="media g-mb-10"&gt; &lt;span class="d-block g-color-gray-dark-v5 g-width-110"&gt; &lt;i class="icon-briefcase g-pos-rel g-top-1 g-mr-5"&gt;&lt;/i&gt; Type: &lt;/span&gt; &lt;span class="media-body"&gt;Fixed Term Employment Contract&lt;/span&gt; &lt;/li&gt; <br/>
+            &lt;/ul&gt; <br/>
+           &lt;/div&gt; <br/>
+           &lt;div style="width:100%; margin-bottom: 0 !important;"&gt; <br/>
+            &lt;hr class="g-brd-gray-light-v4"&gt; <br/>
+            &lt;table style="width:100%;"&gt; <br/>
+             &lt;tbody&gt;<br/>
+              &lt;tr&gt; <br/>
+               &lt;td style="width:80%;"&gt; &lt;span style="margin-top: -10px; color: #777;"&gt;Apply before 05 October 2022&lt;/span&gt; &lt;/td&gt; <br/>
+               &lt;td style="width:20%;"&gt; &lt;a style="margin-right: 0px !important; " href="/index.php?mod=core.login&amp;sub=detailJobs&amp;act=view&amp;typ=html&amp;id=280&amp;div_id=opening" class="xhr dest_opening col-md-12 btn btn-primary"&gt;Read More →&lt;/a&gt; &lt;/td&gt; <br/>
+              &lt;/tr&gt; <br/>
+             &lt;/tbody&gt;<br/>
+            &lt;/table&gt; <br/>
+           &lt;/div&gt; <br/>
+          &lt;/article&gt; &lt;!-- End Recent Jobs --&gt; <br/>
+         &lt;/div&gt; <br/>
+         &lt;div class="col-lg-6 g-mb-30 g-mb-0--lg"&gt; <br/>
+          &lt;br&gt; &lt;!-- Recent Jobs --&gt; <br/>
+          &lt;article class="u-shadow-v11 rounded g-pa-25"&gt; <br/>
+           &lt;h2 class="h4 g-mb-15"&gt; &lt;a class="xhr dest_opening u-link-v5 g-color-gray-dark-v1 g-color-primary--hover" href="/index.php?mod=core.login&amp;sub=detailJobs&amp;act=view&amp;typ=html&amp;id=277&amp;div_id=opening"&gt;GIS Developer (ADV.230)&lt;/a&gt; &lt;/h2&gt; <br/>
+           &lt;div style="height:150px;"&gt; <br/>
+            &lt;p class="g-mb-15"&gt;Koltiva is currently accepting applications for positions:&lt;/p&gt; <br/>
+            &lt;ul class="list-unstyled" style="margin-bottom:0px;"&gt; <br/>
+             &lt;li class="media g-mb-10" style="margin-bottom:-10px !important;"&gt; &lt;span class="d-block g-color-gray-dark-v5 g-width-110"&gt; &lt;i class="icon-pointer g-pos-rel g-top-1 g-mr-5"&gt;&lt;/i&gt; Location: &lt;/span&gt; &lt;span class="media-body"&gt;Jakarta, DKI Jakarta&lt;/span&gt; &lt;/li&gt; <br/>
+             &lt;li class="media g-mb-10" style="margin-bottom:-10px !important;"&gt; &lt;span class="d-block g-color-gray-dark-v5 g-width-110"&gt; &lt;i class="icon-calendar g-pos-rel g-top-1 g-mr-5"&gt;&lt;/i&gt; Posted: &lt;/span&gt; &lt;span class="media-body"&gt;03 August 2022&lt;/span&gt; &lt;/li&gt; <br/>
+             &lt;li class="media g-mb-10"&gt; &lt;span class="d-block g-color-gray-dark-v5 g-width-110"&gt; &lt;i class="icon-briefcase g-pos-rel g-top-1 g-mr-5"&gt;&lt;/i&gt; Type: &lt;/span&gt; &lt;span class="media-body"&gt;Fixed Term Employment Contract&lt;/span&gt; &lt;/li&gt; <br/>
+            &lt;/ul&gt; <br/>
+           &lt;/div&gt; <br/>
+           &lt;div style="width:100%; margin-bottom: 0 !important;"&gt; <br/>
+            &lt;hr class="g-brd-gray-light-v4"&gt; <br/>
+            &lt;table style="width:100%;"&gt; <br/>
+             &lt;tbody&gt;<br/>
+              &lt;tr&gt; <br/>
+               &lt;td style="width:80%;"&gt; &lt;span style="margin-top: -10px; color: #777;"&gt;Apply before 10 October 2022&lt;/span&gt; &lt;/td&gt; <br/>
+               &lt;td style="width:20%;"&gt; &lt;a style="margin-right: 0px !important; " href="/index.php?mod=core.login&amp;sub=detailJobs&amp;act=view&amp;typ=html&amp;id=277&amp;div_id=opening" class="xhr dest_opening col-md-12 btn btn-primary"&gt;Read More →&lt;/a&gt; &lt;/td&gt; <br/>
+              &lt;/tr&gt; <br/>
+             &lt;/tbody&gt;<br/>
+            &lt;/table&gt; <br/>
+           &lt;/div&gt; <br/>
+          &lt;/article&gt; &lt;!-- End Recent Jobs --&gt; <br/>
+         &lt;/div&gt; <br/>
+         &lt;div class="col-lg-6 g-mb-30 g-mb-0--lg"&gt; <br/>
+          &lt;br&gt; &lt;!-- Recent Jobs --&gt; <br/>
+          &lt;article class="u-shadow-v11 rounded g-pa-25"&gt; <br/>
+           &lt;h2 class="h4 g-mb-15"&gt; &lt;a class="xhr dest_opening u-link-v5 g-color-gray-dark-v1 g-color-primary--hover" href="/index.php?mod=core.login&amp;sub=detailJobs&amp;act=view&amp;typ=html&amp;id=278&amp;div_id=opening"&gt;Climate Solutions Intern (ADV.231)&lt;/a&gt; &lt;/h2&gt; <br/>
+           &lt;div style="height:150px;"&gt; <br/>
+            &lt;p class="g-mb-15"&gt;Koltiva is currently accepting applications for positions:&lt;/p&gt; <br/>
+            &lt;ul class="list-unstyled" style="margin-bottom:0px;"&gt; <br/>
+             &lt;li class="media g-mb-10" style="margin-bottom:-10px !important;"&gt; &lt;span class="d-block g-color-gray-dark-v5 g-width-110"&gt; &lt;i class="icon-pointer g-pos-rel g-top-1 g-mr-5"&gt;&lt;/i&gt; Location: &lt;/span&gt; &lt;span class="media-body"&gt;Jakarta, DKI Jakarta&lt;/span&gt; &lt;/li&gt; <br/>
+             &lt;li class="media g-mb-10" style="margin-bottom:-10px !important;"&gt; &lt;span class="d-block g-color-gray-dark-v5 g-width-110"&gt; &lt;i class="icon-calendar g-pos-rel g-top-1 g-mr-5"&gt;&lt;/i&gt; Posted: &lt;/span&gt; &lt;span class="media-body"&gt;03 August 2022&lt;/span&gt; &lt;/li&gt; <br/>
+             &lt;li class="media g-mb-10"&gt; &lt;span class="d-block g-color-gray-dark-v5 g-width-110"&gt; &lt;i class="icon-briefcase g-pos-rel g-top-1 g-mr-5"&gt;&lt;/i&gt; Type: &lt;/span&gt; &lt;span class="media-body"&gt;Internship Contract&lt;/span&gt; &lt;/li&gt; <br/>
+            &lt;/ul&gt; <br/>
+           &lt;/div&gt; <br/>
+           &lt;div style="width:100%; margin-bottom: 0 !important;"&gt; <br/>
+            &lt;hr class="g-brd-gray-light-v4"&gt; <br/>
+            &lt;table style="width:100%;"&gt; <br/>
+             &lt;tbody&gt;<br/>
+              &lt;tr&gt; <br/>
+               &lt;td style="width:80%;"&gt; &lt;span style="margin-top: -10px; color: #777;"&gt;Apply before 09 September 2022&lt;/span&gt; &lt;/td&gt; <br/>
+               &lt;td style="width:20%;"&gt; &lt;a style="margin-right: 0px !important; " href="/index.php?mod=core.login&amp;sub=detailJobs&amp;act=view&amp;typ=html&amp;id=278&amp;div_id=opening" class="xhr dest_opening col-md-12 btn btn-primary"&gt;Read More →&lt;/a&gt; &lt;/td&gt; <br/>
+              &lt;/tr&gt; <br/>
+             &lt;/tbody&gt;<br/>
+            &lt;/table&gt; <br/>
+           &lt;/div&gt; <br/>
+          &lt;/article&gt; &lt;!-- End Recent Jobs --&gt; <br/>
+         &lt;/div&gt; <br/>
+         &lt;div class="col-lg-6 g-mb-30 g-mb-0--lg"&gt; <br/>
+          &lt;br&gt; &lt;!-- Recent Jobs --&gt; <br/>
+          &lt;article class="u-shadow-v11 rounded g-pa-25"&gt; <br/>
+           &lt;h2 class="h4 g-mb-15"&gt; &lt;a class="xhr dest_opening u-link-v5 g-color-gray-dark-v1 g-color-primary--hover" href="/index.php?mod=core.login&amp;sub=detailJobs&amp;act=view&amp;typ=html&amp;id=275&amp;div_id=opening"&gt;People Operation (ADV.228)&lt;/a&gt; &lt;/h2&gt; <br/>
+           &lt;div style="height:150px;"&gt; <br/>
+            &lt;p class="g-mb-15"&gt;Koltiva is currently accepting applications for positions:&lt;/p&gt; <br/>
+            &lt;ul class="list-unstyled" style="margin-bottom:0px;"&gt; <br/>
+             &lt;li class="media g-mb-10" style="margin-bottom:-10px !important;"&gt; &lt;span class="d-block g-color-gray-dark-v5 g-width-110"&gt; &lt;i class="icon-pointer g-pos-rel g-top-1 g-mr-5"&gt;&lt;/i&gt; Location: &lt;/span&gt; &lt;span class="media-body"&gt;Jakarta, DKI Jakarta&lt;/span&gt; &lt;/li&gt; <br/>
+             &lt;li class="media g-mb-10" style="margin-bottom:-10px !important;"&gt; &lt;span class="d-block g-color-gray-dark-v5 g-width-110"&gt; &lt;i class="icon-calendar g-pos-rel g-top-1 g-mr-5"&gt;&lt;/i&gt; Posted: &lt;/span&gt; &lt;span class="media-body"&gt;01 August 2022&lt;/span&gt; &lt;/li&gt; <br/>
+             &lt;li class="media g-mb-10"&gt; &lt;span class="d-block g-color-gray-dark-v5 g-width-110"&gt; &lt;i class="icon-briefcase g-pos-rel g-top-1 g-mr-5"&gt;&lt;/i&gt; Type: &lt;/span&gt; &lt;span class="media-body"&gt;Fixed Term Employment Contract&lt;/span&gt; &lt;/li&gt; <br/>
+            &lt;/ul&gt; <br/>
+           &lt;/div&gt; <br/>
+           &lt;div style="width:100%; margin-bottom: 0 !important;"&gt; <br/>
+            &lt;hr class="g-brd-gray-light-v4"&gt; <br/>
+            &lt;table style="width:100%;"&gt; <br/>
+             &lt;tbody&gt;<br/>
+              &lt;tr&gt; <br/>
+               &lt;td style="width:80%;"&gt; &lt;span style="margin-top: -10px; color: #777;"&gt;Apply before 01 October 2022&lt;/span&gt; &lt;/td&gt; <br/>
+               &lt;td style="width:20%;"&gt; &lt;a style="margin-right: 0px !important; " href="/index.php?mod=core.login&amp;sub=detailJobs&amp;act=view&amp;typ=html&amp;id=275&amp;div_id=opening" class="xhr dest_opening col-md-12 btn btn-primary"&gt;Read More →&lt;/a&gt; &lt;/td&gt; <br/>
+              &lt;/tr&gt; <br/>
+             &lt;/tbody&gt;<br/>
+            &lt;/table&gt; <br/>
+           &lt;/div&gt; <br/>
+          &lt;/article&gt; &lt;!-- End Recent Jobs --&gt; <br/>
+         &lt;/div&gt; <br/>
+         &lt;div class="col-lg-6 g-mb-30 g-mb-0--lg"&gt; <br/>
+          &lt;br&gt; &lt;!-- Recent Jobs --&gt; <br/>
+          &lt;article class="u-shadow-v11 rounded g-pa-25"&gt; <br/>
+           &lt;h2 class="h4 g-mb-15"&gt; &lt;a class="xhr dest_opening u-link-v5 g-color-gray-dark-v1 g-color-primary--hover" href="/index.php?mod=core.login&amp;sub=detailJobs&amp;act=view&amp;typ=html&amp;id=276&amp;div_id=opening"&gt;Finance Manager (ADV.229)&lt;/a&gt; &lt;/h2&gt; <br/>
+           &lt;div style="height:150px;"&gt; <br/>
+            &lt;p class="g-mb-15"&gt;Koltiva is currently accepting applications for positions:&lt;/p&gt; <br/>
+            &lt;ul class="list-unstyled" style="margin-bottom:0px;"&gt; <br/>
+             &lt;li class="media g-mb-10" style="margin-bottom:-10px !important;"&gt; &lt;span class="d-block g-color-gray-dark-v5 g-width-110"&gt; &lt;i class="icon-pointer g-pos-rel g-top-1 g-mr-5"&gt;&lt;/i&gt; Location: &lt;/span&gt; &lt;span class="media-body"&gt;Jakarta, DKI Jakarta&lt;/span&gt; &lt;/li&gt; <br/>
+             &lt;li class="media g-mb-10" style="margin-bottom:-10px !important;"&gt; &lt;span class="d-block g-color-gray-dark-v5 g-width-110"&gt; &lt;i class="icon-calendar g-pos-rel g-top-1 g-mr-5"&gt;&lt;/i&gt; Posted: &lt;/span&gt; &lt;span class="media-body"&gt;01 August 2022&lt;/span&gt; &lt;/li&gt; <br/>
+             &lt;li class="media g-mb-10"&gt; &lt;span class="d-block g-color-gray-dark-v5 g-width-110"&gt; &lt;i class="icon-briefcase g-pos-rel g-top-1 g-mr-5"&gt;&lt;/i&gt; Type: &lt;/span&gt; &lt;span class="media-body"&gt;Fixed Term Employment Contract&lt;/span&gt; &lt;/li&gt; <br/>
+            &lt;/ul&gt; <br/>
+           &lt;/div&gt; <br/>
+           &lt;div style="width:100%; margin-bottom: 0 !important;"&gt; <br/>
+            &lt;hr class="g-brd-gray-light-v4"&gt; <br/>
+            &lt;table style="width:100%;"&gt; <br/>
+             &lt;tbody&gt;<br/>
+              &lt;tr&gt; <br/>
+               &lt;td style="width:80%;"&gt; &lt;span style="margin-top: -10px; color: #777;"&gt;Apply before 30 September 2022&lt;/span&gt; &lt;/td&gt; <br/>
+               &lt;td style="width:20%;"&gt; &lt;a style="margin-right: 0px !important; " href="/index.php?mod=core.login&amp;sub=detailJobs&amp;act=view&amp;typ=html&amp;id=276&amp;div_id=opening" class="xhr dest_opening col-md-12 btn btn-primary"&gt;Read More →&lt;/a&gt; &lt;/td&gt; <br/>
+              &lt;/tr&gt; <br/>
+             &lt;/tbody&gt;<br/>
+            &lt;/table&gt; <br/>
+           &lt;/div&gt; <br/>
+          &lt;/article&gt; &lt;!-- End Recent Jobs --&gt; <br/>
+         &lt;/div&gt; <br/>
+         &lt;div class="col-lg-6 g-mb-30 g-mb-0--lg"&gt; <br/>
+          &lt;br&gt; &lt;!-- Recent Jobs --&gt; <br/>
+          &lt;article class="u-shadow-v11 rounded g-pa-25"&gt; <br/>
+           &lt;h2 class="h4 g-mb-15"&gt; &lt;a class="xhr dest_opening u-link-v5 g-color-gray-dark-v1 g-color-primary--hover" href="/index.php?mod=core.login&amp;sub=detailJobs&amp;act=view&amp;typ=html&amp;id=274&amp;div_id=opening"&gt;General Admin (ADV.227)&lt;/a&gt; &lt;/h2&gt; <br/>
+           &lt;div style="height:150px;"&gt; <br/>
+            &lt;p class="g-mb-15"&gt;Koltiva is currently accepting applications for positions:&lt;/p&gt; <br/>
+            &lt;ul class="list-unstyled" style="margin-bottom:0px;"&gt; <br/>
+             &lt;li class="media g-mb-10" style="margin-bottom:-10px !important;"&gt; &lt;span class="d-block g-color-gray-dark-v5 g-width-110"&gt; &lt;i class="icon-pointer g-pos-rel g-top-1 g-mr-5"&gt;&lt;/i&gt; Location: &lt;/span&gt; &lt;span class="media-body"&gt;Jakarta, DKI Jakarta&lt;/span&gt; &lt;/li&gt; <br/>
+             &lt;li class="media g-mb-10" style="margin-bottom:-10px !important;"&gt; &lt;span class="d-block g-color-gray-dark-v5 g-width-110"&gt; &lt;i class="icon-calendar g-pos-rel g-top-1 g-mr-5"&gt;&lt;/i&gt; Posted: &lt;/span&gt; &lt;span class="media-body"&gt;29 July 2022&lt;/span&gt; &lt;/li&gt; <br/>
+             &lt;li class="media g-mb-10"&gt; &lt;span class="d-block g-color-gray-dark-v5 g-width-110"&gt; &lt;i class="icon-briefcase g-pos-rel g-top-1 g-mr-5"&gt;&lt;/i&gt; Type: &lt;/span&gt; &lt;span class="media-body"&gt;Fixed Term Employment Contract&lt;/span&gt; &lt;/li&gt; <br/>
+            &lt;/ul&gt; <br/>
+           &lt;/div&gt; <br/>
+           &lt;div style="width:100%; margin-bottom: 0 !important;"&gt; <br/>
+            &lt;hr class="g-brd-gray-light-v4"&gt; <br/>
+            &lt;table style="width:100%;"&gt; <br/>
+             &lt;tbody&gt;<br/>
+              &lt;tr&gt; <br/>
+               &lt;td style="width:80%;"&gt; &lt;span style="margin-top: -10px; color: #777;"&gt;Apply before 29 September 2022&lt;/span&gt; &lt;/td&gt; <br/>
+               &lt;td style="width:20%;"&gt; &lt;a style="margin-right: 0px !important; " href="/index.php?mod=core.login&amp;sub=detailJobs&amp;act=view&amp;typ=html&amp;id=274&amp;div_id=opening" class="xhr dest_opening col-md-12 btn btn-primary"&gt;Read More →&lt;/a&gt; &lt;/td&gt; <br/>
+              &lt;/tr&gt; <br/>
+             &lt;/tbody&gt;<br/>
+            &lt;/table&gt; <br/>
+           &lt;/div&gt; <br/>
+          &lt;/article&gt; &lt;!-- End Recent Jobs --&gt; <br/>
+         &lt;/div&gt; <br/>
+         &lt;div class="col-lg-6 g-mb-30 g-mb-0--lg"&gt; <br/>
+          &lt;br&gt; &lt;!-- Recent Jobs --&gt; <br/>
+          &lt;article class="u-shadow-v11 rounded g-pa-25"&gt; <br/>
+           &lt;h2 class="h4 g-mb-15"&gt; &lt;a class="xhr dest_opening u-link-v5 g-color-gray-dark-v1 g-color-primary--hover" href="/index.php?mod=core.login&amp;sub=detailJobs&amp;act=view&amp;typ=html&amp;id=273&amp;div_id=opening"&gt;General Affair Lead (ADV.226)&lt;/a&gt; &lt;/h2&gt; <br/>
+           &lt;div style="height:150px;"&gt; <br/>
+            &lt;p class="g-mb-15"&gt;Koltiva is currently accepting applications for positions:&lt;/p&gt; <br/>
+            &lt;ul class="list-unstyled" style="margin-bottom:0px;"&gt; <br/>
+             &lt;li class="media g-mb-10" style="margin-bottom:-10px !important;"&gt; &lt;span class="d-block g-color-gray-dark-v5 g-width-110"&gt; &lt;i class="icon-pointer g-pos-rel g-top-1 g-mr-5"&gt;&lt;/i&gt; Location: &lt;/span&gt; &lt;span class="media-body"&gt;Jakarta, DKI Jakarta&lt;/span&gt; &lt;/li&gt; <br/>
+             &lt;li class="media g-mb-10" style="margin-bottom:-10px !important;"&gt; &lt;span class="d-block g-color-gray-dark-v5 g-width-110"&gt; &lt;i class="icon-calendar g-pos-rel g-top-1 g-mr-5"&gt;&lt;/i&gt; Posted: &lt;/span&gt; &lt;span class="media-body"&gt;26 July 2022&lt;/span&gt; &lt;/li&gt; <br/>
+             &lt;li class="media g-mb-10"&gt; &lt;span class="d-block g-color-gray-dark-v5 g-width-110"&gt; &lt;i class="icon-briefcase g-pos-rel g-top-1 g-mr-5"&gt;&lt;/i&gt; Type: &lt;/span&gt; &lt;span class="media-body"&gt;Fixed Term Employment Contract&lt;/span&gt; &lt;/li&gt; <br/>
+            &lt;/ul&gt; <br/>
+           &lt;/div&gt; <br/>
+           &lt;div style="width:100%; margin-bottom: 0 !important;"&gt; <br/>
+            &lt;hr class="g-brd-gray-light-v4"&gt; <br/>
+            &lt;table style="width:100%;"&gt; <br/>
+             &lt;tbody&gt;<br/>
+              &lt;tr&gt; <br/>
+               &lt;td style="width:80%;"&gt; &lt;span style="margin-top: -10px; color: #777;"&gt;Apply before 26 September 2022&lt;/span&gt; &lt;/td&gt; <br/>
+               &lt;td style="width:20%;"&gt; &lt;a style="margin-right: 0px !important; " href="/index.php?mod=core.login&amp;sub=detailJobs&amp;act=view&amp;typ=html&amp;id=273&amp;div_id=opening" class="xhr dest_opening col-md-12 btn btn-primary"&gt;Read More →&lt;/a&gt; &lt;/td&gt; <br/>
+              &lt;/tr&gt; <br/>
+             &lt;/tbody&gt;<br/>
+            &lt;/table&gt; <br/>
+           &lt;/div&gt; <br/>
+          &lt;/article&gt; &lt;!-- End Recent Jobs --&gt; <br/>
+         &lt;/div&gt; <br/>
+         &lt;div class="col-lg-6 g-mb-30 g-mb-0--lg"&gt; <br/>
+          &lt;br&gt; &lt;!-- Recent Jobs --&gt; <br/>
+          &lt;article class="u-shadow-v11 rounded g-pa-25"&gt; <br/>
+           &lt;h2 class="h4 g-mb-15"&gt; &lt;a class="xhr dest_opening u-link-v5 g-color-gray-dark-v1 g-color-primary--hover" href="/index.php?mod=core.login&amp;sub=detailJobs&amp;act=view&amp;typ=html&amp;id=272&amp;div_id=opening"&gt;Head of Engineering (ADV.222)&lt;/a&gt; &lt;/h2&gt; <br/>
+           &lt;div style="height:150px;"&gt; <br/>
+            &lt;p class="g-mb-15"&gt;Koltiva is currently accepting applications for positions:&lt;/p&gt; <br/>
+            &lt;ul class="list-unstyled" style="margin-bottom:0px;"&gt; <br/>
+             &lt;li class="media g-mb-10" style="margin-bottom:-10px !important;"&gt; &lt;span class="d-block g-color-gray-dark-v5 g-width-110"&gt; &lt;i class="icon-pointer g-pos-rel g-top-1 g-mr-5"&gt;&lt;/i&gt; Location: &lt;/span&gt; &lt;span class="media-body"&gt;Jakarta, DKI Jakarta&lt;/span&gt; &lt;/li&gt; <br/>
+             &lt;li class="media g-mb-10" style="margin-bottom:-10px !important;"&gt; &lt;span class="d-block g-color-gray-dark-v5 g-width-110"&gt; &lt;i class="icon-calendar g-pos-rel g-top-1 g-mr-5"&gt;&lt;/i&gt; Posted: &lt;/span&gt; &lt;span class="media-body"&gt;25 July 2022&lt;/span&gt; &lt;/li&gt; <br/>
+             &lt;li class="media g-mb-10"&gt; &lt;span class="d-block g-color-gray-dark-v5 g-width-110"&gt; &lt;i class="icon-briefcase g-pos-rel g-top-1 g-mr-5"&gt;&lt;/i&gt; Type: &lt;/span&gt; &lt;span class="media-body"&gt;Fixed Term Employment Contract&lt;/span&gt; &lt;/li&gt; <br/>
+            &lt;/ul&gt; <br/>
+           &lt;/div&gt; <br/>
+           &lt;div style="width:100%; margin-bottom: 0 !important;"&gt; <br/>
+            &lt;hr class="g-brd-gray-light-v4"&gt; <br/>
+            &lt;table style="width:100%;"&gt; <br/>
+             &lt;tbody&gt;<br/>
+              &lt;tr&gt; <br/>
+               &lt;td style="width:80%;"&gt; &lt;span style="margin-top: -10px; color: #777;"&gt;Apply before 30 September 2022&lt;/span&gt; &lt;/td&gt; <br/>
+               &lt;td style="width:20%;"&gt; &lt;a style="margin-right: 0px !important; " href="/index.php?mod=core.login&amp;sub=detailJobs&amp;act=view&amp;typ=html&amp;id=272&amp;div_id=opening" class="xhr dest_opening col-md-12 btn btn-primary"&gt;Read More →&lt;/a&gt; &lt;/td&gt; <br/>
+              &lt;/tr&gt; <br/>
+             &lt;/tbody&gt;<br/>
+            &lt;/table&gt; <br/>
+           &lt;/div&gt; <br/>
+          &lt;/article&gt; &lt;!-- End Recent Jobs --&gt; <br/>
+         &lt;/div&gt; <br/>
+         &lt;div class="col-lg-6 g-mb-30 g-mb-0--lg"&gt; <br/>
+          &lt;br&gt; &lt;!-- Recent Jobs --&gt; <br/>
+          &lt;article class="u-shadow-v11 rounded g-pa-25"&gt; <br/>
+           &lt;h2 class="h4 g-mb-15"&gt; &lt;a class="xhr dest_opening u-link-v5 g-color-gray-dark-v1 g-color-primary--hover" href="/index.php?mod=core.login&amp;sub=detailJobs&amp;act=view&amp;typ=html&amp;id=264&amp;div_id=opening"&gt;Senior Mobile Developer (ADV.221)&lt;/a&gt; &lt;/h2&gt; <br/>
+           &lt;div style="height:150px;"&gt; <br/>
+            &lt;p class="g-mb-15"&gt;Koltiva is currently accepting applications for positions:&lt;/p&gt; <br/>
+            &lt;ul class="list-unstyled" style="margin-bottom:0px;"&gt; <br/>
+             &lt;li class="media g-mb-10" style="margin-bottom:-10px !important;"&gt; &lt;span class="d-block g-color-gray-dark-v5 g-width-110"&gt; &lt;i class="icon-pointer g-pos-rel g-top-1 g-mr-5"&gt;&lt;/i&gt; Location: &lt;/span&gt; &lt;span class="media-body"&gt;Jakarta, DKI Jakarta&lt;/span&gt; &lt;/li&gt; <br/>
+             &lt;li class="media g-mb-10" style="margin-bottom:-10px !important;"&gt; &lt;span class="d-block g-color-gray-dark-v5 g-width-110"&gt; &lt;i class="icon-calendar g-pos-rel g-top-1 g-mr-5"&gt;&lt;/i&gt; Posted: &lt;/span&gt; &lt;span class="media-body"&gt;22 July 2022&lt;/span&gt; &lt;/li&gt; <br/>
+             &lt;li class="media g-mb-10"&gt; &lt;span class="d-block g-color-gray-dark-v5 g-width-110"&gt; &lt;i class="icon-briefcase g-pos-rel g-top-1 g-mr-5"&gt;&lt;/i&gt; Type: &lt;/span&gt; &lt;span class="media-body"&gt;Fixed Term Employment Contract&lt;/span&gt; &lt;/li&gt; <br/>
+            &lt;/ul&gt; <br/>
+           &lt;/div&gt; <br/>
+           &lt;div style="width:100%; margin-bottom: 0 !important;"&gt; <br/>
+            &lt;hr class="g-brd-gray-light-v4"&gt; <br/>
+            &lt;table style="width:100%;"&gt; <br/>
+             &lt;tbody&gt;<br/>
+              &lt;tr&gt; <br/>
+               &lt;td style="width:80%;"&gt; &lt;span style="margin-top: -10px; color: #777;"&gt;Apply before 30 September 2022&lt;/span&gt; &lt;/td&gt; <br/>
+               &lt;td style="width:20%;"&gt; &lt;a style="margin-right: 0px !important; " href="/index.php?mod=core.login&amp;sub=detailJobs&amp;act=view&amp;typ=html&amp;id=264&amp;div_id=opening" class="xhr dest_opening col-md-12 btn btn-primary"&gt;Read More →&lt;/a&gt; &lt;/td&gt; <br/>
+              &lt;/tr&gt; <br/>
+             &lt;/tbody&gt;<br/>
+            &lt;/table&gt; <br/>
+           &lt;/div&gt; <br/>
+          &lt;/article&gt; &lt;!-- End Recent Jobs --&gt; <br/>
+         &lt;/div&gt; <br/>
+         &lt;div class="col-lg-6 g-mb-30 g-mb-0--lg"&gt; <br/>
+          &lt;br&gt; &lt;!-- Recent Jobs --&gt; <br/>
+          &lt;article class="u-shadow-v11 rounded g-pa-25"&gt; <br/>
+           &lt;h2 class="h4 g-mb-15"&gt; &lt;a class="xhr dest_opening u-link-v5 g-color-gray-dark-v1 g-color-primary--hover" href="/index.php?mod=core.login&amp;sub=detailJobs&amp;act=view&amp;typ=html&amp;id=268&amp;div_id=opening"&gt;Database Engineer and Support (ADV.218)&lt;/a&gt; &lt;/h2&gt; <br/>
+           &lt;div style="height:150px;"&gt; <br/>
+            &lt;p class="g-mb-15"&gt;Koltiva is currently accepting applications for positions:&lt;/p&gt; <br/>
+            &lt;ul class="list-unstyled" style="margin-bottom:0px;"&gt; <br/>
+             &lt;li class="media g-mb-10" style="margin-bottom:-10px !important;"&gt; &lt;span class="d-block g-color-gray-dark-v5 g-width-110"&gt; &lt;i class="icon-pointer g-pos-rel g-top-1 g-mr-5"&gt;&lt;/i&gt; Location: &lt;/span&gt; &lt;span class="media-body"&gt;Jakarta, DKI Jakarta&lt;/span&gt; &lt;/li&gt; <br/>
+             &lt;li class="media g-mb-10" style="margin-bottom:-10px !important;"&gt; &lt;span class="d-block g-color-gray-dark-v5 g-width-110"&gt; &lt;i class="icon-calendar g-pos-rel g-top-1 g-mr-5"&gt;&lt;/i&gt; Posted: &lt;/span&gt; &lt;span class="media-body"&gt;21 July 2022&lt;/span&gt; &lt;/li&gt; <br/>
+             &lt;li class="media g-mb-10"&gt; &lt;span class="d-block g-color-gray-dark-v5 g-width-110"&gt; &lt;i class="icon-briefcase g-pos-rel g-top-1 g-mr-5"&gt;&lt;/i&gt; Type: &lt;/span&gt; &lt;span class="media-body"&gt;Fixed Term Employment Contract&lt;/span&gt; &lt;/li&gt; <br/>
+            &lt;/ul&gt; <br/>
+           &lt;/div&gt; <br/>
+           &lt;div style="width:100%; margin-bottom: 0 !important;"&gt; <br/>
+            &lt;hr class="g-brd-gray-light-v4"&gt; <br/>
+            &lt;table style="width:100%;"&gt; <br/>
+             &lt;tbody&gt;<br/>
+              &lt;tr&gt; <br/>
+               &lt;td style="width:80%;"&gt; &lt;span style="margin-top: -10px; color: #777;"&gt;Apply before 21 September 2022&lt;/span&gt; &lt;/td&gt; <br/>
+               &lt;td style="width:20%;"&gt; &lt;a style="margin-right: 0px !important; " href="/index.php?mod=core.login&amp;sub=detailJobs&amp;act=view&amp;typ=html&amp;id=268&amp;div_id=opening" class="xhr dest_opening col-md-12 btn btn-primary"&gt;Read More →&lt;/a&gt; &lt;/td&gt; <br/>
+              &lt;/tr&gt; <br/>
+             &lt;/tbody&gt;<br/>
+            &lt;/table&gt; <br/>
+           &lt;/div&gt; <br/>
+          &lt;/article&gt; &lt;!-- End Recent Jobs --&gt; <br/>
+         &lt;/div&gt; <br/>
+         &lt;div class="col-lg-6 g-mb-30 g-mb-0--lg"&gt; <br/>
+          &lt;br&gt; &lt;!-- Recent Jobs --&gt; <br/>
+          &lt;article class="u-shadow-v11 rounded g-pa-25"&gt; <br/>
+           &lt;h2 class="h4 g-mb-15"&gt; &lt;a class="xhr dest_opening u-link-v5 g-color-gray-dark-v1 g-color-primary--hover" href="/index.php?mod=core.login&amp;sub=detailJobs&amp;act=view&amp;typ=html&amp;id=243&amp;div_id=opening"&gt;Web Developer (ADV.219)&lt;/a&gt; &lt;/h2&gt; <br/>
+           &lt;div style="height:150px;"&gt; <br/>
+            &lt;p class="g-mb-15"&gt;Koltiva is currently accepting applications for positions:&lt;/p&gt; <br/>
+            &lt;ul class="list-unstyled" style="margin-bottom:0px;"&gt; <br/>
+             &lt;li class="media g-mb-10" style="margin-bottom:-10px !important;"&gt; &lt;span class="d-block g-color-gray-dark-v5 g-width-110"&gt; &lt;i class="icon-pointer g-pos-rel g-top-1 g-mr-5"&gt;&lt;/i&gt; Location: &lt;/span&gt; &lt;span class="media-body"&gt;Jakarta, DKI Jakarta&lt;/span&gt; &lt;/li&gt; <br/>
+             &lt;li class="media g-mb-10" style="margin-bottom:-10px !important;"&gt; &lt;span class="d-block g-color-gray-dark-v5 g-width-110"&gt; &lt;i class="icon-calendar g-pos-rel g-top-1 g-mr-5"&gt;&lt;/i&gt; Posted: &lt;/span&gt; &lt;span class="media-body"&gt;21 July 2022&lt;/span&gt; &lt;/li&gt; <br/>
+             &lt;li class="media g-mb-10"&gt; &lt;span class="d-block g-color-gray-dark-v5 g-width-110"&gt; &lt;i class="icon-briefcase g-pos-rel g-top-1 g-mr-5"&gt;&lt;/i&gt; Type: &lt;/span&gt; &lt;span class="media-body"&gt;Fixed Term Employment Contract&lt;/span&gt; &lt;/li&gt; <br/>
+            &lt;/ul&gt; <br/>
+           &lt;/div&gt; <br/>
+           &lt;div style="width:100%; margin-bottom: 0 !important;"&gt; <br/>
+            &lt;hr class="g-brd-gray-light-v4"&gt; <br/>
+            &lt;table style="width:100%;"&gt; <br/>
+             &lt;tbody&gt;<br/>
+              &lt;tr&gt; <br/>
+               &lt;td style="width:80%;"&gt; &lt;span style="margin-top: -10px; color: #777;"&gt;Apply before 31 August 2022&lt;/span&gt; &lt;/td&gt; <br/>
+               &lt;td style="width:20%;"&gt; &lt;a style="margin-right: 0px !important; " href="/index.php?mod=core.login&amp;sub=detailJobs&amp;act=view&amp;typ=html&amp;id=243&amp;div_id=opening" class="xhr dest_opening col-md-12 btn btn-primary"&gt;Read More →&lt;/a&gt; &lt;/td&gt; <br/>
+              &lt;/tr&gt; <br/>
+             &lt;/tbody&gt;<br/>
+            &lt;/table&gt; <br/>
+           &lt;/div&gt; <br/>
+          &lt;/article&gt; &lt;!-- End Recent Jobs --&gt; <br/>
+         &lt;/div&gt; <br/>
+         &lt;div class="col-lg-6 g-mb-30 g-mb-0--lg"&gt; <br/>
+          &lt;br&gt; &lt;!-- Recent Jobs --&gt; <br/>
+          &lt;article class="u-shadow-v11 rounded g-pa-25"&gt; <br/>
+           &lt;h2 class="h4 g-mb-15"&gt; &lt;a class="xhr dest_opening u-link-v5 g-color-gray-dark-v1 g-color-primary--hover" href="/index.php?mod=core.login&amp;sub=detailJobs&amp;act=view&amp;typ=html&amp;id=269&amp;div_id=opening"&gt;Product Owner (ADV.217)&lt;/a&gt; &lt;/h2&gt; <br/>
+           &lt;div style="height:150px;"&gt; <br/>
+            &lt;p class="g-mb-15"&gt;Koltiva is currently accepting applications for positions:&lt;/p&gt; <br/>
+            &lt;ul class="list-unstyled" style="margin-bottom:0px;"&gt; <br/>
+             &lt;li class="media g-mb-10" style="margin-bottom:-10px !important;"&gt; &lt;span class="d-block g-color-gray-dark-v5 g-width-110"&gt; &lt;i class="icon-pointer g-pos-rel g-top-1 g-mr-5"&gt;&lt;/i&gt; Location: &lt;/span&gt; &lt;span class="media-body"&gt;Jakarta, DKI Jakarta&lt;/span&gt; &lt;/li&gt; <br/>
+             &lt;li class="media g-mb-10" style="margin-bottom:-10px !important;"&gt; &lt;span class="d-block g-color-gray-dark-v5 g-width-110"&gt; &lt;i class="icon-calendar g-pos-rel g-top-1 g-mr-5"&gt;&lt;/i&gt; Posted: &lt;/span&gt; &lt;span class="media-body"&gt;19 July 2022&lt;/span&gt; &lt;/li&gt; <br/>
+             &lt;li class="media g-mb-10"&gt; &lt;span class="d-block g-color-gray-dark-v5 g-width-110"&gt; &lt;i class="icon-briefcase g-pos-rel g-top-1 g-mr-5"&gt;&lt;/i&gt; Type: &lt;/span&gt; &lt;span class="media-body"&gt;Fixed Term Employment Contract&lt;/span&gt; &lt;/li&gt; <br/>
+            &lt;/ul&gt; <br/>
+           &lt;/div&gt; <br/>
+           &lt;div style="width:100%; margin-bottom: 0 !important;"&gt; <br/>
+            &lt;hr class="g-brd-gray-light-v4"&gt; <br/>
+            &lt;table style="width:100%;"&gt; <br/>
+             &lt;tbody&gt;<br/>
+              &lt;tr&gt; <br/>
+               &lt;td style="width:80%;"&gt; &lt;span style="margin-top: -10px; color: #777;"&gt;Apply before 31 August 2022&lt;/span&gt; &lt;/td&gt; <br/>
+               &lt;td style="width:20%;"&gt; &lt;a style="margin-right: 0px !important; " href="/index.php?mod=core.login&amp;sub=detailJobs&amp;act=view&amp;typ=html&amp;id=269&amp;div_id=opening" class="xhr dest_opening col-md-12 btn btn-primary"&gt;Read More →&lt;/a&gt; &lt;/td&gt; <br/>
+              &lt;/tr&gt; <br/>
+             &lt;/tbody&gt;<br/>
+            &lt;/table&gt; <br/>
+           &lt;/div&gt; <br/>
+          &lt;/article&gt; &lt;!-- End Recent Jobs --&gt; <br/>
+         &lt;/div&gt; <br/>
+         &lt;div class="col-lg-6 g-mb-30 g-mb-0--lg"&gt; <br/>
+          &lt;br&gt; &lt;!-- Recent Jobs --&gt; <br/>
+          &lt;article class="u-shadow-v11 rounded g-pa-25"&gt; <br/>
+           &lt;h2 class="h4 g-mb-15"&gt; &lt;a class="xhr dest_opening u-link-v5 g-color-gray-dark-v1 g-color-primary--hover" href="/index.php?mod=core.login&amp;sub=detailJobs&amp;act=view&amp;typ=html&amp;id=266&amp;div_id=opening"&gt;Payroll Officer (ADV.215)&lt;/a&gt; &lt;/h2&gt; <br/>
+           &lt;div style="height:150px;"&gt; <br/>
+            &lt;p class="g-mb-15"&gt;Koltiva is currently accepting applications for positions:&lt;/p&gt; <br/>
+            &lt;ul class="list-unstyled" style="margin-bottom:0px;"&gt; <br/>
+             &lt;li class="media g-mb-10" style="margin-bottom:-10px !important;"&gt; &lt;span class="d-block g-color-gray-dark-v5 g-width-110"&gt; &lt;i class="icon-pointer g-pos-rel g-top-1 g-mr-5"&gt;&lt;/i&gt; Location: &lt;/span&gt; &lt;span class="media-body"&gt;Jakarta, DKI Jakarta&lt;/span&gt; &lt;/li&gt; <br/>
+             &lt;li class="media g-mb-10" style="margin-bottom:-10px !important;"&gt; &lt;span class="d-block g-color-gray-dark-v5 g-width-110"&gt; &lt;i class="icon-calendar g-pos-rel g-top-1 g-mr-5"&gt;&lt;/i&gt; Posted: &lt;/span&gt; &lt;span class="media-body"&gt;14 July 2022&lt;/span&gt; &lt;/li&gt; <br/>
+             &lt;li class="media g-mb-10"&gt; &lt;span class="d-block g-color-gray-dark-v5 g-width-110"&gt; &lt;i class="icon-briefcase g-pos-rel g-top-1 g-mr-5"&gt;&lt;/i&gt; Type: &lt;/span&gt; &lt;span class="media-body"&gt;Fixed Term Employment Contract&lt;/span&gt; &lt;/li&gt; <br/>
+            &lt;/ul&gt; <br/>
+           &lt;/div&gt; <br/>
+           &lt;div style="width:100%; margin-bottom: 0 !important;"&gt; <br/>
+            &lt;hr class="g-brd-gray-light-v4"&gt; <br/>
+            &lt;table style="width:100%;"&gt; <br/>
+             &lt;tbody&gt;<br/>
+              &lt;tr&gt; <br/>
+               &lt;td style="width:80%;"&gt; &lt;span style="margin-top: -10px; color: #777;"&gt;Apply before 31 August 2022&lt;/span&gt; &lt;/td&gt; <br/>
+               &lt;td style="width:20%;"&gt; &lt;a style="margin-right: 0px !important; " href="/index.php?mod=core.login&amp;sub=detailJobs&amp;act=view&amp;typ=html&amp;id=266&amp;div_id=opening" class="xhr dest_opening col-md-12 btn btn-primary"&gt;Read More →&lt;/a&gt; &lt;/td&gt; <br/>
+              &lt;/tr&gt; <br/>
+             &lt;/tbody&gt;<br/>
+            &lt;/table&gt; <br/>
+           &lt;/div&gt; <br/>
+          &lt;/article&gt; &lt;!-- End Recent Jobs --&gt; <br/>
+         &lt;/div&gt; <br/>
+         &lt;div class="col-lg-6 g-mb-30 g-mb-0--lg"&gt; <br/>
+          &lt;br&gt; &lt;!-- Recent Jobs --&gt; <br/>
+          &lt;article class="u-shadow-v11 rounded g-pa-25"&gt; <br/>
+           &lt;h2 class="h4 g-mb-15"&gt; &lt;a class="xhr dest_opening u-link-v5 g-color-gray-dark-v1 g-color-primary--hover" href="/index.php?mod=core.login&amp;sub=detailJobs&amp;act=view&amp;typ=html&amp;id=256&amp;div_id=opening"&gt;IT Infrastructure Manager (ADV.209)&lt;/a&gt; &lt;/h2&gt; <br/>
+           &lt;div style="height:150px;"&gt; <br/>
+            &lt;p class="g-mb-15"&gt;Koltiva is currently accepting applications for positions:&lt;/p&gt; <br/>
+            &lt;ul class="list-unstyled" style="margin-bottom:0px;"&gt; <br/>
+             &lt;li class="media g-mb-10" style="margin-bottom:-10px !important;"&gt; &lt;span class="d-block g-color-gray-dark-v5 g-width-110"&gt; &lt;i class="icon-pointer g-pos-rel g-top-1 g-mr-5"&gt;&lt;/i&gt; Location: &lt;/span&gt; &lt;span class="media-body"&gt;Jakarta, DKI Jakarta&lt;/span&gt; &lt;/li&gt; <br/>
+             &lt;li class="media g-mb-10" style="margin-bottom:-10px !important;"&gt; &lt;span class="d-block g-color-gray-dark-v5 g-width-110"&gt; &lt;i class="icon-calendar g-pos-rel g-top-1 g-mr-5"&gt;&lt;/i&gt; Posted: &lt;/span&gt; &lt;span class="media-body"&gt;07 July 2022&lt;/span&gt; &lt;/li&gt; <br/>
+             &lt;li class="media g-mb-10"&gt; &lt;span class="d-block g-color-gray-dark-v5 g-width-110"&gt; &lt;i class="icon-briefcase g-pos-rel g-top-1 g-mr-5"&gt;&lt;/i&gt; Type: &lt;/span&gt; &lt;span class="media-body"&gt;Fixed Term Employment Contract&lt;/span&gt; &lt;/li&gt; <br/>
+            &lt;/ul&gt; <br/>
+           &lt;/div&gt; <br/>
+           &lt;div style="width:100%; margin-bottom: 0 !important;"&gt; <br/>
+            &lt;hr class="g-brd-gray-light-v4"&gt; <br/>
+            &lt;table style="width:100%;"&gt; <br/>
+             &lt;tbody&gt;<br/>
+              &lt;tr&gt; <br/>
+               &lt;td style="width:80%;"&gt; &lt;span style="margin-top: -10px; color: #777;"&gt;Apply before 31 August 2022&lt;/span&gt; &lt;/td&gt; <br/>
+               &lt;td style="width:20%;"&gt; &lt;a style="margin-right: 0px !important; " href="/index.php?mod=core.login&amp;sub=detailJobs&amp;act=view&amp;typ=html&amp;id=256&amp;div_id=opening" class="xhr dest_opening col-md-12 btn btn-primary"&gt;Read More →&lt;/a&gt; &lt;/td&gt; <br/>
+              &lt;/tr&gt; <br/>
+             &lt;/tbody&gt;<br/>
+            &lt;/table&gt; <br/>
+           &lt;/div&gt; <br/>
+          &lt;/article&gt; &lt;!-- End Recent Jobs --&gt; <br/>
+         &lt;/div&gt; <br/>
+         &lt;div class="col-lg-6 g-mb-30 g-mb-0--lg"&gt; <br/>
+          &lt;br&gt; &lt;!-- Recent Jobs --&gt; <br/>
+          &lt;article class="u-shadow-v11 rounded g-pa-25"&gt; <br/>
+           &lt;h2 class="h4 g-mb-15"&gt; &lt;a class="xhr dest_opening u-link-v5 g-color-gray-dark-v1 g-color-primary--hover" href="/index.php?mod=core.login&amp;sub=detailJobs&amp;act=view&amp;typ=html&amp;id=259&amp;div_id=opening"&gt;Training and Onboarding Specialist (ADV.207)&lt;/a&gt; &lt;/h2&gt; <br/>
+           &lt;div style="height:150px;"&gt; <br/>
+            &lt;p class="g-mb-15"&gt;Koltiva is currently accepting applications for positions:&lt;/p&gt; <br/>
+            &lt;ul class="list-unstyled" style="margin-bottom:0px;"&gt; <br/>
+             &lt;li class="media g-mb-10" style="margin-bottom:-10px !important;"&gt; &lt;span class="d-block g-color-gray-dark-v5 g-width-110"&gt; &lt;i class="icon-pointer g-pos-rel g-top-1 g-mr-5"&gt;&lt;/i&gt; Location: &lt;/span&gt; &lt;span class="media-body"&gt;Jakarta, DKI Jakarta&lt;/span&gt; &lt;/li&gt; <br/>
+             &lt;li class="media g-mb-10" style="margin-bottom:-10px !important;"&gt; &lt;span class="d-block g-color-gray-dark-v5 g-width-110"&gt; &lt;i class="icon-calendar g-pos-rel g-top-1 g-mr-5"&gt;&lt;/i&gt; Posted: &lt;/span&gt; &lt;span class="media-body"&gt;07 July 2022&lt;/span&gt; &lt;/li&gt; <br/>
+             &lt;li class="media g-mb-10"&gt; &lt;span class="d-block g-color-gray-dark-v5 g-width-110"&gt; &lt;i class="icon-briefcase g-pos-rel g-top-1 g-mr-5"&gt;&lt;/i&gt; Type: &lt;/span&gt; &lt;span class="media-body"&gt;Fixed Term Employment Contract&lt;/span&gt; &lt;/li&gt; <br/>
+            &lt;/ul&gt; <br/>
+           &lt;/div&gt; <br/>
+           &lt;div style="width:100%; margin-bottom: 0 !important;"&gt; <br/>
+            &lt;hr class="g-brd-gray-light-v4"&gt; <br/>
+            &lt;table style="width:100%;"&gt; <br/>
+             &lt;tbody&gt;<br/>
+              &lt;tr&gt; <br/>
+               &lt;td style="width:80%;"&gt; &lt;span style="margin-top: -10px; color: #777;"&gt;Apply before 07 September 2022&lt;/span&gt; &lt;/td&gt; <br/>
+               &lt;td style="width:20%;"&gt; &lt;a style="margin-right: 0px !important; " href="/index.php?mod=core.login&amp;sub=detailJobs&amp;act=view&amp;typ=html&amp;id=259&amp;div_id=opening" class="xhr dest_opening col-md-12 btn btn-primary"&gt;Read More →&lt;/a&gt; &lt;/td&gt; <br/>
+              &lt;/tr&gt; <br/>
+             &lt;/tbody&gt;<br/>
+            &lt;/table&gt; <br/>
+           &lt;/div&gt; <br/>
+          &lt;/article&gt; &lt;!-- End Recent Jobs --&gt; <br/>
+         &lt;/div&gt; <br/>
+         &lt;div class="col-lg-6 g-mb-30 g-mb-0--lg"&gt; <br/>
+          &lt;br&gt; &lt;!-- Recent Jobs --&gt; <br/>
+          &lt;article class="u-shadow-v11 rounded g-pa-25"&gt; <br/>
+           &lt;h2 class="h4 g-mb-15"&gt; &lt;a class="xhr dest_opening u-link-v5 g-color-gray-dark-v1 g-color-primary--hover" href="/index.php?mod=core.login&amp;sub=detailJobs&amp;act=view&amp;typ=html&amp;id=222&amp;div_id=opening"&gt;Environmental Specialist (ADV.195)&lt;/a&gt; &lt;/h2&gt; <br/>
+           &lt;div style="height:150px;"&gt; <br/>
+            &lt;p class="g-mb-15"&gt;Koltiva is currently accepting applications for positions:&lt;/p&gt; <br/>
+            &lt;ul class="list-unstyled" style="margin-bottom:0px;"&gt; <br/>
+             &lt;li class="media g-mb-10" style="margin-bottom:-10px !important;"&gt; &lt;span class="d-block g-color-gray-dark-v5 g-width-110"&gt; &lt;i class="icon-pointer g-pos-rel g-top-1 g-mr-5"&gt;&lt;/i&gt; Location: &lt;/span&gt; &lt;span class="media-body"&gt;Jakarta, DKI Jakarta&lt;/span&gt; &lt;/li&gt; <br/>
+             &lt;li class="media g-mb-10" style="margin-bottom:-10px !important;"&gt; &lt;span class="d-block g-color-gray-dark-v5 g-width-110"&gt; &lt;i class="icon-calendar g-pos-rel g-top-1 g-mr-5"&gt;&lt;/i&gt; Posted: &lt;/span&gt; &lt;span class="media-body"&gt;07 July 2022&lt;/span&gt; &lt;/li&gt; <br/>
+             &lt;li class="media g-mb-10"&gt; &lt;span class="d-block g-color-gray-dark-v5 g-width-110"&gt; &lt;i class="icon-briefcase g-pos-rel g-top-1 g-mr-5"&gt;&lt;/i&gt; Type: &lt;/span&gt; &lt;span class="media-body"&gt;Fixed Term Employment Contract&lt;/span&gt; &lt;/li&gt; <br/>
+            &lt;/ul&gt; <br/>
+           &lt;/div&gt; <br/>
+           &lt;div style="width:100%; margin-bottom: 0 !important;"&gt; <br/>
+            &lt;hr class="g-brd-gray-light-v4"&gt; <br/>
+            &lt;table style="width:100%;"&gt; <br/>
+             &lt;tbody&gt;<br/>
+              &lt;tr&gt; <br/>
+               &lt;td style="width:80%;"&gt; &lt;span style="margin-top: -10px; color: #777;"&gt;Apply before 31 August 2022&lt;/span&gt; &lt;/td&gt; <br/>
+               &lt;td style="width:20%;"&gt; &lt;a style="margin-right: 0px !important; " href="/index.php?mod=core.login&amp;sub=detailJobs&amp;act=view&amp;typ=html&amp;id=222&amp;div_id=opening" class="xhr dest_opening col-md-12 btn btn-primary"&gt;Read More →&lt;/a&gt; &lt;/td&gt; <br/>
+              &lt;/tr&gt; <br/>
+             &lt;/tbody&gt;<br/>
+            &lt;/table&gt; <br/>
+           &lt;/div&gt; <br/>
+          &lt;/article&gt; &lt;!-- End Recent Jobs --&gt; <br/>
+         &lt;/div&gt; <br/>
+         &lt;div class="col-lg-6 g-mb-30 g-mb-0--lg"&gt; <br/>
+          &lt;br&gt; &lt;!-- Recent Jobs --&gt; <br/>
+          &lt;article class="u-shadow-v11 rounded g-pa-25"&gt; <br/>
+           &lt;h2 class="h4 g-mb-15"&gt; &lt;a class="xhr dest_opening u-link-v5 g-color-gray-dark-v1 g-color-primary--hover" href="/index.php?mod=core.login&amp;sub=detailJobs&amp;act=view&amp;typ=html&amp;id=258&amp;div_id=opening"&gt;Customer Support Officer (ADV.210)&lt;/a&gt; &lt;/h2&gt; <br/>
+           &lt;div style="height:150px;"&gt; <br/>
+            &lt;p class="g-mb-15"&gt;Koltiva is currently accepting applications for positions:&lt;/p&gt; <br/>
+            &lt;ul class="list-unstyled" style="margin-bottom:0px;"&gt; <br/>
+             &lt;li class="media g-mb-10" style="margin-bottom:-10px !important;"&gt; &lt;span class="d-block g-color-gray-dark-v5 g-width-110"&gt; &lt;i class="icon-pointer g-pos-rel g-top-1 g-mr-5"&gt;&lt;/i&gt; Location: &lt;/span&gt; &lt;span class="media-body"&gt;Jakarta, DKI Jakarta&lt;/span&gt; &lt;/li&gt; <br/>
+             &lt;li class="media g-mb-10" style="margin-bottom:-10px !important;"&gt; &lt;span class="d-block g-color-gray-dark-v5 g-width-110"&gt; &lt;i class="icon-calendar g-pos-rel g-top-1 g-mr-5"&gt;&lt;/i&gt; Posted: &lt;/span&gt; &lt;span class="media-body"&gt;01 July 2022&lt;/span&gt; &lt;/li&gt; <br/>
+             &lt;li class="media g-mb-10"&gt; &lt;span class="d-block g-color-gray-dark-v5 g-width-110"&gt; &lt;i class="icon-briefcase g-pos-rel g-top-1 g-mr-5"&gt;&lt;/i&gt; Type: &lt;/span&gt; &lt;span class="media-body"&gt;Fixed Term Employment Contract&lt;/span&gt; &lt;/li&gt; <br/>
+            &lt;/ul&gt; <br/>
+           &lt;/div&gt; <br/>
+           &lt;div style="width:100%; margin-bottom: 0 !important;"&gt; <br/>
+            &lt;hr class="g-brd-gray-light-v4"&gt; <br/>
+            &lt;table style="width:100%;"&gt; <br/>
+             &lt;tbody&gt;<br/>
+              &lt;tr&gt; <br/>
+               &lt;td style="width:80%;"&gt; &lt;span style="margin-top: -10px; color: #777;"&gt;Apply before 07 September 2022&lt;/span&gt; &lt;/td&gt; <br/>
+               &lt;td style="width:20%;"&gt; &lt;a style="margin-right: 0px !important; " href="/index.php?mod=core.login&amp;sub=detailJobs&amp;act=view&amp;typ=html&amp;id=258&amp;div_id=opening" class="xhr dest_opening col-md-12 btn btn-primary"&gt;Read More →&lt;/a&gt; &lt;/td&gt; <br/>
+              &lt;/tr&gt; <br/>
+             &lt;/tbody&gt;<br/>
+            &lt;/table&gt; <br/>
+           &lt;/div&gt; <br/>
+          &lt;/article&gt; &lt;!-- End Recent Jobs --&gt; <br/>
+         &lt;/div&gt; <br/>
+         &lt;div class="col-lg-6 g-mb-30 g-mb-0--lg"&gt; <br/>
+          &lt;br&gt; &lt;!-- Recent Jobs --&gt; <br/>
+          &lt;article class="u-shadow-v11 rounded g-pa-25"&gt; <br/>
+           &lt;h2 class="h4 g-mb-15"&gt; &lt;a class="xhr dest_opening u-link-v5 g-color-gray-dark-v1 g-color-primary--hover" href="/index.php?mod=core.login&amp;sub=detailJobs&amp;act=view&amp;typ=html&amp;id=225&amp;div_id=opening"&gt;Certification Specialist (ADV.197)&lt;/a&gt; &lt;/h2&gt; <br/>
+           &lt;div style="height:150px;"&gt; <br/>
+            &lt;p class="g-mb-15"&gt;Koltiva is currently accepting applications for positions:&lt;/p&gt; <br/>
+            &lt;ul class="list-unstyled" style="margin-bottom:0px;"&gt; <br/>
+             &lt;li class="media g-mb-10" style="margin-bottom:-10px !important;"&gt; &lt;span class="d-block g-color-gray-dark-v5 g-width-110"&gt; &lt;i class="icon-pointer g-pos-rel g-top-1 g-mr-5"&gt;&lt;/i&gt; Location: &lt;/span&gt; &lt;span class="media-body"&gt;Jakarta, DKI Jakarta&lt;/span&gt; &lt;/li&gt; <br/>
+             &lt;li class="media g-mb-10" style="margin-bottom:-10px !important;"&gt; &lt;span class="d-block g-color-gray-dark-v5 g-width-110"&gt; &lt;i class="icon-calendar g-pos-rel g-top-1 g-mr-5"&gt;&lt;/i&gt; Posted: &lt;/span&gt; &lt;span class="media-body"&gt;01 July 2022&lt;/span&gt; &lt;/li&gt; <br/>
+             &lt;li class="media g-mb-10"&gt; &lt;span class="d-block g-color-gray-dark-v5 g-width-110"&gt; &lt;i class="icon-briefcase g-pos-rel g-top-1 g-mr-5"&gt;&lt;/i&gt; Type: &lt;/span&gt; &lt;span class="media-body"&gt;Fixed Term Employment Contract&lt;/span&gt; &lt;/li&gt; <br/>
+            &lt;/ul&gt; <br/>
+           &lt;/div&gt; <br/>
+           &lt;div style="width:100%; margin-bottom: 0 !important;"&gt; <br/>
+            &lt;hr class="g-brd-gray-light-v4"&gt; <br/>
+            &lt;table style="width:100%;"&gt; <br/>
+             &lt;tbody&gt;<br/>
+              &lt;tr&gt; <br/>
+               &lt;td style="width:80%;"&gt; &lt;span style="margin-top: -10px; color: #777;"&gt;Apply before 31 August 2022&lt;/span&gt; &lt;/td&gt; <br/>
+               &lt;td style="width:20%;"&gt; &lt;a style="margin-right: 0px !important; " href="/index.php?mod=core.login&amp;sub=detailJobs&amp;act=view&amp;typ=html&amp;id=225&amp;div_id=opening" class="xhr dest_opening col-md-12 btn btn-primary"&gt;Read More →&lt;/a&gt; &lt;/td&gt; <br/>
+              &lt;/tr&gt; <br/>
+             &lt;/tbody&gt;<br/>
+            &lt;/table&gt; <br/>
+           &lt;/div&gt; <br/>
+          &lt;/article&gt; &lt;!-- End Recent Jobs --&gt; <br/>
+         &lt;/div&gt; <br/>
+         &lt;div class="col-lg-6 g-mb-30 g-mb-0--lg"&gt; <br/>
+          &lt;br&gt; &lt;!-- Recent Jobs --&gt; <br/>
+          &lt;article class="u-shadow-v11 rounded g-pa-25"&gt; <br/>
+           &lt;h2 class="h4 g-mb-15"&gt; &lt;a class="xhr dest_opening u-link-v5 g-color-gray-dark-v1 g-color-primary--hover" href="/index.php?mod=core.login&amp;sub=detailJobs&amp;act=view&amp;typ=html&amp;id=244&amp;div_id=opening"&gt;Employee Engagement Specialist (ADV.212)&lt;/a&gt; &lt;/h2&gt; <br/>
+           &lt;div style="height:150px;"&gt; <br/>
+            &lt;p class="g-mb-15"&gt;Koltiva is currently accepting applications for positions:&lt;/p&gt; <br/>
+            &lt;ul class="list-unstyled" style="margin-bottom:0px;"&gt; <br/>
+             &lt;li class="media g-mb-10" style="margin-bottom:-10px !important;"&gt; &lt;span class="d-block g-color-gray-dark-v5 g-width-110"&gt; &lt;i class="icon-pointer g-pos-rel g-top-1 g-mr-5"&gt;&lt;/i&gt; Location: &lt;/span&gt; &lt;span class="media-body"&gt;Jakarta, DKI Jakarta&lt;/span&gt; &lt;/li&gt; <br/>
+             &lt;li class="media g-mb-10" style="margin-bottom:-10px !important;"&gt; &lt;span class="d-block g-color-gray-dark-v5 g-width-110"&gt; &lt;i class="icon-calendar g-pos-rel g-top-1 g-mr-5"&gt;&lt;/i&gt; Posted: &lt;/span&gt; &lt;span class="media-body"&gt;07 June 2022&lt;/span&gt; &lt;/li&gt; <br/>
+             &lt;li class="media g-mb-10"&gt; &lt;span class="d-block g-color-gray-dark-v5 g-width-110"&gt; &lt;i class="icon-briefcase g-pos-rel g-top-1 g-mr-5"&gt;&lt;/i&gt; Type: &lt;/span&gt; &lt;span class="media-body"&gt;Fixed Term Employment Contract&lt;/span&gt; &lt;/li&gt; <br/>
+            &lt;/ul&gt; <br/>
+           &lt;/div&gt; <br/>
+           &lt;div style="width:100%; margin-bottom: 0 !important;"&gt; <br/>
+            &lt;hr class="g-brd-gray-light-v4"&gt; <br/>
+            &lt;table style="width:100%;"&gt; <br/>
+             &lt;tbody&gt;<br/>
+              &lt;tr&gt; <br/>
+               &lt;td style="width:80%;"&gt; &lt;span style="margin-top: -10px; color: #777;"&gt;Apply before 31 August 2022&lt;/span&gt; &lt;/td&gt; <br/>
+               &lt;td style="width:20%;"&gt; &lt;a style="margin-right: 0px !important; " href="/index.php?mod=core.login&amp;sub=detailJobs&amp;act=view&amp;typ=html&amp;id=244&amp;div_id=opening" class="xhr dest_opening col-md-12 btn btn-primary"&gt;Read More →&lt;/a&gt; &lt;/td&gt; <br/>
+              &lt;/tr&gt; <br/>
+             &lt;/tbody&gt;<br/>
+            &lt;/table&gt; <br/>
+           &lt;/div&gt; <br/>
+          &lt;/article&gt; &lt;!-- End Recent Jobs --&gt; <br/>
+         &lt;/div&gt; <br/>
+         &lt;div class="col-lg-6 g-mb-30 g-mb-0--lg"&gt; <br/>
+          &lt;br&gt; &lt;!-- Recent Jobs --&gt; <br/>
+          &lt;article class="u-shadow-v11 rounded g-pa-25"&gt; <br/>
+           &lt;h2 class="h4 g-mb-15"&gt; &lt;a class="xhr dest_opening u-link-v5 g-color-gray-dark-v1 g-color-primary--hover" href="/index.php?mod=core.login&amp;sub=detailJobs&amp;act=view&amp;typ=html&amp;id=215&amp;div_id=opening"&gt;Product Manager (ADV.192)&lt;/a&gt; &lt;/h2&gt; <br/>
+           &lt;div style="height:150px;"&gt; <br/>
+            &lt;p class="g-mb-15"&gt;Koltiva is currently accepting applications for positions:&lt;/p&gt; <br/>
+            &lt;ul class="list-unstyled" style="margin-bottom:0px;"&gt; <br/>
+             &lt;li class="media g-mb-10" style="margin-bottom:-10px !important;"&gt; &lt;span class="d-block g-color-gray-dark-v5 g-width-110"&gt; &lt;i class="icon-pointer g-pos-rel g-top-1 g-mr-5"&gt;&lt;/i&gt; Location: &lt;/span&gt; &lt;span class="media-body"&gt;Jakarta, DKI Jakarta&lt;/span&gt; &lt;/li&gt; <br/>
+             &lt;li class="media g-mb-10" style="margin-bottom:-10px !important;"&gt; &lt;span class="d-block g-color-gray-dark-v5 g-width-110"&gt; &lt;i class="icon-calendar g-pos-rel g-top-1 g-mr-5"&gt;&lt;/i&gt; Posted: &lt;/span&gt; &lt;span class="media-body"&gt;03 June 2022&lt;/span&gt; &lt;/li&gt; <br/>
+             &lt;li class="media g-mb-10"&gt; &lt;span class="d-block g-color-gray-dark-v5 g-width-110"&gt; &lt;i class="icon-briefcase g-pos-rel g-top-1 g-mr-5"&gt;&lt;/i&gt; Type: &lt;/span&gt; &lt;span class="media-body"&gt;Fixed Term Employment Contract&lt;/span&gt; &lt;/li&gt; <br/>
+            &lt;/ul&gt; <br/>
+           &lt;/div&gt; <br/>
+           &lt;div style="width:100%; margin-bottom: 0 !important;"&gt; <br/>
+            &lt;hr class="g-brd-gray-light-v4"&gt; <br/>
+            &lt;table style="width:100%;"&gt; <br/>
+             &lt;tbody&gt;<br/>
+              &lt;tr&gt; <br/>
+               &lt;td style="width:80%;"&gt; &lt;span style="margin-top: -10px; color: #777;"&gt;Apply before 07 September 2022&lt;/span&gt; &lt;/td&gt; <br/>
+               &lt;td style="width:20%;"&gt; &lt;a style="margin-right: 0px !important; " href="/index.php?mod=core.login&amp;sub=detailJobs&amp;act=view&amp;typ=html&amp;id=215&amp;div_id=opening" class="xhr dest_opening col-md-12 btn btn-primary"&gt;Read More →&lt;/a&gt; &lt;/td&gt; <br/>
+              &lt;/tr&gt; <br/>
+             &lt;/tbody&gt;<br/>
+            &lt;/table&gt; <br/>
+           &lt;/div&gt; <br/>
+          &lt;/article&gt; &lt;!-- End Recent Jobs --&gt; <br/>
+         &lt;/div&gt; <br/>
+         &lt;div class="col-lg-6 g-mb-30 g-mb-0--lg"&gt; <br/>
+          &lt;br&gt; &lt;!-- Recent Jobs --&gt; <br/>
+          &lt;article class="u-shadow-v11 rounded g-pa-25"&gt; <br/>
+           &lt;h2 class="h4 g-mb-15"&gt; &lt;a class="xhr dest_opening u-link-v5 g-color-gray-dark-v1 g-color-primary--hover" href="/index.php?mod=core.login&amp;sub=detailJobs&amp;act=view&amp;typ=html&amp;id=230&amp;div_id=opening"&gt;Chief of Staff (ADV.202)&lt;/a&gt; &lt;/h2&gt; <br/>
+           &lt;div style="height:150px;"&gt; <br/>
+            &lt;p class="g-mb-15"&gt;Koltiva is currently accepting applications for positions:&lt;/p&gt; <br/>
+            &lt;ul class="list-unstyled" style="margin-bottom:0px;"&gt; <br/>
+             &lt;li class="media g-mb-10" style="margin-bottom:-10px !important;"&gt; &lt;span class="d-block g-color-gray-dark-v5 g-width-110"&gt; &lt;i class="icon-pointer g-pos-rel g-top-1 g-mr-5"&gt;&lt;/i&gt; Location: &lt;/span&gt; &lt;span class="media-body"&gt;Jakarta, DKI Jakarta&lt;/span&gt; &lt;/li&gt; <br/>
+             &lt;li class="media g-mb-10" style="margin-bottom:-10px !important;"&gt; &lt;span class="d-block g-color-gray-dark-v5 g-width-110"&gt; &lt;i class="icon-calendar g-pos-rel g-top-1 g-mr-5"&gt;&lt;/i&gt; Posted: &lt;/span&gt; &lt;span class="media-body"&gt;01 June 2022&lt;/span&gt; &lt;/li&gt; <br/>
+             &lt;li class="media g-mb-10"&gt; &lt;span class="d-block g-color-gray-dark-v5 g-width-110"&gt; &lt;i class="icon-briefcase g-pos-rel g-top-1 g-mr-5"&gt;&lt;/i&gt; Type: &lt;/span&gt; &lt;span class="media-body"&gt;Fixed Term Employment Contract&lt;/span&gt; &lt;/li&gt; <br/>
+            &lt;/ul&gt; <br/>
+           &lt;/div&gt; <br/>
+           &lt;div style="width:100%; margin-bottom: 0 !important;"&gt; <br/>
+            &lt;hr class="g-brd-gray-light-v4"&gt; <br/>
+            &lt;table style="width:100%;"&gt; <br/>
+             &lt;tbody&gt;<br/>
+              &lt;tr&gt; <br/>
+               &lt;td style="width:80%;"&gt; &lt;span style="margin-top: -10px; color: #777;"&gt;Apply before 31 August 2022&lt;/span&gt; &lt;/td&gt; <br/>
+               &lt;td style="width:20%;"&gt; &lt;a style="margin-right: 0px !important; " href="/index.php?mod=core.login&amp;sub=detailJobs&amp;act=view&amp;typ=html&amp;id=230&amp;div_id=opening" class="xhr dest_opening col-md-12 btn btn-primary"&gt;Read More →&lt;/a&gt; &lt;/td&gt; <br/>
+              &lt;/tr&gt; <br/>
+             &lt;/tbody&gt;<br/>
+            &lt;/table&gt; <br/>
+           &lt;/div&gt; <br/>
+          &lt;/article&gt; &lt;!-- End Recent Jobs --&gt; <br/>
+         &lt;/div&gt; <br/>
+        &lt;/div&gt; <br/>
+        &lt;style&gt;<br/>
+    /*------------------------------------<br/>
+      Box-shadows-v11<br/>
+    ------------------------------------*/<br/>
+    .u-shadow-v11 {<br/>
+        box-shadow: 0 0 2px #ccc;<br/>
+        background-color:#f7f7f7;<br/>
+	border-top: solid 1px #eee;<br/>
+	border-bottom: solid 1px #eee;<br/>
+    }<br/>
+<br/>
+    /*------------------------------------<br/>
+      Box-shadows-v12<br/>
+    ------------------------------------*/<br/>
+    .u-shadow-v12 {<br/>
+        box-shadow: inset 2px 2px 2px 0 #ccc;<br/>
+    }<br/>
+<br/>
+    /*------------------------------------<br/>
+      Box-shadows-v13<br/>
+    ------------------------------------*/<br/>
+    .u-shadow-v13 {<br/>
+        box-shadow: inset 2px 2px 2px 0 #72c02c;<br/>
+    }<br/>
+<br/>
+    /*------------------------------------<br/>
+      Box-shadows-v14<br/>
+    ------------------------------------*/<br/>
+    .u-shadow-v14 {<br/>
+        box-shadow: 2px 2px 2px 0 #eee;<br/>
+    }<br/>
+<br/>
+    .rounded {<br/>
+        border-radius:.25rem!important<br/>
+    }<br/>
+<br/>
+    .g-pa-25 {<br/>
+        padding: 1.78571rem !important;<br/>
+    }<br/>
+<br/>
+    .list-unstyled {<br/>
+        padding-left:0;<br/>
+        padding-bottom: 0px !important;<br/>
+        list-style:none<br/>
+    }<br/>
+<br/>
+    .media {<br/>
+        display:-ms-flexbox;<br/>
+        display:flex;<br/>
+        -ms-flex-align:start;<br/>
+        align-items:flex-start<br/>
+    }<br/>
+    .media-body {<br/>
+        -ms-flex:1;<br/>
+        flex:1<br/>
+    }<br/>
+    .g-mb-10 {<br/>
+        margin-bottom: 0.71429rem !important;<br/>
+    }<br/>
+    .g-mb-15 {<br/>
+        margin-bottom: 1.07143rem !important;<br/>
+    }<br/>
+<br/>
+    .d-block {<br/>
+        display:block!important<br/>
+    }<br/>
+<br/>
+    .g-color-gray-dark-v5 {<br/>
+        color: #999 !important;<br/>
+    }<br/>
+<br/>
+    .g-color-gray-dark-v5--hover:hover {<br/>
+        color: #999 !important;<br/>
+    }<br/>
+<br/>
+    .g-parent:hover .g-color-gray-dark-v5--parent-hover {<br/>
+        color: #999 !important;<br/>
+    }<br/>
+    .g-width-110 {<br/>
+        width: 110px !important;<br/>
+        /* O */<br/>
+    }<br/>
+<br/>
+    .media-body {<br/>
+        -ms-flex:1;<br/>
+        flex:1<br/>
+    }<br/>
+<br/>
+    .g-brd-around {<br/>
+        border: solid 1px #999 !important;<br/>
+    }<br/>
+    .g-brd-gray-light-v3 {<br/>
+        border-color: #ddd !important;<br/>
+    }<br/>
+<br/>
+    .g-brd-gray-light-v3--hover:hover, .g-brd-gray-light-v3--active.active, .g-brd-gray-light-v3--focus:focus {<br/>
+        border-color: #ddd !important;<br/>
+    }<br/>
+    .u-tags-v1 {<br/>
+        display: inline-block;<br/>
+        text-decoration: none;<br/>
+        transition: all .3s ease;<br/>
+    }<br/>
+<br/>
+    .u-tags-v1:hover, .u-tags-v1:focus {<br/>
+        text-decoration: none;<br/>
+        cursor: pointer;<br/>
+    }<br/>
+<br/>
+    .u-tags-v1:focus {<br/>
+        color: inherit;<br/>
+    }<br/>
+<br/>
+    .g-px-8 {<br/>
+        padding-left: 0.57143rem !important;<br/>
+        padding-right: 0.57143rem !important;<br/>
+    }<br/>
+&lt;/style&gt; <br/>
+       &lt;/div&gt; <br/>
+      &lt;/div&gt; <br/>
+     &lt;/div&gt; <br/>
+    &lt;/div&gt; <br/>
+    &lt;div class="row"&gt; <br/>
+     &lt;div class="row content-boxes-v3" align="center"&gt;&lt;/div&gt; <br/>
+    &lt;/div&gt; <br/>
+   &lt;/div&gt; <br/>
+  &lt;/section&gt; <br/>
+  &lt;style&gt;<br/>
+.container {<br/>
+ width:100%<br/>
+}<br/>
+@media (min-width:640px) {<br/>
+ .container {<br/>
+  max-width:640px<br/>
+ }<br/>
+}<br/>
+@media (min-width:768px) {<br/>
+ .container {<br/>
+  max-width:768px<br/>
+ }<br/>
+}<br/>
+@media (min-width:1024px) {<br/>
+ .container {<br/>
+  max-width:1024px<br/>
+ }<br/>
+}<br/>
+@media (min-width:1280px) {<br/>
+ .container {<br/>
+  max-width:1280px<br/>
+ }<br/>
+}<br/>
+@media (min-width:1536px) {<br/>
+ .container {<br/>
+  max-width:1536px<br/>
+ }<br/>
+}<br/>
+::-moz-selection {<br/>
+ --tw-bg-opacity:1;<br/>
+ background-color:rgba(91,158,33,var(--tw-bg-opacity));<br/>
+ --tw-text-opacity:1;<br/>
+ color:rgba(255,255,255,var(--tw-text-opacity))<br/>
+}<br/>
+::selection {<br/>
+ --tw-bg-opacity:1;<br/>
+ background-color:rgba(91,158,33,var(--tw-bg-opacity));<br/>
+ --tw-text-opacity:1;<br/>
+ color:rgba(255,255,255,var(--tw-text-opacity))<br/>
+}<br/>
+body,<br/>
+html {<br/>
+ scroll-behavior:smooth;<br/>
+ font-family:Inter,sans-serif;<br/>
+ font-weight:400;<br/>
+ font-size:1rem;<br/>
+ line-height:1.5rem<br/>
+}<br/>
+h1,<br/>
+h2,<br/>
+h3,<br/>
+h4,<br/>
+h5,<br/>
+h6 {<br/>
+ font-family:Poppins,sans-serif<br/>
+}<br/>
+.dark img.dark-affected {<br/>
+ opacity:.17<br/>
+}<br/>
+@media(min-width:640px) {<br/>
+ p.drop-cap:first-letter {<br/>
+  display:block;<br/>
+  float:left;<br/>
+  font-family:Poppins,sans-serif;<br/>
+  font-weight:600;<br/>
+  font-size:3rem;<br/>
+  line-height:1;<br/>
+  margin-right:.25rem;<br/>
+  margin-top:.5rem<br/>
+ }<br/>
+}<br/>
+.overlay {<br/>
+ background-color:transparent;<br/>
+ display:block;<br/>
+ min-height:100vh;<br/>
+ min-width:100%;<br/>
+ position:absolute<br/>
+}<br/>
+#mainNavigation&gt;li&gt;a,<br/>
+#mainNavigation&gt;li&gt;a:focus {<br/>
+ outline:2px solid transparent;<br/>
+ outline-offset:2px<br/>
+}<br/>
+#mainNavigation&gt;li.active&gt;a,<br/>
+#mainNavigation&gt;li.active&gt;a:hover {<br/>
+ --tw-bg-opacity:1;<br/>
+ background-color:rgba(17,24,39,var(--tw-bg-opacity))<br/>
+}<br/>
+#mainNavigation&gt;li.active&gt;a,<br/>
+#mainNavigation&gt;li.active&gt;a:hover {<br/>
+ --tw-text-opacity:1;<br/>
+ color:rgba(255,255,255,var(--tw-text-opacity))<br/>
+}<br/>
+@media (min-width:1024px) {<br/>
+ #mainNavigation&gt;li.active&gt;a,<br/>
+ #mainNavigation&gt;li.active&gt;a:hover {<br/>
+  background-color:transparent<br/>
+ }<br/>
+}<br/>
+#hero&gt;.overlay {<br/>
+ background:url(https://dptwplzs7m8x9.cloudfront.net/web/pattern-grid-tile.png) repeat fixed<br/>
+}<br/>
+.section-heading {<br/>
+ display:flex;<br/>
+ flex-direction:column;<br/>
+ align-items:center;<br/>
+ justify-content:flex-start;<br/>
+ font-size:1.875rem;<br/>
+ line-height:2.25rem;<br/>
+ padding-bottom:1rem;<br/>
+ position:relative;<br/>
+ text-align:center<br/>
+}<br/>
+.section-heading:after {<br/>
+ content:"";<br/>
+ width:21px;<br/>
+ height:2px;<br/>
+ position:absolute;<br/>
+ bottom:0;<br/>
+ --tw-bg-opacity:1;<br/>
+ background-color:rgba(6,78,59,var(--tw-bg-opacity))<br/>
+}<br/>
+@media(min-width:640px) {<br/>
+ .section-heading:after {<br/>
+  left:48.3%<br/>
+ }<br/>
+}<br/>
+#tabWrapper {<br/>
+ position:relative<br/>
+}<br/>
+@media (min-width:768px) {<br/>
+ #tabWrapper {<br/>
+  display:flex<br/>
+ }<br/>
+}<br/>
+#tabNavigation {<br/>
+ display:flex<br/>
+}<br/>
+@media (min-width:768px) {<br/>
+ #tabNavigation {<br/>
+  display:block;<br/>
+  width:25%<br/>
+ }<br/>
+}<br/>
+#tabNavigation&gt;li:not(.active) {<br/>
+ display:none<br/>
+}<br/>
+@media (min-width:768px) {<br/>
+ #tabNavigation&gt;li:not(.active) {<br/>
+  display:block<br/>
+ }<br/>
+}<br/>
+#tabNavigation&gt;li&gt;a {<br/>
+ --tw-bg-opacity:1;<br/>
+ background-color:rgba(255,255,255,var(--tw-bg-opacity))<br/>
+}<br/>
+.dark #tabNavigation&gt;li&gt;a {<br/>
+ --tw-bg-opacity:1;<br/>
+ background-color:rgba(31,41,55,var(--tw-bg-opacity))<br/>
+}<br/>
+#tabNavigation&gt;li&gt;a {<br/>
+ border-radius:.75rem;<br/>
+ border-bottom-right-radius:0;<br/>
+ border-bottom-left-radius:0;<br/>
+ cursor:auto;<br/>
+ display:flex;<br/>
+ font-size:.875rem;<br/>
+ line-height:1.25rem;<br/>
+ padding:.75rem 1.25rem;<br/>
+ position:relative;<br/>
+ --tw-text-opacity:1;<br/>
+ color:rgba(31,41,55,var(--tw-text-opacity))<br/>
+}<br/>
+.dark #tabNavigation&gt;li&gt;a {<br/>
+ --tw-text-opacity:1;<br/>
+ color:rgba(255,255,255,var(--tw-text-opacity))<br/>
+}<br/>
+#tabNavigation&gt;li&gt;a {<br/>
+ text-transform:uppercase;<br/>
+ letter-spacing:.05em<br/>
+}<br/>
+@media (min-width:768px) {<br/>
+ #tabNavigation&gt;li&gt;a,<br/>
+ .dark #tabNavigation&gt;li&gt;a {<br/>
+  background-color:transparent<br/>
+ }<br/>
+ #tabNavigation&gt;li&gt;a {<br/>
+  cursor:pointer;<br/>
+  display:flex;<br/>
+  align-items:center;<br/>
+  justify-content:space-between;<br/>
+  padding:0;<br/>
+  gap:.75rem<br/>
+ }<br/>
+}<br/>
+#tabNavigation&gt;li&gt;a:after {<br/>
+ position:absolute;<br/>
+ background-color:transparent;<br/>
+ width:36px;<br/>
+ height:21px;<br/>
+ content:"";<br/>
+ right:-36px;<br/>
+ bottom:0;<br/>
+ border-bottom-left-radius:27px;<br/>
+ box-shadow:-18px 0 0 0 #fff<br/>
+}<br/>
+@media (min-width:768px) {<br/>
+ #tabNavigation&gt;li&gt;a:after {<br/>
+  display:none<br/>
+ }<br/>
+}<br/>
+.dark #tabNavigation&gt;li&gt;a:after {<br/>
+ box-shadow:-18px 0 0 0 #1f2937<br/>
+}<br/>
+#tabNavigation&gt;li&gt;a&gt;svg {<br/>
+ display:none<br/>
+}<br/>
+.dark #tabNavigation&gt;li&gt;a&gt;svg {<br/>
+ --tw-text-opacity:1;<br/>
+ color:rgba(69,130,17,var(--tw-text-opacity))<br/>
+}<br/>
+#tabNavigation&gt;li&gt;a&gt;svg {<br/>
+ transition-property:all;<br/>
+ transition-timing-function:cubic-bezier(.4,0,.2,1);<br/>
+ transition-duration:.15s<br/>
+}<br/>
+#tabNavigation&gt;li&gt;a&gt;span {<br/>
+ overflow:hidden;<br/>
+ text-overflow:ellipsis;<br/>
+ white-space:nowrap<br/>
+}<br/>
+@media (min-width:768px) {<br/>
+ #tabNavigation&gt;li&gt;a&gt;span {<br/>
+  background-color:transparent;<br/>
+  display:block;<br/>
+  padding:.75rem 1.25rem;<br/>
+  --tw-text-opacity:1;<br/>
+  color:rgba(31,41,55,var(--tw-text-opacity))<br/>
+ }<br/>
+ #tabNavigation&gt;li&gt;a&gt;span:hover {<br/>
+  --tw-text-opacity:1;<br/>
+  color:rgba(249,250,251,var(--tw-text-opacity))<br/>
+ }<br/>
+ .dark #tabNavigation&gt;li&gt;a&gt;span {<br/>
+  --tw-text-opacity:1;<br/>
+  color:rgba(107,114,128,var(--tw-text-opacity))<br/>
+ }<br/>
+ .dark #tabNavigation&gt;li&gt;a&gt;span:hover {<br/>
+  --tw-text-opacity:1;<br/>
+  color:rgba(229,231,235,var(--tw-text-opacity))<br/>
+ }<br/>
+ #tabNavigation&gt;li&gt;a&gt;span {<br/>
+  width:83.333333%;<br/>
+  transition-property:all;<br/>
+  transition-timing-function:cubic-bezier(.4,0,.2,1);<br/>
+  transition-duration:.15s<br/>
+ }<br/>
+}<br/>
+@media (min-width:768px) {<br/>
+ #tabNavigation&gt;li.active&gt;a&gt;svg {<br/>
+  --tw-text-opacity:1;<br/>
+  color:rgba(255,255,255,var(--tw-text-opacity))<br/>
+ }<br/>
+}<br/>
+@media (min-width:768px) {<br/>
+ #tabNavigation&gt;li.active&gt;a&gt;span {<br/>
+  --tw-bg-opacity:1;<br/>
+  background-color:rgba(255,255,255,var(--tw-bg-opacity))<br/>
+ }<br/>
+ .dark #tabNavigation&gt;li.active&gt;a&gt;span {<br/>
+  --tw-bg-opacity:1;<br/>
+  background-color:rgba(31,41,55,var(--tw-bg-opacity))<br/>
+ }<br/>
+ #tabNavigation&gt;li.active&gt;a&gt;span {<br/>
+  border-radius:9999px;<br/>
+  border-top-right-radius:0;<br/>
+  border-bottom-right-radius:0<br/>
+ }<br/>
+ #tabNavigation&gt;li.active&gt;a&gt;span:hover {<br/>
+  --tw-text-opacity:1;<br/>
+  color:rgba(31,41,55,var(--tw-text-opacity))<br/>
+ }<br/>
+ .dark #tabNavigation&gt;li.active&gt;a&gt;span,<br/>
+ .dark #tabNavigation&gt;li.active&gt;a&gt;span:hover {<br/>
+  --tw-text-opacity:1;<br/>
+  color:rgba(255,255,255,var(--tw-text-opacity))<br/>
+ }<br/>
+ #tabNavigation&gt;li.active&gt;a&gt;span {<br/>
+  transition-property:none<br/>
+ }<br/>
+}<br/>
+@media (min-width:768px) {<br/>
+ #tabMobileNavigation {<br/>
+  display:none<br/>
+ }<br/>
+}<br/>
+@media (min-width:768px) {<br/>
+ #tabContent {<br/>
+  width:75%<br/>
+ }<br/>
+}<br/>
+@media(min-width:768px) {<br/>
+ #tabNavigation&gt;li&gt;a&gt;svg {<br/>
+  display:block;<br/>
+  width:1.75rem;<br/>
+  height:1.75rem;<br/>
+  --tw-text-opacity:1;<br/>
+  color:rgba(6,78,59,var(--tw-text-opacity))<br/>
+ }<br/>
+ #tabNavigation&gt;li.active&gt;a&gt;span:after,<br/>
+ #tabNavigation&gt;li.active&gt;a&gt;span:before {<br/>
+  content:"";<br/>
+  width:21px;<br/>
+  height:36px;<br/>
+  position:absolute;<br/>
+  background-color:transparent;<br/>
+  right:0<br/>
+ }<br/>
+ #tabNavigation&gt;li:not(:first-child).active&gt;a&gt;span:before {<br/>
+  top:-36px;<br/>
+  border-bottom-right-radius:27px;<br/>
+  box-shadow:0 18px 0 0 #fff<br/>
+ }<br/>
+ .dark #tabNavigation&gt;li:not(:first-child).active&gt;a&gt;span:before {<br/>
+  box-shadow:0 18px 0 0 #1f2937<br/>
+ }<br/>
+ #tabNavigation&gt;li.active&gt;a&gt;span:after {<br/>
+  bottom:-36px;<br/>
+  border-top-right-radius:27px;<br/>
+  box-shadow:0 -18px 0 0 #fff<br/>
+ }<br/>
+ .dark #tabNavigation&gt;li.active&gt;a&gt;span:after {<br/>
+  box-shadow:0 -18px 0 0 #1f2937<br/>
+ }<br/>
+}<br/>
+.counter-section {<br/>
+ background-image:url(https://dptwplzs7m8x9.cloudfront.net/web/pattern-soil-70.png);<br/>
+ background-position:50%;<br/>
+ background-size:contain;<br/>
+ background-repeat:repeat-x<br/>
+}<br/>
+@media(max-width:790px) {<br/>
+ .counter-section {<br/>
+  background-size:cover<br/>
+ }<br/>
+}<br/>
+.counter&gt;div {<br/>
+ display:flex;<br/>
+ flex-direction:column;<br/>
+ align-items:center;<br/>
+ justify-content:flex-start;<br/>
+ position:relative<br/>
+}<br/>
+.counter&gt;div:before {<br/>
+ content:"";<br/>
+ position:absolute;<br/>
+ bottom:0;<br/>
+ width:60%;<br/>
+ height:4px;<br/>
+ border-radius:2px;<br/>
+ background:#5b9e21<br/>
+}<br/>
+.counter&gt;div:after {<br/>
+ content:"";<br/>
+ position:absolute;<br/>
+ bottom:0;<br/>
+ width:0;<br/>
+ height:0;<br/>
+ border-left:.75rem solid transparent;<br/>
+ border-right:.75rem solid transparent;<br/>
+ border-bottom:.75rem solid #5b9e21<br/>
+}<br/>
+.deck {<br/>
+ --card-animation-duration:700ms;<br/>
+ --card-animation-effect:cubic-bezier(0.19,1,0.22,1);<br/>
+ display:flex;<br/>
+ flex-wrap:wrap<br/>
+}<br/>
+@media (min-width:640px) {<br/>
+ .deck {<br/>
+  justify-content:space-between<br/>
+ }<br/>
+}<br/>
+@media (min-width:640px) {<br/>
+ .deck.cards-2 {<br/>
+  justify-content:center;<br/>
+  gap:.5rem<br/>
+ }<br/>
+}<br/>
+.card {<br/>
+ border-radius:.5rem;<br/>
+ display:flex;<br/>
+ align-items:flex-end;<br/>
+ height:18rem;<br/>
+ margin-top:.5rem;<br/>
+ overflow:hidden;<br/>
+ position:relative;<br/>
+ --tw-shadow:0 4px 6px -1px rgba(0,0,0,0.1),0 2px 4px -1px rgba(0,0,0,0.06);<br/>
+ box-shadow:var(--tw-ring-offset-shadow,0 0 transparent),var(--tw-ring-shadow,0 0 transparent),var(--tw-shadow);<br/>
+ width:100%<br/>
+}<br/>
+.card:after {<br/>
+ opacity:0;<br/>
+ content:"";<br/>
+ position:absolute;<br/>
+ right:0;<br/>
+ bottom:0;<br/>
+ width:0;<br/>
+ height:0;<br/>
+ border-left:650px solid transparent;<br/>
+ border-bottom:29px solid #fff<br/>
+}<br/>
+.card&gt;.figure,<br/>
+.card&gt;.figure:after {<br/>
+ height:100%;<br/>
+ position:absolute;<br/>
+ width:100%<br/>
+}<br/>
+.card&gt;.figure:after {<br/>
+ content:"";<br/>
+ --tw-bg-opacity:1;<br/>
+ background-color:rgba(0,0,0,var(--tw-bg-opacity));<br/>
+ --tw-bg-opacity:0.75;<br/>
+ top:0;<br/>
+ left:0<br/>
+}<br/>
+@media (min-width:768px) {<br/>
+ .card&gt;.figure:after {<br/>
+  opacity:0<br/>
+ }<br/>
+ .card&gt;.figure:after:hover {<br/>
+  opacity:1<br/>
+ }<br/>
+ .card&gt;.figure:after {<br/>
+  transition-property:opacity;<br/>
+  transition-timing-function:cubic-bezier(.4,0,.2,1);<br/>
+  transition-duration:.15s<br/>
+ }<br/>
+}<br/>
+.card img {<br/>
+ width:100%;<br/>
+ height:110%;<br/>
+ -o-object-fit:cover;<br/>
+ object-fit:cover;<br/>
+ -o-object-position:center;<br/>
+ object-position:center;<br/>
+ transition:transform calc(var(--card-animation-duration)*1.5) var(--card-animation-effect)<br/>
+}<br/>
+.card&gt;.caption,<br/>
+.card&gt;.title,<br/>
+.card&gt;button {<br/>
+ position:absolute;<br/>
+ --tw-text-opacity:1;<br/>
+ color:rgba(255,255,255,var(--tw-text-opacity))<br/>
+}<br/>
+.card&gt;.title {<br/>
+ font-size:1.5rem;<br/>
+ line-height:2rem;<br/>
+ padding:1.5rem;<br/>
+ top:0<br/>
+}<br/>
+.card&gt;.caption {<br/>
+ font-size:.875rem;<br/>
+ line-height:1.25rem;<br/>
+ padding:2rem;<br/>
+ top:2rem<br/>
+}<br/>
+.card&gt;button {<br/>
+ right:.5rem;<br/>
+ top:14rem<br/>
+}<br/>
+@media(min-width:640px) {<br/>
+ .card {<br/>
+  width:49.5%<br/>
+ }<br/>
+ .deck.cards-2&gt;.card {<br/>
+  width:32.8%<br/>
+ }<br/>
+}<br/>
+@media(min-width:768px) {<br/>
+ .card&gt;.figure:after {<br/>
+  opacity:0;<br/>
+  transition:opacity .5s linear<br/>
+ }<br/>
+ .card&gt;.caption,<br/>
+ .card&gt;.title,<br/>
+ .card&gt;button {<br/>
+  transition:transform calc(var(--card-animation-duration)*1.5) var(--card-animation-effect)<br/>
+ }<br/>
+ .card&gt;.title {<br/>
+  transform:translateY(13.5rem)<br/>
+ }<br/>
+ .card&gt;.caption {<br/>
+  transform:translateY(17rem)<br/>
+ }<br/>
+ .card&gt;button {<br/>
+  transform:translateY(4rem)<br/>
+ }<br/>
+ .card:after {<br/>
+  opacity:1;<br/>
+  transition:opacity .2s linear<br/>
+ }<br/>
+ .card:hover&gt;.figure:after {<br/>
+  opacity:1<br/>
+ }<br/>
+ .card:hover img {<br/>
+  transform:translateY(-4%)<br/>
+ }<br/>
+ .card:hover&gt;.title {<br/>
+  top:10px;<br/>
+  transform:translateY(-10px)<br/>
+ }<br/>
+ .card:hover&gt;.caption {<br/>
+  opacity:1;<br/>
+  top:3rem;<br/>
+  transform:translateY(-1rem)<br/>
+ }<br/>
+ .card:hover&gt;button {<br/>
+  transform:translateY(0)<br/>
+ }<br/>
+ .card:hover:after {<br/>
+  opacity:0<br/>
+ }<br/>
+}<br/>
+.switch-dark {<br/>
+ display:flex;<br/>
+ align-items:center;<br/>
+ --tw-text-opacity:1;<br/>
+ color:rgba(209,213,219,var(--tw-text-opacity));<br/>
+ gap:.25rem<br/>
+}<br/>
+.switch-dark&gt;input[type=checkbox] {<br/>
+ -webkit-appearance:none;<br/>
+ -moz-appearance:none;<br/>
+ appearance:none;<br/>
+ --tw-bg-opacity:1;<br/>
+ background-color:rgba(209,213,219,var(--tw-bg-opacity));<br/>
+ --tw-border-opacity:1;<br/>
+ border-color:rgba(209,213,219,var(--tw-border-opacity));<br/>
+ border-radius:9999px;<br/>
+ border-width:1px;<br/>
+ height:1.25rem<br/>
+}<br/>
+.switch-dark&gt;input[type=checkbox],<br/>
+.switch-dark&gt;input[type=checkbox]:focus {<br/>
+ outline:2px solid transparent;<br/>
+ outline-offset:2px<br/>
+}<br/>
+.switch-dark&gt;input[type=checkbox] {<br/>
+ position:relative;<br/>
+ width:2.25rem;<br/>
+ transition:all .75s cubic-bezier(.19,1,.22,1)<br/>
+}<br/>
+.switch-dark&gt;input[type=checkbox]:checked {<br/>
+ --tw-bg-opacity:1;<br/>
+ background-color:rgba(55,65,81,var(--tw-bg-opacity));<br/>
+ --tw-border-opacity:1;<br/>
+ border-color:rgba(107,114,128,var(--tw-border-opacity))<br/>
+}<br/>
+.switch-dark&gt;input[type=checkbox]:after {<br/>
+ content:"";<br/>
+ position:absolute;<br/>
+ width:1rem;<br/>
+ height:1rem;<br/>
+ border-radius:50%;<br/>
+ top:1px;<br/>
+ left:1px;<br/>
+ background-color:#6b7280;<br/>
+ transition:transform .75s cubic-bezier(.19,1,.22,1)<br/>
+}<br/>
+.switch-dark&gt;input[type=checkbox]:checked:after {<br/>
+ background-color:#d1d5db;<br/>
+ transform:translateX(.95rem)<br/>
+}<br/>
+@media(min-width:1024px) {<br/>
+ .card,<br/>
+ .deck.cards-2&gt;.card {<br/>
+  width:32.8%<br/>
+ }<br/>
+}<br/>
+.word-carousel ul&gt;li {<br/>
+ text-align:right<br/>
+}<br/>
+.word-carousel&gt;div {<br/>
+ position:relative;<br/>
+ overflow:hidden;<br/>
+ height:2.5rem<br/>
+}<br/>
+.flip6 {<br/>
+ -webkit-animation:flip6 20s cubic-bezier(.23,1,.32,1.2) infinite;<br/>
+ animation:flip6 20s cubic-bezier(.23,1,.32,1.2) infinite<br/>
+}<br/>
+@-webkit-keyframes flip6 {<br/>
+ 0% {<br/>
+  margin-top:-240px<br/>
+ }<br/>
+ 8% {<br/>
+  margin-top:-200px<br/>
+ }<br/>
+ 18% {<br/>
+  margin-top:-200px<br/>
+ }<br/>
+ 24% {<br/>
+  margin-top:-160px<br/>
+ }<br/>
+ 32% {<br/>
+  margin-top:-160px<br/>
+ }<br/>
+ 40% {<br/>
+  margin-top:-120px<br/>
+ }<br/>
+ 49% {<br/>
+  margin-top:-120px<br/>
+ }<br/>
+ 56% {<br/>
+  margin-top:-80px<br/>
+ }<br/>
+ 64% {<br/>
+  margin-top:-80px<br/>
+ }<br/>
+ 72% {<br/>
+  margin-top:-40px<br/>
+ }<br/>
+ 80% {<br/>
+  margin-top:-40px<br/>
+ }<br/>
+ 88% {<br/>
+  margin-top:0<br/>
+ }<br/>
+ 99% {<br/>
+  margin-top:0<br/>
+ }<br/>
+ 99.99% {<br/>
+  margin-top:0<br/>
+ }<br/>
+ to {<br/>
+  margin-top:-240<br/>
+ }<br/>
+}<br/>
+@keyframes flip6 {<br/>
+ 0% {<br/>
+  margin-top:-240px<br/>
+ }<br/>
+ 8% {<br/>
+  margin-top:-200px<br/>
+ }<br/>
+ 18% {<br/>
+  margin-top:-200px<br/>
+ }<br/>
+ 24% {<br/>
+  margin-top:-160px<br/>
+ }<br/>
+ 32% {<br/>
+  margin-top:-160px<br/>
+ }<br/>
+ 40% {<br/>
+  margin-top:-120px<br/>
+ }<br/>
+ 49% {<br/>
+  margin-top:-120px<br/>
+ }<br/>
+ 56% {<br/>
+  margin-top:-80px<br/>
+ }<br/>
+ 64% {<br/>
+  margin-top:-80px<br/>
+ }<br/>
+ 72% {<br/>
+  margin-top:-40px<br/>
+ }<br/>
+ 80% {<br/>
+  margin-top:-40px<br/>
+ }<br/>
+ 88% {<br/>
+  margin-top:0<br/>
+ }<br/>
+ 99% {<br/>
+  margin-top:0<br/>
+ }<br/>
+ 99.99% {<br/>
+  margin-top:0<br/>
+ }<br/>
+ to {<br/>
+  margin-top:-240<br/>
+ }<br/>
+}<br/>
+@media(min-width:768px) {<br/>
+ #tabContent .before-img {<br/>
+  position:relative<br/>
+ }<br/>
+ #tabContent .before-img:after {<br/>
+  content:"";<br/>
+  position:absolute;<br/>
+  top:0;<br/>
+  right:-20px;<br/>
+  width:0;<br/>
+  height:0;<br/>
+  border-top:600px solid #fff;<br/>
+  border-right:20px solid transparent;<br/>
+  z-index:1<br/>
+ }<br/>
+ .dark #tabContent .before-img:after {<br/>
+  border-top:600px solid #1f2937<br/>
+ }<br/>
+}<br/>
+.divide-x&gt;:not([hidden])~:not([hidden]) {<br/>
+ --tw-divide-x-reverse:0;<br/>
+ border-right-width:calc(1px*var(--tw-divide-x-reverse));<br/>
+ border-left-width:calc(1px*(1 - var(--tw-divide-x-reverse)))<br/>
+}<br/>
+.divide-gray-400&gt;:not([hidden])~:not([hidden]) {<br/>
+ --tw-divide-opacity:1;<br/>
+ border-color:rgba(156,163,175,var(--tw-divide-opacity))<br/>
+}<br/>
+.dark .dark\:divide-gray-600&gt;:not([hidden])~:not([hidden]) {<br/>
+ --tw-divide-opacity:1;<br/>
+ border-color:rgba(75,85,99,var(--tw-divide-opacity))<br/>
+}<br/>
+.sr-only {<br/>
+ position:absolute;<br/>
+ width:1px;<br/>
+ height:1px;<br/>
+ padding:0;<br/>
+ margin:-1px;<br/>
+ overflow:hidden;<br/>
+ clip:rect(0,0,0,0);<br/>
+ white-space:nowrap;<br/>
+ border-width:0<br/>
+}<br/>
+.bg-transparent {<br/>
+ background-color:transparent<br/>
+}<br/>
+.bg-black {<br/>
+ --tw-bg-opacity:1;<br/>
+ background-color:rgba(0,0,0,var(--tw-bg-opacity))<br/>
+}<br/>
+.bg-white {<br/>
+ --tw-bg-opacity:1;<br/>
+ background-color:rgba(255,255,255,var(--tw-bg-opacity))<br/>
+}<br/>
+.bg-gray-50 {<br/>
+ --tw-bg-opacity:1;<br/>
+ background-color:rgba(249,250,251,var(--tw-bg-opacity))<br/>
+}<br/>
+.bg-gray-800 {<br/>
+ --tw-bg-opacity:1;<br/>
+ background-color:rgba(31,41,55,var(--tw-bg-opacity))<br/>
+}<br/>
+.bg-gray-900 {<br/>
+ --tw-bg-opacity:1;<br/>
+ background-color:rgba(17,24,39,var(--tw-bg-opacity))<br/>
+}<br/>
+.bg-yellow-400 {<br/>
+ --tw-bg-opacity:1;<br/>
+ background-color:rgba(251,191,36,var(--tw-bg-opacity))<br/>
+}<br/>
+.bg-blue-300 {<br/>
+ --tw-bg-opacity:1;<br/>
+ background-color:rgba(147,197,253,var(--tw-bg-opacity))<br/>
+}<br/>
+.bg-blue-700 {<br/>
+ --tw-bg-opacity:1;<br/>
+ background-color:rgba(29,78,216,var(--tw-bg-opacity))<br/>
+}<br/>
+.bg-ktv-green {<br/>
+ --tw-bg-opacity:1;<br/>
+ background-color:rgba(91,158,33,var(--tw-bg-opacity))<br/>
+}<br/>
+.bg-ktv-brown {<br/>
+ --tw-bg-opacity:1;<br/>
+ background-color:rgba(83,66,56,var(--tw-bg-opacity))<br/>
+}<br/>
+.hover\:bg-gray-50:hover {<br/>
+ --tw-bg-opacity:1;<br/>
+ background-color:rgba(249,250,251,var(--tw-bg-opacity))<br/>
+}<br/>
+.hover\:bg-gray-900:hover {<br/>
+ --tw-bg-opacity:1;<br/>
+ background-color:rgba(17,24,39,var(--tw-bg-opacity))<br/>
+}<br/>
+.hover\:bg-blue-800:hover {<br/>
+ --tw-bg-opacity:1;<br/>
+ background-color:rgba(30,64,175,var(--tw-bg-opacity))<br/>
+}<br/>
+.hover\:bg-ktv-green-accent:hover {<br/>
+ --tw-bg-opacity:1;<br/>
+ background-color:rgba(69,130,17,var(--tw-bg-opacity))<br/>
+}<br/>
+.focus\:bg-gray-50:focus {<br/>
+ --tw-bg-opacity:1;<br/>
+ background-color:rgba(249,250,251,var(--tw-bg-opacity))<br/>
+}<br/>
+.focus\:bg-ktv-green-accent:focus {<br/>
+ --tw-bg-opacity:1;<br/>
+ background-color:rgba(69,130,17,var(--tw-bg-opacity))<br/>
+}<br/>
+.dark .dark\:bg-gray-800 {<br/>
+ --tw-bg-opacity:1;<br/>
+ background-color:rgba(31,41,55,var(--tw-bg-opacity))<br/>
+}<br/>
+.dark .dark\:bg-gray-900 {<br/>
+ --tw-bg-opacity:1;<br/>
+ background-color:rgba(17,24,39,var(--tw-bg-opacity))<br/>
+}<br/>
+.bg-opacity-80 {<br/>
+ --tw-bg-opacity:0.8<br/>
+}<br/>
+.bg-opacity-100 {<br/>
+ --tw-bg-opacity:1<br/>
+}<br/>
+.border-black {<br/>
+ --tw-border-opacity:1;<br/>
+ border-color:rgba(0,0,0,var(--tw-border-opacity))<br/>
+}<br/>
+.border-gray-200 {<br/>
+ --tw-border-opacity:1;<br/>
+ border-color:rgba(229,231,235,var(--tw-border-opacity))<br/>
+}<br/>
+.border-gray-300 {<br/>
+ --tw-border-opacity:1;<br/>
+ border-color:rgba(209,213,219,var(--tw-border-opacity))<br/>
+}<br/>
+.border-ktv-green {<br/>
+ --tw-border-opacity:1;<br/>
+ border-color:rgba(91,158,33,var(--tw-border-opacity))<br/>
+}<br/>
+.hover\:border-gray-800:hover {<br/>
+ --tw-border-opacity:1;<br/>
+ border-color:rgba(31,41,55,var(--tw-border-opacity))<br/>
+}<br/>
+.hover\:border-ktv-green:hover {<br/>
+ --tw-border-opacity:1;<br/>
+ border-color:rgba(91,158,33,var(--tw-border-opacity))<br/>
+}<br/>
+.dark .dark\:border-gray-700 {<br/>
+ --tw-border-opacity:1;<br/>
+ border-color:rgba(55,65,81,var(--tw-border-opacity))<br/>
+}<br/>
+.dark .dark\:border-gray-800 {<br/>
+ --tw-border-opacity:1;<br/>
+ border-color:rgba(31,41,55,var(--tw-border-opacity))<br/>
+}<br/>
+.dark .dark\:border-gray-900 {<br/>
+ --tw-border-opacity:1;<br/>
+ border-color:rgba(17,24,39,var(--tw-border-opacity))<br/>
+}<br/>
+.rounded {<br/>
+ border-radius:.25rem<br/>
+}<br/>
+.rounded-lg {<br/>
+ border-radius:.5rem<br/>
+}<br/>
+.rounded-xl {<br/>
+ border-radius:.75rem<br/>
+}<br/>
+.rounded-full {<br/>
+ border-radius:9999px<br/>
+}<br/>
+.rounded-t-none {<br/>
+ border-top-left-radius:0;<br/>
+ border-top-right-radius:0<br/>
+}<br/>
+.rounded-l-none {<br/>
+ border-bottom-left-radius:0<br/>
+}<br/>
+.rounded-l-none,<br/>
+.rounded-tl-none {<br/>
+ border-top-left-radius:0<br/>
+}<br/>
+.border {<br/>
+ border-width:1px<br/>
+}<br/>
+.border-t {<br/>
+ border-top-width:1px<br/>
+}<br/>
+.block {<br/>
+ display:block<br/>
+}<br/>
+.inline-block {<br/>
+ display:inline-block<br/>
+}<br/>
+.flex {<br/>
+ display:flex<br/>
+}<br/>
+.table {<br/>
+ display:table<br/>
+}<br/>
+.hidden {<br/>
+ display:none<br/>
+}<br/>
+.flex-col {<br/>
+ flex-direction:column<br/>
+}<br/>
+.flex-wrap {<br/>
+ flex-wrap:wrap<br/>
+}<br/>
+.items-start {<br/>
+ align-items:flex-start<br/>
+}<br/>
+.items-end {<br/>
+ align-items:flex-end<br/>
+}<br/>
+.items-center {<br/>
+ align-items:center<br/>
+}<br/>
+.items-baseline {<br/>
+ align-items:baseline<br/>
+}<br/>
+.justify-end {<br/>
+ justify-content:flex-end<br/>
+}<br/>
+.justify-center {<br/>
+ justify-content:center<br/>
+}<br/>
+.justify-between {<br/>
+ justify-content:space-between<br/>
+}<br/>
+.order-last {<br/>
+ order:9999<br/>
+}<br/>
+.font-poppins {<br/>
+ font-family:Poppins,sans-serif<br/>
+}<br/>
+.font-normal {<br/>
+ font-weight:400<br/>
+}<br/>
+.font-medium {<br/>
+ font-weight:500<br/>
+}<br/>
+.font-semibold {<br/>
+ font-weight:600<br/>
+}<br/>
+.font-bold {<br/>
+ font-weight:700<br/>
+}<br/>
+.h-5 {<br/>
+ height:1.25rem<br/>
+}<br/>
+.h-6 {<br/>
+ height:1.5rem<br/>
+}<br/>
+.h-7 {<br/>
+ height:1.75rem<br/>
+}<br/>
+.h-10 {<br/>
+ height:2.5rem<br/>
+}<br/>
+.h-32 {<br/>
+ height:8rem<br/>
+}<br/>
+.h-36 {<br/>
+ height:9rem<br/>
+}<br/>
+.h-44 {<br/>
+ height:11rem<br/>
+}<br/>
+.h-56 {<br/>
+ height:14rem<br/>
+}<br/>
+.h-60 {<br/>
+ height:15rem<br/>
+}<br/>
+.h-80 {<br/>
+ height:20rem<br/>
+}<br/>
+.h-96 {<br/>
+ height:24rem<br/>
+}<br/>
+.h-auto {<br/>
+ height:auto<br/>
+}<br/>
+.h-full {<br/>
+ height:100%<br/>
+}<br/>
+.h-screen {<br/>
+ height:100vh<br/>
+}<br/>
+.text-xs {<br/>
+ font-size:.75rem;<br/>
+ line-height:1rem<br/>
+}<br/>
+.text-sm {<br/>
+ font-size:.875rem;<br/>
+ line-height:1.25rem<br/>
+}<br/>
+.text-base {<br/>
+ font-size:1rem;<br/>
+ line-height:1.5rem<br/>
+}<br/>
+.text-lg {<br/>
+ font-size:1.125rem<br/>
+}<br/>
+.text-lg,<br/>
+.text-xl {<br/>
+ line-height:1.75rem<br/>
+}<br/>
+.text-xl {<br/>
+ font-size:1.25rem<br/>
+}<br/>
+.text-2xl {<br/>
+ font-size:1.5rem;<br/>
+ line-height:2rem<br/>
+}<br/>
+.text-4xl {<br/>
+ font-size:2.25rem;<br/>
+ line-height:2.5rem<br/>
+}<br/>
+.text-5xl {<br/>
+ font-size:3rem;<br/>
+ line-height:1<br/>
+}<br/>
+.leading-3 {<br/>
+ line-height:.75rem<br/>
+}<br/>
+.leading-5 {<br/>
+ line-height:1.25rem<br/>
+}<br/>
+.leading-snug {<br/>
+ line-height:1.375<br/>
+}<br/>
+.leading-relaxed {<br/>
+ line-height:1.625<br/>
+}<br/>
+.list-outside {<br/>
+ list-style-position:outside<br/>
+}<br/>
+.list-none {<br/>
+ list-style-type:none<br/>
+}<br/>
+.list-disc {<br/>
+ list-style-type:disc<br/>
+}<br/>
+.list-decimal {<br/>
+ list-style-type:decimal<br/>
+}<br/>
+.my-4 {<br/>
+ margin-top:1rem;<br/>
+ margin-bottom:1rem<br/>
+}<br/>
+.mx-auto {<br/>
+ margin-left:auto;<br/>
+ margin-right:auto<br/>
+}<br/>
+.mt-1 {<br/>
+ margin-top:.25rem<br/>
+}<br/>
+.mt-2 {<br/>
+ margin-top:.5rem<br/>
+}<br/>
+.mb-2 {<br/>
+ margin-bottom:.5rem<br/>
+}<br/>
+.ml-2 {<br/>
+ margin-left:.5rem<br/>
+}<br/>
+.mt-3 {<br/>
+ margin-top:.75rem<br/>
+}<br/>
+.mr-3 {<br/>
+ margin-right:.75rem<br/>
+}<br/>
+.ml-3 {<br/>
+ margin-left:.75rem<br/>
+}<br/>
+.mt-4 {<br/>
+ margin-top:1rem<br/>
+}<br/>
+.mr-4 {<br/>
+ margin-right:1rem<br/>
+}<br/>
+.mb-4 {<br/>
+ margin-bottom:1rem<br/>
+}<br/>
+.ml-4 {<br/>
+ margin-left:1rem<br/>
+}<br/>
+.ml-5 {<br/>
+ margin-left:1.25rem<br/>
+}<br/>
+.mt-6 {<br/>
+ margin-top:1.5rem<br/>
+}<br/>
+.mb-6 {<br/>
+ margin-bottom:1.5rem<br/>
+}<br/>
+.ml-6 {<br/>
+ margin-left:1.5rem<br/>
+}<br/>
+.ml-7 {<br/>
+ margin-left:1.75rem<br/>
+}<br/>
+.mt-8 {<br/>
+ margin-top:2rem<br/>
+}<br/>
+.ml-8 {<br/>
+ margin-left:2rem<br/>
+}<br/>
+.mt-10 {<br/>
+ margin-top:2.5rem<br/>
+}<br/>
+.mt-12 {<br/>
+ margin-top:3rem<br/>
+}<br/>
+.mt-16 {<br/>
+ margin-top:4rem<br/>
+}<br/>
+.mt-20 {<br/>
+ margin-top:5rem<br/>
+}<br/>
+.mt-40 {<br/>
+ margin-top:10rem<br/>
+}<br/>
+.-mt-1 {<br/>
+ margin-top:-.25rem<br/>
+}<br/>
+.-mt-10 {<br/>
+ margin-top:-2.5rem<br/>
+}<br/>
+.max-h-44 {<br/>
+ max-height:11rem<br/>
+}<br/>
+.max-h-56 {<br/>
+ max-height:14rem<br/>
+}<br/>
+.max-w-3xl {<br/>
+ max-width:48rem<br/>
+}<br/>
+.max-w-4xl {<br/>
+ max-width:56rem<br/>
+}<br/>
+.max-w-5xl {<br/>
+ max-width:64rem<br/>
+}<br/>
+.max-w-6xl {<br/>
+ max-width:72rem<br/>
+}<br/>
+.min-h-screen {<br/>
+ min-height:100vh<br/>
+}<br/>
+.object-cover {<br/>
+ -o-object-fit:cover;<br/>
+ object-fit:cover<br/>
+}<br/>
+.object-center {<br/>
+ -o-object-position:center;<br/>
+ object-position:center<br/>
+}<br/>
+.object-left {<br/>
+ -o-object-position:left;<br/>
+ object-position:left<br/>
+}<br/>
+.object-right {<br/>
+ -o-object-position:right;<br/>
+ object-position:right<br/>
+}<br/>
+.object-right-bottom {<br/>
+ -o-object-position:right bottom;<br/>
+ object-position:right bottom<br/>
+}<br/>
+.opacity-0 {<br/>
+ opacity:0<br/>
+}<br/>
+.opacity-30 {<br/>
+ opacity:.3<br/>
+}<br/>
+.opacity-100 {<br/>
+ opacity:1<br/>
+}<br/>
+.dark .dark\:opacity-50 {<br/>
+ opacity:.5<br/>
+}<br/>
+.focus\:outline-none:focus,<br/>
+.outline-none {<br/>
+ outline:2px solid transparent;<br/>
+ outline-offset:2px<br/>
+}<br/>
+.overflow-hidden {<br/>
+ overflow:hidden<br/>
+}<br/>
+.overflow-y-auto {<br/>
+ overflow-y:auto<br/>
+}<br/>
+.overflow-x-hidden {<br/>
+ overflow-x:hidden<br/>
+}<br/>
+.p-3 {<br/>
+ padding:.75rem<br/>
+}<br/>
+.p-4 {<br/>
+ padding:1rem<br/>
+}<br/>
+.p-6 {<br/>
+ padding:1.5rem<br/>
+}<br/>
+.p-7 {<br/>
+ padding:1.75rem<br/>
+}<br/>
+.py-1 {<br/>
+ padding-top:.25rem;<br/>
+ padding-bottom:.25rem<br/>
+}<br/>
+.py-2 {<br/>
+ padding-top:.5rem;<br/>
+ padding-bottom:.5rem<br/>
+}<br/>
+.px-2 {<br/>
+ padding-left:.5rem;<br/>
+ padding-right:.5rem<br/>
+}<br/>
+.py-3 {<br/>
+ padding-top:.75rem;<br/>
+ padding-bottom:.75rem<br/>
+}<br/>
+.px-3 {<br/>
+ padding-left:.75rem;<br/>
+ padding-right:.75rem<br/>
+}<br/>
+.py-4 {<br/>
+ padding-top:1rem;<br/>
+ padding-bottom:1rem<br/>
+}<br/>
+.px-4 {<br/>
+ padding-left:1rem;<br/>
+ padding-right:1rem<br/>
+}<br/>
+.py-5 {<br/>
+ padding-top:1.25rem;<br/>
+ padding-bottom:1.25rem<br/>
+}<br/>
+.px-5 {<br/>
+ padding-left:1.25rem;<br/>
+ padding-right:1.25rem<br/>
+}<br/>
+.px-6 {<br/>
+ padding-left:1.5rem;<br/>
+ padding-right:1.5rem<br/>
+}<br/>
+.px-7 {<br/>
+ padding-left:1.75rem;<br/>
+ padding-right:1.75rem<br/>
+}<br/>
+.py-11 {<br/>
+ padding-top:2.75rem;<br/>
+ padding-bottom:2.75rem<br/>
+}<br/>
+.py-16 {<br/>
+ padding-top:4rem;<br/>
+ padding-bottom:4rem<br/>
+}<br/>
+.pb-1 {<br/>
+ padding-bottom:.25rem<br/>
+}<br/>
+.pl-3 {<br/>
+ padding-left:.75rem<br/>
+}<br/>
+.pt-4 {<br/>
+ padding-top:1rem<br/>
+}<br/>
+.pl-6 {<br/>
+ padding-left:1.5rem<br/>
+}<br/>
+.pb-7 {<br/>
+ padding-bottom:1.75rem<br/>
+}<br/>
+.pl-8 {<br/>
+ padding-left:2rem<br/>
+}<br/>
+.pt-11 {<br/>
+ padding-top:2.75rem<br/>
+}<br/>
+.pb-12 {<br/>
+ padding-bottom:3rem<br/>
+}<br/>
+.pb-20 {<br/>
+ padding-bottom:5rem<br/>
+}<br/>
+.fixed {<br/>
+ position:fixed<br/>
+}<br/>
+.absolute {<br/>
+ position:absolute<br/>
+}<br/>
+.relative {<br/>
+ position:relative<br/>
+}<br/>
+.top-0 {<br/>
+ top:0<br/>
+}<br/>
+.right-0 {<br/>
+ right:0<br/>
+}<br/>
+.top-2 {<br/>
+ top:.5rem<br/>
+}<br/>
+.right-3 {<br/>
+ right:.75rem<br/>
+}<br/>
+.right-4 {<br/>
+ right:1rem<br/>
+}<br/>
+.left-4 {<br/>
+ left:1rem<br/>
+}<br/>
+.top-16 {<br/>
+ top:4rem<br/>
+}<br/>
+.bottom-20 {<br/>
+ bottom:5rem<br/>
+}<br/>
+.top-24 {<br/>
+ top:6rem<br/>
+}<br/>
+.resize {<br/>
+ resize:both<br/>
+}<br/>
+* {<br/>
+ --tw-shadow:0 0 transparent<br/>
+}<br/>
+.shadow-sm {<br/>
+ --tw-shadow:0 1px 2px 0 rgba(0,0,0,0.05)<br/>
+}<br/>
+.shadow-md,<br/>
+.shadow-sm {<br/>
+ box-shadow:var(--tw-ring-offset-shadow,0 0 transparent),var(--tw-ring-shadow,0 0 transparent),var(--tw-shadow)<br/>
+}<br/>
+.shadow-md {<br/>
+ --tw-shadow:0 4px 6px -1px rgba(0,0,0,0.1),0 2px 4px -1px rgba(0,0,0,0.06)<br/>
+}<br/>
+.shadow-lg {<br/>
+ --tw-shadow:0 10px 15px -3px rgba(0,0,0,0.1),0 4px 6px -2px rgba(0,0,0,0.05);<br/>
+ box-shadow:var(--tw-ring-offset-shadow,0 0 transparent),var(--tw-ring-shadow,0 0 transparent),var(--tw-shadow)<br/>
+}<br/>
+* {<br/>
+ --tw-ring-inset:var(--tw-empty,/*!*/ /*!*/);<br/>
+ --tw-ring-offset-width:0px;<br/>
+ --tw-ring-offset-color:#fff;<br/>
+ --tw-ring-color:rgba(59,130,246,0.5);<br/>
+ --tw-ring-offset-shadow:0 0 transparent;<br/>
+ --tw-ring-shadow:0 0 transparent<br/>
+}<br/>
+.focus\:ring:focus {<br/>
+ --tw-ring-offset-shadow:var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);<br/>
+ --tw-ring-shadow:var(--tw-ring-inset) 0 0 0 calc(3px + var(--tw-ring-offset-width)) var(--tw-ring-color);<br/>
+ box-shadow:var(--tw-ring-offset-shadow),var(--tw-ring-shadow),var(--tw-shadow,0 0 transparent)<br/>
+}<br/>
+.focus\:ring-ktv-green-accent:focus {<br/>
+ --tw-ring-opacity:1;<br/>
+ --tw-ring-color:rgba(69,130,17,var(--tw-ring-opacity))<br/>
+}<br/>
+.focus\:ring-opacity-40:focus {<br/>
+ --tw-ring-opacity:0.4<br/>
+}<br/>
+.fill-current {<br/>
+ fill:currentColor<br/>
+}<br/>
+.text-left {<br/>
+ text-align:left<br/>
+}<br/>
+.text-center {<br/>
+ text-align:center<br/>
+}<br/>
+.text-right {<br/>
+ text-align:right<br/>
+}<br/>
+.text-white {<br/>
+ --tw-text-opacity:1;<br/>
+ color:#ffffff !important;<br/>
+}<br/>
+.text-gray-50 {<br/>
+ --tw-text-opacity:1;<br/>
+ color:rgba(249,250,251,var(--tw-text-opacity))<br/>
+}<br/>
+.text-gray-200 {<br/>
+ --tw-text-opacity:1;<br/>
+ color:rgba(229,231,235,var(--tw-text-opacity))<br/>
+}<br/>
+.text-gray-300 {<br/>
+ --tw-text-opacity:1;<br/>
+ color:rgba(209,213,219,var(--tw-text-opacity))<br/>
+}<br/>
+.text-gray-400 {<br/>
+ --tw-text-opacity:1;<br/>
+ color:rgba(156,163,175,var(--tw-text-opacity))<br/>
+}<br/>
+.text-gray-500 {<br/>
+ --tw-text-opacity:1;<br/>
+ color:rgba(107,114,128,var(--tw-text-opacity))<br/>
+}<br/>
+.text-gray-700 {<br/>
+ --tw-text-opacity:1;<br/>
+ color:rgba(55,65,81,var(--tw-text-opacity))<br/>
+}<br/>
+.text-gray-800 {<br/>
+ --tw-text-opacity:1;<br/>
+ color:rgba(31,41,55,var(--tw-text-opacity))<br/>
+}<br/>
+.text-green-900 {<br/>
+ --tw-text-opacity:1;<br/>
+ color:rgba(6,78,59,var(--tw-text-opacity))<br/>
+}<br/>
+.text-ktv-green {<br/>
+ --tw-text-opacity:1;<br/>
+ color:rgba(91,158,33,var(--tw-text-opacity))<br/>
+}<br/>
+.text-ktv-green-accent {<br/>
+ --tw-text-opacity:1;<br/>
+ color:rgba(69,130,17,var(--tw-text-opacity))<br/>
+}<br/>
+.text-ktv-trace-green {<br/>
+ --tw-text-opacity:1;<br/>
+ color:rgba(52,147,70,var(--tw-text-opacity))<br/>
+}<br/>
+.text-ktv-trace-cocoa {<br/>
+ --tw-text-opacity:1;<br/>
+ color:rgba(135,83,34,var(--tw-text-opacity))<br/>
+}<br/>
+.text-ktv-trace-coffee {<br/>
+ --tw-text-opacity:1;<br/>
+ color:rgba(128,74,60,var(--tw-text-opacity))<br/>
+}<br/>
+.text-ktv-trace-palmoil {<br/>
+ --tw-text-opacity:1;<br/>
+ color:rgba(235,94,45,var(--tw-text-opacity))<br/>
+}<br/>
+.text-ktv-trace-supplychain {<br/>
+ --tw-text-opacity:1;<br/>
+ color:rgba(137,101,124,var(--tw-text-opacity))<br/>
+}<br/>
+.text-ktv-trace-seaweed {<br/>
+ --tw-text-opacity:1;<br/>
+ color:rgba(128,189,83,var(--tw-text-opacity))<br/>
+}<br/>
+.text-ktv-trace-rubber {<br/>
+ --tw-text-opacity:1;<br/>
+ color:rgba(113,98,94,var(--tw-text-opacity))<br/>
+}<br/>
+.hover\:text-black:hover {<br/>
+ --tw-text-opacity:1;<br/>
+ color:rgba(0,0,0,var(--tw-text-opacity))<br/>
+}<br/>
+.hover\:text-white:hover {<br/>
+ --tw-text-opacity:1;<br/>
+ color:#ffffff !important;<br/>
+}<br/>
+.hover\:text-gray-50:hover {<br/>
+ --tw-text-opacity:1;<br/>
+ color:rgba(249,250,251,var(--tw-text-opacity))<br/>
+}<br/>
+.hover\:text-gray-800:hover {<br/>
+ --tw-text-opacity:1;<br/>
+ color:rgba(31,41,55,var(--tw-text-opacity))<br/>
+}<br/>
+.hover\:text-ktv-green:hover {<br/>
+ --tw-text-opacity:1;<br/>
+ color:rgba(91,158,33,var(--tw-text-opacity))<br/>
+}<br/>
+.dark .dark\:text-white {<br/>
+ --tw-text-opacity:1;<br/>
+ color:#ffffff !important;<br/>
+}<br/>
+.dark .dark\:text-gray-200 {<br/>
+ --tw-text-opacity:1;<br/>
+ color:rgba(229,231,235,var(--tw-text-opacity))<br/>
+}<br/>
+.dark .dark\:text-gray-300 {<br/>
+ --tw-text-opacity:1;<br/>
+ color:rgba(209,213,219,var(--tw-text-opacity))<br/>
+}<br/>
+.dark .dark\:text-gray-400 {<br/>
+ --tw-text-opacity:1;<br/>
+ color:rgba(156,163,175,var(--tw-text-opacity))<br/>
+}<br/>
+.dark .dark\:text-gray-600 {<br/>
+ --tw-text-opacity:1;<br/>
+ color:rgba(75,85,99,var(--tw-text-opacity))<br/>
+}<br/>
+.dark .dark\:text-ktv-green {<br/>
+ --tw-text-opacity:1;<br/>
+ color:rgba(91,158,33,var(--tw-text-opacity))<br/>
+}<br/>
+.dark .dark\:hover\:text-white:hover {<br/>
+ --tw-text-opacity:1;<br/>
+ color:rgba(255,255,255,var(--tw-text-opacity))<br/>
+}<br/>
+.truncate {<br/>
+ overflow:hidden;<br/>
+ text-overflow:ellipsis;<br/>
+ white-space:nowrap<br/>
+}<br/>
+.italic {<br/>
+ font-style:italic<br/>
+}<br/>
+.uppercase {<br/>
+ text-transform:uppercase<br/>
+}<br/>
+.underline {<br/>
+ text-decoration:underline<br/>
+}<br/>
+.antialiased {<br/>
+ -webkit-font-smoothing:antialiased;<br/>
+ -moz-osx-font-smoothing:grayscale<br/>
+}<br/>
+.tracking-wider {<br/>
+ letter-spacing:.05em<br/>
+}<br/>
+.w-5 {<br/>
+ width:1.25rem<br/>
+}<br/>
+.w-6 {<br/>
+ width:1.5rem<br/>
+}<br/>
+.w-7 {<br/>
+ width:1.75rem<br/>
+}<br/>
+.w-10 {<br/>
+ width:2.5rem<br/>
+}<br/>
+.w-28 {<br/>
+ width:7rem<br/>
+}<br/>
+.w-32 {<br/>
+ width:8rem<br/>
+}<br/>
+.w-36 {<br/>
+ width:9rem<br/>
+}<br/>
+.w-96 {<br/>
+ width:24rem<br/>
+}<br/>
+.w-1\/2 {<br/>
+ width:50%<br/>
+}<br/>
+.w-10\/12 {<br/>
+ width:83.333333%<br/>
+}<br/>
+.w-full {<br/>
+ width:100%;<br/>
+}<br/>
+.z-10 {<br/>
+ z-index:10<br/>
+}<br/>
+.z-20 {<br/>
+ z-index:20<br/>
+}<br/>
+.z-30 {<br/>
+ z-index:30<br/>
+}<br/>
+.z-50 {<br/>
+ z-index:50<br/>
+}<br/>
+.transform {<br/>
+ --tw-translate-x:0;<br/>
+ --tw-translate-y:0;<br/>
+ --tw-rotate:0;<br/>
+ --tw-skew-x:0;<br/>
+ --tw-skew-y:0;<br/>
+ --tw-scale-x:1;<br/>
+ --tw-scale-y:1;<br/>
+ transform:translateX(var(--tw-translate-x)) translateY(var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))<br/>
+}<br/>
+.transition-all {<br/>
+ transition-property:all;<br/>
+ transition-timing-function:cubic-bezier(.4,0,.2,1);<br/>
+ transition-duration:.15s<br/>
+}<br/>
+.transition-colors {<br/>
+ transition-property:background-color,border-color,color,fill,stroke;<br/>
+ transition-timing-function:cubic-bezier(.4,0,.2,1);<br/>
+ transition-duration:.15s<br/>
+}<br/>
+@-webkit-keyframes spin {<br/>
+ to {<br/>
+  transform:rotate(1turn)<br/>
+ }<br/>
+}<br/>
+@keyframes spin {<br/>
+ to {<br/>
+  transform:rotate(1turn)<br/>
+ }<br/>
+}<br/>
+@-webkit-keyframes ping {<br/>
+ 75%,<br/>
+ to {<br/>
+  transform:scale(2);<br/>
+  opacity:0<br/>
+ }<br/>
+}<br/>
+@keyframes ping {<br/>
+ 75%,<br/>
+ to {<br/>
+  transform:scale(2);<br/>
+  opacity:0<br/>
+ }<br/>
+}<br/>
+@-webkit-keyframes pulse {<br/>
+ 50% {<br/>
+  opacity:.5<br/>
+ }<br/>
+}<br/>
+@keyframes pulse {<br/>
+ 50% {<br/>
+  opacity:.5<br/>
+ }<br/>
+}<br/>
+@-webkit-keyframes bounce {<br/>
+ 0%,<br/>
+ to {<br/>
+  transform:translateY(-25%);<br/>
+  -webkit-animation-timing-function:cubic-bezier(.8,0,1,1);<br/>
+  animation-timing-function:cubic-bezier(.8,0,1,1)<br/>
+ }<br/>
+ 50% {<br/>
+  transform:none;<br/>
+  -webkit-animation-timing-function:cubic-bezier(0,0,.2,1);<br/>
+  animation-timing-function:cubic-bezier(0,0,.2,1)<br/>
+ }<br/>
+}<br/>
+@keyframes bounce {<br/>
+ 0%,<br/>
+ to {<br/>
+  transform:translateY(-25%);<br/>
+  -webkit-animation-timing-function:cubic-bezier(.8,0,1,1);<br/>
+  animation-timing-function:cubic-bezier(.8,0,1,1)<br/>
+ }<br/>
+ 50% {<br/>
+  transform:none;<br/>
+  -webkit-animation-timing-function:cubic-bezier(0,0,.2,1);<br/>
+  animation-timing-function:cubic-bezier(0,0,.2,1)<br/>
+ }<br/>
+}<br/>
+.animate-pulse {<br/>
+ -webkit-animation:pulse 2s cubic-bezier(.4,0,.6,1) infinite;<br/>
+ animation:pulse 2s cubic-bezier(.4,0,.6,1) infinite<br/>
+}<br/>
+@media (min-width:640px) {<br/>
+ .sm\:flex {<br/>
+  display:flex<br/>
+ }<br/>
+ .sm\:flex-row {<br/>
+  flex-direction:row<br/>
+ }<br/>
+ .sm\:flex-wrap {<br/>
+  flex-wrap:wrap<br/>
+ }<br/>
+ .sm\:items-center {<br/>
+  align-items:center<br/>
+ }<br/>
+ .sm\:justify-end {<br/>
+  justify-content:flex-end<br/>
+ }<br/>
+ .sm\:justify-center {<br/>
+  justify-content:center<br/>
+ }<br/>
+ .sm\:justify-between {<br/>
+  justify-content:space-between<br/>
+ }<br/>
+ .sm\:text-xl {<br/>
+  font-size:1.25rem;<br/>
+  line-height:1.75rem<br/>
+ }<br/>
+ .sm\:text-5xl {<br/>
+  font-size:3rem;<br/>
+  line-height:1<br/>
+ }<br/>
+ .sm\:mt-0 {<br/>
+  margin-top:0<br/>
+ }<br/>
+ .sm\:mr-2 {<br/>
+  margin-right:.5rem<br/>
+ }<br/>
+ .sm\:ml-2 {<br/>
+  margin-left:.5rem<br/>
+ }<br/>
+ .sm\:mt-4 {<br/>
+  margin-top:1rem<br/>
+ }<br/>
+ .sm\:mt-8 {<br/>
+  margin-top:2rem<br/>
+ }<br/>
+ .sm\:mt-28 {<br/>
+  margin-top:7rem<br/>
+ }<br/>
+ .sm\:ml-36 {<br/>
+  margin-left:9rem<br/>
+ }<br/>
+ .sm\:py-2 {<br/>
+  padding-top:.5rem;<br/>
+  padding-bottom:.5rem<br/>
+ }<br/>
+ .sm\:px-4 {<br/>
+  padding-left:1rem;<br/>
+  padding-right:1rem<br/>
+ }<br/>
+ .sm\:px-7 {<br/>
+  padding-left:1.75rem;<br/>
+  padding-right:1.75rem<br/>
+ }<br/>
+ .sm\:pt-0 {<br/>
+  padding-top:0<br/>
+ }<br/>
+ .sm\:static {<br/>
+  position:static<br/>
+ }<br/>
+ .sm\:absolute {<br/>
+  position:absolute<br/>
+ }<br/>
+ .sm\:top-28 {<br/>
+  top:7rem<br/>
+ }<br/>
+ .sm\:w-60 {<br/>
+  width:15rem<br/>
+ }<br/>
+ .sm\:w-auto {<br/>
+  width:auto<br/>
+ }<br/>
+ .sm\:w-1\/2 {<br/>
+  width:50%<br/>
+ }<br/>
+ .sm\:w-1\/3 {<br/>
+  width:33.333333%<br/>
+ }<br/>
+}<br/>
+@media (min-width:768px) {<br/>
+ .md\:block {<br/>
+  display:block<br/>
+ }<br/>
+ .md\:flex {<br/>
+  display:flex<br/>
+ }<br/>
+ .md\:grid {<br/>
+  display:grid<br/>
+ }<br/>
+ .md\:items-center {<br/>
+  align-items:center<br/>
+ }<br/>
+ .md\:justify-end {<br/>
+  justify-content:flex-end<br/>
+ }<br/>
+ .md\:h-28 {<br/>
+  height:7rem<br/>
+ }<br/>
+ .md\:h-140 {<br/>
+  height:36rem<br/>
+ }<br/>
+ .md\:h-full {<br/>
+  height:100%<br/>
+ }<br/>
+ .md\:text-sm {<br/>
+  font-size:.875rem;<br/>
+  line-height:1.25rem<br/>
+ }<br/>
+ .md\:text-base {<br/>
+  font-size:1rem;<br/>
+  line-height:1.5rem<br/>
+ }<br/>
+ .md\:text-lg {<br/>
+  font-size:1.125rem;<br/>
+  line-height:1.75rem<br/>
+ }<br/>
+ .md\:text-4xl {<br/>
+  font-size:2.25rem;<br/>
+  line-height:2.5rem<br/>
+ }<br/>
+ .md\:leading-normal {<br/>
+  line-height:1.5<br/>
+ }<br/>
+ .md\:mt-0 {<br/>
+  margin-top:0<br/>
+ }<br/>
+ .md\:ml-0 {<br/>
+  margin-left:0<br/>
+ }<br/>
+ .md\:mr-2 {<br/>
+  margin-right:.5rem<br/>
+ }<br/>
+ .md\:ml-2 {<br/>
+  margin-left:.5rem<br/>
+ }<br/>
+ .md\:ml-3 {<br/>
+  margin-left:.75rem<br/>
+ }<br/>
+ .md\:mt-12 {<br/>
+  margin-top:3rem<br/>
+ }<br/>
+ .md\:mt-40 {<br/>
+  margin-top:10rem<br/>
+ }<br/>
+ .md\:-mr-16 {<br/>
+  margin-right:-4rem<br/>
+ }<br/>
+ .md\:overflow-hidden {<br/>
+  overflow:hidden<br/>
+ }<br/>
+ .md\:p-0 {<br/>
+  padding:0<br/>
+ }<br/>
+ .md\:p-4 {<br/>
+  padding:1rem<br/>
+ }<br/>
+ .md\:px-1 {<br/>
+  padding-left:.25rem;<br/>
+  padding-right:.25rem<br/>
+ }<br/>
+ .md\:px-7 {<br/>
+  padding-left:1.75rem;<br/>
+  padding-right:1.75rem<br/>
+ }<br/>
+ .md\:px-8 {<br/>
+  padding-left:2rem;<br/>
+  padding-right:2rem<br/>
+ }<br/>
+ .md\:pb-0 {<br/>
+  padding-bottom:0<br/>
+ }<br/>
+ .md\:absolute {<br/>
+  position:absolute<br/>
+ }<br/>
+ .md\:right-0 {<br/>
+  right:0<br/>
+ }<br/>
+ .md\:top-2 {<br/>
+  top:.5rem<br/>
+ }<br/>
+ .md\:text-left {<br/>
+  text-align:left<br/>
+ }<br/>
+ .md\:text-center {<br/>
+  text-align:center<br/>
+ }<br/>
+ .md\:w-28 {<br/>
+  width:7rem<br/>
+ }<br/>
+ .md\:w-52 {<br/>
+  width:13rem<br/>
+ }<br/>
+ .md\:w-1\/2 {<br/>
+  width:50%<br/>
+ }<br/>
+ .md\:w-1\/3 {<br/>
+  width:33.333333%<br/>
+ }<br/>
+ .md\:w-2\/3 {<br/>
+  width:66.666667%<br/>
+ }<br/>
+ .md\:w-1\/4 {<br/>
+  width:25%<br/>
+ }<br/>
+ .md\:w-3\/4 {<br/>
+  width:75%<br/>
+ }<br/>
+ .md\:w-full {<br/>
+  width:100%<br/>
+ }<br/>
+ .md\:z-10 {<br/>
+  z-index:10<br/>
+ }<br/>
+ .md\:grid-cols-2 {<br/>
+  grid-template-columns:repeat(2,minmax(0,1fr))<br/>
+ }<br/>
+}<br/>
+@media (min-width:1024px) {<br/>
+ .lg\:bg-transparent,<br/>
+ .lg\:focus\:bg-transparent:focus,<br/>
+ .lg\:hover\:bg-transparent:hover {<br/>
+  background-color:transparent<br/>
+ }<br/>
+ .lg\:rounded-none {<br/>
+  border-radius:0<br/>
+ }<br/>
+ .lg\:rounded-t-none {<br/>
+  border-top-left-radius:0;<br/>
+  border-top-right-radius:0<br/>
+ }<br/>
+ .lg\:rounded-b-none {<br/>
+  border-bottom-right-radius:0;<br/>
+  border-bottom-left-radius:0<br/>
+ }<br/>
+ .lg\:block {<br/>
+  display:block<br/>
+ }<br/>
+ .lg\:flex {<br/>
+  display:flex<br/>
+ }<br/>
+ .lg\:hidden {<br/>
+  display:none<br/>
+ }<br/>
+ .lg\:flex-row-reverse {<br/>
+  flex-direction:row-reverse<br/>
+ }<br/>
+ .lg\:flex-nowrap {<br/>
+  flex-wrap:nowrap<br/>
+ }<br/>
+ .lg\:items-end {<br/>
+  align-items:flex-end<br/>
+ }<br/>
+ .lg\:items-center {<br/>
+  align-items:center<br/>
+ }<br/>
+ .lg\:justify-center {<br/>
+  justify-content:center<br/>
+ }<br/>
+ .lg\:h-6 {<br/>
+  height:1.5rem<br/>
+ }<br/>
+ .lg\:h-36 {<br/>
+  height:9rem<br/>
+ }<br/>
+ .lg\:h-60 {<br/>
+  height:15rem<br/>
+ }<br/>
+ .lg\:h-72 {<br/>
+  height:18rem<br/>
+ }<br/>
+ .lg\:h-auto {<br/>
+  height:auto<br/>
+ }<br/>
+ .lg\:h-full {<br/>
+  height:100%<br/>
+ }<br/>
+ .lg\:text-xl {<br/>
+  font-size:1.25rem;<br/>
+  line-height:1.75rem<br/>
+ }<br/>
+ .lg\:mt-0 {<br/>
+  margin-top:0<br/>
+ }<br/>
+ .lg\:ml-0 {<br/>
+  margin-left:0<br/>
+ }<br/>
+ .lg\:mt-2 {<br/>
+  margin-top:.5rem<br/>
+ }<br/>
+ .lg\:mr-2 {<br/>
+  margin-right:.5rem<br/>
+ }<br/>
+ .lg\:ml-2 {<br/>
+  margin-left:.5rem<br/>
+ }<br/>
+ .lg\:mt-4 {<br/>
+  margin-top:1rem<br/>
+ }<br/>
+ .lg\:mr-4 {<br/>
+  margin-right:1rem<br/>
+ }<br/>
+ .lg\:mb-4 {<br/>
+  margin-bottom:1rem<br/>
+ }<br/>
+ .lg\:mt-8 {<br/>
+  margin-top:2rem<br/>
+ }<br/>
+ .lg\:ml-10 {<br/>
+  margin-left:2.5rem<br/>
+ }<br/>
+ .lg\:mt-11 {<br/>
+  margin-top:2.75rem<br/>
+ }<br/>
+ .lg\:ml-36 {<br/>
+  margin-left:9rem<br/>
+ }<br/>
+ .lg\:max-h-80 {<br/>
+  max-height:20rem<br/>
+ }<br/>
+ .lg\:max-h-full {<br/>
+  max-height:100%<br/>
+ }<br/>
+ .lg\:max-w-5xl {<br/>
+  max-width:64rem<br/>
+ }<br/>
+ .lg\:p-6 {<br/>
+  padding:1.5rem<br/>
+ }<br/>
+ .lg\:p-12 {<br/>
+  padding:3rem<br/>
+ }<br/>
+ .lg\:px-0 {<br/>
+  padding-left:0;<br/>
+  padding-right:0<br/>
+ }<br/>
+ .lg\:py-2 {<br/>
+  padding-top:.5rem;<br/>
+  padding-bottom:.5rem<br/>
+ }<br/>
+ .lg\:px-4 {<br/>
+  padding-left:1rem;<br/>
+  padding-right:1rem<br/>
+ }<br/>
+ .lg\:static {<br/>
+  position:static<br/>
+ }<br/>
+ .lg\:shadow-none {<br/>
+  --tw-shadow:0 0 transparent;<br/>
+  box-shadow:var(--tw-ring-offset-shadow,0 0 transparent),var(--tw-ring-shadow,0 0 transparent),var(--tw-shadow)<br/>
+ }<br/>
+ .lg\:text-right {<br/>
+  text-align:right<br/>
+ }<br/>
+ .lg\:text-gray-400 {<br/>
+  --tw-text-opacity:1;<br/>
+  color:rgba(156,163,175,var(--tw-text-opacity))<br/>
+ }<br/>
+ .lg\:hover\:text-white:hover {<br/>
+  --tw-text-opacity:1;<br/>
+  color:rgba(255,255,255,var(--tw-text-opacity))<br/>
+ }<br/>
+ .lg\:w-6 {<br/>
+  width:1.5rem<br/>
+ }<br/>
+ .lg\:w-80 {<br/>
+  width:20rem<br/>
+ }<br/>
+ .lg\:w-auto {<br/>
+  width:auto<br/>
+ }<br/>
+ .lg\:w-1\/3 {<br/>
+  width:33.333333%<br/>
+ }<br/>
+ .lg\:w-2\/3 {<br/>
+  width:66.666667%<br/>
+ }<br/>
+ .lg\:w-2\/4 {<br/>
+  width:50%<br/>
+ }<br/>
+ .lg\:w-2\/12 {<br/>
+  width:16.666667%<br/>
+ }<br/>
+ .lg\:grid-cols-3 {<br/>
+  grid-template-columns:repeat(3,minmax(0,1fr))<br/>
+ }<br/>
+}<br/>
+@media (min-width:1280px) {<br/>
+ .xl\:text-6xl {<br/>
+  font-size:3.75rem;<br/>
+  line-height:1<br/>
+ }<br/>
+ .xl\:w-1\/3 {<br/>
+  width:33.333333%<br/>
+ }<br/>
+}<br/>
+&lt;/style&gt; &lt;!-- end: page --&gt; <br/>
+  &lt;div class="about-image bg-grey"&gt; <br/>
+   &lt;div class="container"&gt; <br/>
+    &lt;div class="title-v1"&gt; <br/>
+     &lt;br&gt; <br/>
+     &lt;br&gt; <br/>
+     &lt;br&gt; <br/>
+     &lt;h1&gt; Join the Agritech Revolution &lt;/h1&gt; <br/>
+     &lt;p&gt; We are the first company with boots on the ground to make supply chains traceable, inclusive, and sustainable. &lt;/p&gt; <br/>
+    &lt;/div&gt; <br/>
+    &lt;div class="img-center" style="display: none;"&gt; <br/>
+     &lt;img class="img-responsive" src="assets/landing/assets/images/cocoatrace.png" alt=""&gt; <br/>
+    &lt;/div&gt; <br/>
+   &lt;/div&gt; <br/>
+  &lt;/div&gt; <br/>
+  &lt;div class="copyright-section"&gt; <br/>
+   &lt;p&gt; © 2022 | Koltiva AG and all its affiliates &lt;/p&gt; &lt;span class="page-scroll"&gt; &lt;a href="#intro"&gt; &lt;i class="fa fa-angle-double-up back-to-top"&gt; &lt;/i&gt; &lt;/a&gt; &lt;/span&gt; <br/>
+  &lt;/div&gt; <br/>
+  &lt;script type="text/javascript" src="assets/js/loader_login.js"&gt;&lt;/script&gt;<br/>
+  &lt;script src="assets/lib/jquery/jquery.min.js" type="text/javascript"&gt;&lt;/script&gt; <br/>
+  &lt;script type="text/javascript" src="assets/lib/gtfw/jquery.gtupload.js"&gt;&lt;/script&gt; <br/>
+  &lt;script src="assets/lib/gtfw/gtfwlogin.app.js" type="text/javascript"&gt;&lt;/script&gt; <br/>
+  &lt;script src="assets/lib/gtfw/jquery.auto.input.js" type="text/javascript"&gt;&lt;/script&gt; <br/>
+  &lt;script src="assets/lib/gtfw/jquery.gtnumber.js" type="text/javascript"&gt;&lt;/script&gt; <br/>
+  &lt;script src="assets/landing/assets/plugins/jquery/jquery.min.js"&gt;&lt;/script&gt; <br/>
+  &lt;script src="assets/landing/assets/plugins/jquery/jquery-migrate.min.js"&gt;&lt;/script&gt; <br/>
+  &lt;script src="assets/landing/assets/plugins/bootstrap/js/bootstrap.min.js"&gt;&lt;/script&gt; <br/>
+  &lt;script src="assets/landing/assets/plugins/smoothScroll.js"&gt;&lt;/script&gt; <br/>
+  &lt;script src="assets/landing/assets/plugins/jquery.easing.min.js"&gt;&lt;/script&gt; <br/>
+  &lt;script src="assets/landing/assets/plugins/pace/pace.min.js"&gt;&lt;/script&gt; <br/>
+  &lt;script src="assets/landing/assets/plugins/jquery.parallax.js"&gt;&lt;/script&gt; <br/>
+  &lt;script src="assets/landing/assets/plugins/counter/waypoints.min.js"&gt;&lt;/script&gt; <br/>
+  &lt;script src="assets/landing/assets/plugins/counter/jquery.counterup.min.js"&gt;&lt;/script&gt; <br/>
+  &lt;script src="assets/landing/assets/plugins/owl-carousel/owl.carousel.js"&gt;&lt;/script&gt; <br/>
+  &lt;script src="assets/landing/assets/plugins/revolution-slider/rs-plugin/js/jquery.themepunch.tools.min.js"&gt;&lt;/script&gt; <br/>
+  &lt;script src="assets/landing/assets/plugins/revolution-slider/rs-plugin/js/jquery.themepunch.revolution.min.js"&gt;&lt;/script&gt; <br/>
+  &lt;script src="assets/landing/assets/plugins/cube-portfolio/cubeportfolio/js/jquery.cubeportfolio.min.js"&gt;&lt;/script&gt; <br/>
+  &lt;script src="assets/landing/assets/js/one.app.js"&gt;&lt;/script&gt; <br/>
+  &lt;script src="assets/landing/assets/js/forms/contact.js"&gt;&lt;/script&gt; <br/>
+  &lt;script src="assets/landing/assets/js/plugins/pace-loader.js"&gt;&lt;/script&gt; <br/>
+  &lt;script src="assets/landing/assets/js/plugins/cube-portfolio/cube-portfolio-lightbox.js"&gt;&lt;/script&gt; <br/>
+  &lt;script type="text/javascript"&gt;<br/>
+            $(document).ready(function () {<br/>
+                App.init();<br/>
+                App.initCounter();<br/>
+                App.initParallaxBg();<br/>
+                GTFWlogin.conf.lang = lang;<br/>
+                GTFWlogin.conf.urlLogin = '/index.php?mod=core.login&amp;sub=login&amp;act=view&amp;typ=html';<br/>
+                GTFWlogin.init();<br/>
+                /*LoginForm.initLoginForm();<br/>
+                ContactForm.initContactForm();*/<br/>
+                // OwlCarousel.initOwlCarousel();<br/>
+                // StyleSwitcher.initStyleSwitcher();<br/>
+                // RevolutionSlider.initRSfullScreen();<br/>
+            });<br/>
+        &lt;/script&gt; <br/>
+ &lt;/body&gt;<br/>
+&lt;/html&gt;</code></pre></div></body></html>
